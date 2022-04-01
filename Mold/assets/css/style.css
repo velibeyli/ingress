@@ -1,0 +1,347 @@
+* {
+  list-style-type: none;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  word-break: break-word; }
+
+body {
+  overflow-x: hidden; }
+
+@media screen and (min-width: 576px) {
+  .container-own {
+    max-width: 540px; } }
+@media screen and (min-width: 768px) {
+  .container-own {
+    max-width: 760px; } }
+@media screen and (min-width: 991px) {
+  .container-own {
+    max-width: 960px; } }
+@media screen and (min-width: 1200px) {
+  .container-own {
+    max-width: 1155px; } }
+@media screen and (min-width: 1350px) {
+  .container-own {
+    max-width: 1205px; } }
+@font-face {
+  src: url(../fonts/Inter/Inter-Thin.ttf);
+  font-family: Inter-Thin;
+  font-weight: 100; }
+@font-face {
+  src: url(../fonts/Inter/Inter-ExtraLight.ttf);
+  font-family: Inter-ExtraLight;
+  font-weight: 200; }
+@font-face {
+  src: url(../fonts/Inter/Inter-Light.ttf);
+  font-family: Inter-Light;
+  font-weight: 300; }
+@font-face {
+  src: url(../fonts/Inter/Inter-Regular.ttf);
+  font-family: Inter-Regular;
+  font-weight: 400; }
+@font-face {
+  src: url(../fonts/Inter/Inter-Medium.ttf);
+  font-family: Inter-Medium;
+  font-weight: 500; }
+@font-face {
+  src: url(../fonts/Inter/Inter-SemiBold.ttf);
+  font-family: Inter-SemiBold;
+  font-weight: 600; }
+@font-face {
+  src: url(../fonts/Inter/Inter-Bold.ttf);
+  font-family: Inter-Bold;
+  font-weight: 700; }
+@font-face {
+  src: url(../fonts/Inter/Inter-ExtraBold.ttf);
+  font-family: Inter-ExtraBold;
+  font-weight: 800; }
+@font-face {
+  src: url(../fonts/Inter/Inter-Black.ttf);
+  font-family: Inter-Black;
+  font-weight: 900; }
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-Black.ttf);
+  font-family: Montserrat-Black; }
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-BlackItalic.ttf);
+  font-family: Montserrat-BlackItalic; }
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+  font-family: Montserrat-Bold; }
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-BoldItalic.ttf);
+  font-family: Montserrat-BoldItalic; }
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-ExtraBold.ttf);
+  font-family: Montserrat-ExtraBold; }
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf);
+  font-family: Montserrat-ExtraBoldItalic; }
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-ExtraLight.ttf);
+  font-family: Montserrat-ExtraLight; }
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-ExtraLightItalic.ttf);
+  font-family: Montserrat-ExtraLightItalic; }
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-Italic.ttf);
+  font-family: Montserrat-Italic; }
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+  font-family: Montserrat-Light; }
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-LightItalic.ttf);
+  font-family: Montserrat-LightItalic; }
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+  font-family: Montserrat-Medium; }
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-MediumItalic.ttf);
+  font-family: Montserrat-MediumItalic; }
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+  font-family: Montserrat-Regular; }
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+  font-family: Montserrat-SemiBold; }
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-SemiBoldItalic.ttf);
+  font-family: Montserrat-SemiBoldItalic; }
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-Thin.ttf);
+  font-family: Montserrat-Thin; }
+@font-face {
+  src: url(../fonts/Montserrat/Montserrat-ThinItalic.ttf);
+  font-family: Montserrat-ThinItalic; }
+#main {
+  width: 100%; }
+  #main .backPhoto {
+    width: 100%;
+    height: 76.5vh;
+    background-image: url(../img/main_back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -20; }
+  #main .container_own {
+    margin-top: 43.5px; }
+    #main .container_own .d-flex {
+      width: 100%; }
+      #main .container_own .d-flex .col-md-7 {
+        width: 55%;
+        padding-top: 60.22px; }
+        #main .container_own .d-flex .col-md-7 .heading {
+          font-family: Montserrat-Bold;
+          font-size: 70px;
+          line-height: 87px;
+          /* or 124% */
+          letter-spacing: -0.04em;
+          color: #2E054E; }
+        #main .container_own .d-flex .col-md-7 .playMarket {
+          margin-top: 136px; }
+          #main .container_own .d-flex .col-md-7 .playMarket .general {
+            width: 151.88px;
+            height: 45px;
+            background-size: cover;
+            background-repeat: no-repeat; }
+          #main .container_own .d-flex .col-md-7 .playMarket .appStore {
+            background-image: url(../img/App\ Store\ -\ eng.svg);
+            margin-right: 20.25px; }
+          #main .container_own .d-flex .col-md-7 .playMarket .googlePlay {
+            background-image: url(../img/Google\ Play\ -\ eng.svg); }
+      #main .container_own .d-flex .col-md-5 {
+        width: 45%;
+        align-items: center;
+        padding-left: 42px; }
+        #main .container_own .d-flex .col-md-5 .number {
+          font-family: Inter-Bold;
+          font-size: 19px;
+          line-height: 56px;
+          letter-spacing: 0.01em;
+          color: #333333; }
+        #main .container_own .d-flex .col-md-5 .generalBox {
+          background-size: cover;
+          background-repeat: no-repeat; }
+        #main .container_own .d-flex .col-md-5 .generalPrice {
+          border-bottom-left-radius: 7px;
+          border-bottom-right-radius: 7px;
+          background-color: white;
+          align-items: center; }
+        #main .container_own .d-flex .col-md-5 .leftColumn .firstBox {
+          margin-top: 12px;
+          width: 122px;
+          height: 122px;
+          background-image: url(../img/main01.png);
+          margin-bottom: 5.08px; }
+        #main .container_own .d-flex .col-md-5 .leftColumn .price {
+          width: 122px;
+          height: 30.5px;
+          padding-left: 13.56px; }
+          #main .container_own .d-flex .col-md-5 .leftColumn .price .icon {
+            width: 12.49px;
+            height: 20.33px;
+            background-image: url(../img/main_icon_color.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-right: 6.15px; }
+        #main .container_own .d-flex .col-md-5 .midColumn {
+          padding-left: 24px;
+          padding-right: 24px; }
+          #main .container_own .d-flex .col-md-5 .midColumn .secondBox {
+            width: 158px;
+            height: 158px;
+            background-image: url(../img/main02.png);
+            margin-bottom: 6.58px; }
+          #main .container_own .d-flex .col-md-5 .midColumn .price {
+            width: 158px;
+            height: 39.5px;
+            padding-left: 17.56px;
+            margin-bottom: 42.28px; }
+            #main .container_own .d-flex .col-md-5 .midColumn .price .icon {
+              width: 16.17px;
+              height: 26.33px;
+              background-image: url(../img/main_icon.svg);
+              background-size: cover;
+              background-repeat: no-repeat;
+              margin-right: 7.97px; }
+          #main .container_own .d-flex .col-md-5 .midColumn .thirdBox {
+            width: 158px;
+            height: 158px;
+            background-image: url(../img/main03.png);
+            margin-bottom: 6.58px; }
+        #main .container_own .d-flex .col-md-5 .rightColumn .fourthBox {
+          margin-top: -115px;
+          width: 218px;
+          height: 218px;
+          background-image: url(../img/main04.png);
+          margin-bottom: 6px; }
+        #main .container_own .d-flex .col-md-5 .rightColumn .price {
+          width: 218px;
+          height: 36px;
+          padding-left: 16px; }
+          #main .container_own .d-flex .col-md-5 .rightColumn .price .icon {
+            width: 14.74px;
+            height: 24px;
+            background-image: url(../img/main_icon.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-right: 7.26px; }
+
+#navbar {
+  width: 100%; }
+  #navbar .container_own .logo {
+    width: 196px;
+    height: 93.71px;
+    background-image: url(../img/logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+#about {
+  position: relative;
+  margin-top: 110px; }
+  #about .backgroundPhoto {
+    width: 54.8%;
+    height: 115vh;
+    background-image: url(../img/about_back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -5; }
+  #about .container_own .row {
+    align-items: center; }
+    #about .container_own .row .col-md-5 {
+      padding-left: 35px; }
+      #about .container_own .row .col-md-5 .phones {
+        width: 475px;
+        height: 716px;
+        background-image: url(../img/about01.png);
+        background-size: container;
+        background-repeat: no-repeat; }
+      #about .container_own .row .col-md-5 .heading {
+        font-family: Inter-Bold;
+        font-size: 36px;
+        line-height: 52px;
+        /* identical to box height, or 144% */
+        letter-spacing: 0.01em;
+        color: #333333;
+        margin-bottom: 40px;
+        margin-top: 100px; }
+      #about .container_own .row .col-md-5 .paragraph {
+        font-family: Inter-Medium;
+        font-size: 18px;
+        line-height: 32px;
+        /* or 178% */
+        letter-spacing: 0.02em;
+        color: #333333;
+        font-weight: 500; }
+    #about .container_own .row .second.col-md-5 {
+      padding-left: 10px !important; }
+
+#place {
+  margin-top: 120.46px;
+  color: #333333; }
+  #place .heading {
+    font-family: Inter-Bold;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 68px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    padding-bottom: 100px; }
+  #place .col-md-5 {
+    width: 195px;
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+    #place .col-md-5 .icon {
+      width: 100px;
+      height: 100px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-left: auto;
+      margin-right: auto; }
+    #place .col-md-5 .colHeading {
+      font-family: Inter-Bold;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: 0.02em;
+      margin-top: 50px;
+      margin-bottom: 20px; }
+    #place .col-md-5 .paragraph {
+      font-family: Inter-Medium;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 32px;
+      letter-spacing: 0.02em; }
+  #place .firstCol .icon {
+    background-image: url(../img/place01.svg); }
+  #place .secondCol .icon {
+    background-image: url(../img/place02.svg); }
+  #place .thirdCol .icon {
+    background-image: url(../img/place03.svg); }
+  #place .fourthCol .icon {
+    background-image: url(../img/place04.svg); }
+  #place .fifthCol .icon {
+    background-image: url(../img/place05.svg); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #E5E5E5; }
+
+.container_own {
+  width: 100%;
+  padding-left: 121px;
+  padding-right: 121px;
+  padding-top: 34px; }
+
+/*# sourceMappingURL=style.css.map */

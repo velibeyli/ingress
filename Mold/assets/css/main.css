@@ -1,0 +1,117 @@
+#main {
+  width: 100%; }
+  #main .backPhoto {
+    width: 100%;
+    height: 76.5vh;
+    background-image: url(../img/main_back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -20; }
+  #main .container_own {
+    margin-top: 43.5px; }
+    #main .container_own .d-flex {
+      width: 100%; }
+      #main .container_own .d-flex .col-md-7 {
+        width: 55%;
+        padding-top: 60.22px; }
+        #main .container_own .d-flex .col-md-7 .heading {
+          font-family: Montserrat-Bold;
+          font-size: 70px;
+          line-height: 87px;
+          /* or 124% */
+          letter-spacing: -0.04em;
+          color: #2E054E; }
+        #main .container_own .d-flex .col-md-7 .playMarket {
+          margin-top: 136px; }
+          #main .container_own .d-flex .col-md-7 .playMarket .general {
+            width: 151.88px;
+            height: 45px;
+            background-size: cover;
+            background-repeat: no-repeat; }
+          #main .container_own .d-flex .col-md-7 .playMarket .appStore {
+            background-image: url(../img/App\ Store\ -\ eng.svg);
+            margin-right: 20.25px; }
+          #main .container_own .d-flex .col-md-7 .playMarket .googlePlay {
+            background-image: url(../img/Google\ Play\ -\ eng.svg); }
+      #main .container_own .d-flex .col-md-5 {
+        width: 45%;
+        align-items: center;
+        padding-left: 42px; }
+        #main .container_own .d-flex .col-md-5 .number {
+          font-family: Inter-Bold;
+          font-size: 19px;
+          line-height: 56px;
+          letter-spacing: 0.01em;
+          color: #333333; }
+        #main .container_own .d-flex .col-md-5 .generalBox {
+          background-size: cover;
+          background-repeat: no-repeat; }
+        #main .container_own .d-flex .col-md-5 .generalPrice {
+          border-bottom-left-radius: 7px;
+          border-bottom-right-radius: 7px;
+          background-color: white;
+          align-items: center; }
+        #main .container_own .d-flex .col-md-5 .leftColumn .firstBox {
+          margin-top: 12px;
+          width: 122px;
+          height: 122px;
+          background-image: url(../img/main01.png);
+          margin-bottom: 5.08px; }
+        #main .container_own .d-flex .col-md-5 .leftColumn .price {
+          width: 122px;
+          height: 30.5px;
+          padding-left: 13.56px; }
+          #main .container_own .d-flex .col-md-5 .leftColumn .price .icon {
+            width: 12.49px;
+            height: 20.33px;
+            background-image: url(../img/main_icon_color.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-right: 6.15px; }
+        #main .container_own .d-flex .col-md-5 .midColumn {
+          padding-left: 24px;
+          padding-right: 24px; }
+          #main .container_own .d-flex .col-md-5 .midColumn .secondBox {
+            width: 158px;
+            height: 158px;
+            background-image: url(../img/main02.png);
+            margin-bottom: 6.58px; }
+          #main .container_own .d-flex .col-md-5 .midColumn .price {
+            width: 158px;
+            height: 39.5px;
+            padding-left: 17.56px;
+            margin-bottom: 42.28px; }
+            #main .container_own .d-flex .col-md-5 .midColumn .price .icon {
+              width: 16.17px;
+              height: 26.33px;
+              background-image: url(../img/main_icon.svg);
+              background-size: cover;
+              background-repeat: no-repeat;
+              margin-right: 7.97px; }
+          #main .container_own .d-flex .col-md-5 .midColumn .thirdBox {
+            width: 158px;
+            height: 158px;
+            background-image: url(../img/main03.png);
+            margin-bottom: 6.58px; }
+        #main .container_own .d-flex .col-md-5 .rightColumn .fourthBox {
+          margin-top: -115px;
+          width: 218px;
+          height: 218px;
+          background-image: url(../img/main04.png);
+          margin-bottom: 6px; }
+        #main .container_own .d-flex .col-md-5 .rightColumn .price {
+          width: 218px;
+          height: 36px;
+          padding-left: 16px; }
+          #main .container_own .d-flex .col-md-5 .rightColumn .price .icon {
+            width: 14.74px;
+            height: 24px;
+            background-image: url(../img/main_icon.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-right: 7.26px; }
+
+/*# sourceMappingURL=main.css.map */

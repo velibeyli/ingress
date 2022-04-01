@@ -1,0 +1,49 @@
+#place {
+  margin-top: 120.46px;
+  color: #333333; }
+  #place .heading {
+    font-family: Inter-Bold;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 68px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    padding-bottom: 100px; }
+  #place .col-md-5 {
+    width: 195px;
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+    #place .col-md-5 .icon {
+      width: 100px;
+      height: 100px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-left: auto;
+      margin-right: auto; }
+    #place .col-md-5 .colHeading {
+      font-family: Inter-Bold;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: 0.02em;
+      margin-top: 50px;
+      margin-bottom: 20px; }
+    #place .col-md-5 .paragraph {
+      font-family: Inter-Medium;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 32px;
+      letter-spacing: 0.02em; }
+  #place .firstCol .icon {
+    background-image: url(../img/place01.svg); }
+  #place .secondCol .icon {
+    background-image: url(../img/place02.svg); }
+  #place .thirdCol .icon {
+    background-image: url(../img/place03.svg); }
+  #place .fourthCol .icon {
+    background-image: url(../img/place04.svg); }
+  #place .fifthCol .icon {
+    background-image: url(../img/place05.svg); }
+
+/*# sourceMappingURL=place.css.map */
