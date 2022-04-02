@@ -1,0 +1,24 @@
+@import "mixin";
+@import "sameThing";
+@import "fonts";
+@import "group";
+@import "variables";
+@import "main";
+@import "navbar";
+// @import "about";
+@import "place";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;
+}
+.container_own{
+    width: 100%;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 15px;
+}

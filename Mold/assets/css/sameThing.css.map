@@ -1,7 +1,7 @@
 {
 "version": 3,
 "mappings": "AAAA,CAAE;EACA,eAAe,EAAE,IAAI;EACrB,eAAe,EAAE,eAAe;EAChC,UAAU,EAAE,UAAU;EACtB,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;;AAGxB,IAAK;EAEH,UAAU,EAAE,MAAM;;AAKpB,oCAAqC;EACnC,cAAe;IACb,SAAS,EAAE,KAAK;AAGpB,oCAAqC;EACnC,cAAe;IACb,SAAS,EAAE,KAAK;AAGpB,oCAAqC;EACnC,cAAe;IACb,SAAS,EAAE,KAAK;AAGpB,qCAAsC;EACpC,cAAe;IACb,SAAS,EAAE,MAAM;AAGrB,qCAAsC;EACpC,cAAe;IACb,SAAS,EAAE,MAAM",
-"sources": ["../sass/sameThing.scss"],
+"sources": ["../scss/sameThing.scss"],
 "names": [],
 "file": "sameThing.css"
 }

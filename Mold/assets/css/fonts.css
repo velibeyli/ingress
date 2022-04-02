@@ -1,92 +1,66 @@
 @font-face {
-  src: url(../fonts/Inter/Inter-Thin.ttf);
-  font-family: Inter-Thin;
+  src: url(../fonts/Mulish/Mulish-Black.ttf);
+  font-family: Mulish-Black;
   font-weight: 100; }
 @font-face {
-  src: url(../fonts/Inter/Inter-ExtraLight.ttf);
-  font-family: Inter-ExtraLight;
+  src: url(../fonts/Mulish/Mulish-BlackItalic.ttf);
+  font-family: Mulish-BlackItalic;
+  font-weight: 150; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-Bold.ttf);
+  font-family: Mulish-Bold;
   font-weight: 200; }
 @font-face {
-  src: url(../fonts/Inter/Inter-Light.ttf);
-  font-family: Inter-Light;
+  src: url(../fonts/Mulish/Mulish-BoldItalic.ttf);
+  font-family: Mulish-BoldItalic;
+  font-weight: 250; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-ExtraBold.ttf);
+  font-family: Mulish-ExtraBold;
   font-weight: 300; }
 @font-face {
-  src: url(../fonts/Inter/Inter-Regular.ttf);
-  font-family: Inter-Regular;
+  src: url(../fonts/Mulish/Mulish-ExtraBoldItalic.ttf);
+  font-family: Mulish-ExtraBoldItalic;
+  font-weight: 350; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-ExtraLight.ttf);
+  font-family: Mulish-ExtraLight;
   font-weight: 400; }
 @font-face {
-  src: url(../fonts/Inter/Inter-Medium.ttf);
-  font-family: Inter-Medium;
+  src: url(../fonts/Mulish/Mulish-ExtraLightItalic.ttf);
+  font-family: Mulish-ExtraLightItalic;
+  font-weight: 450; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-Italic.ttf);
+  font-family: Mulish-Italic;
   font-weight: 500; }
 @font-face {
-  src: url(../fonts/Inter/Inter-SemiBold.ttf);
-  font-family: Inter-SemiBold;
+  src: url(../fonts/Mulish/Mulish-Light.ttf);
+  font-family: Mulish-Light;
+  font-weight: 550; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-LightItalic.ttf);
+  font-family: Mulish-LightItalic;
   font-weight: 600; }
 @font-face {
-  src: url(../fonts/Inter/Inter-Bold.ttf);
-  font-family: Inter-Bold;
+  src: url(../fonts/Mulish/Mulish-Medium.ttf);
+  font-family: Mulish-Medium;
+  font-weight: 650; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-MediumItalic.ttf);
+  font-family: Mulish-MediumItalic;
   font-weight: 700; }
 @font-face {
-  src: url(../fonts/Inter/Inter-ExtraBold.ttf);
-  font-family: Inter-ExtraBold;
+  src: url(../fonts/Mulish/Mulish-Regular.ttf);
+  font-family: Mulish-Regular;
+  font-weight: 750; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-SemiBold.ttf);
+  font-family: Mulish-SemiBold;
   font-weight: 800; }
 @font-face {
-  src: url(../fonts/Inter/Inter-Black.ttf);
-  font-family: Inter-Black;
-  font-weight: 900; }
-@font-face {
-  src: url(../fonts/Montserrat/Montserrat-Black.ttf);
-  font-family: Montserrat-Black; }
-@font-face {
-  src: url(../fonts/Montserrat/Montserrat-BlackItalic.ttf);
-  font-family: Montserrat-BlackItalic; }
-@font-face {
-  src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
-  font-family: Montserrat-Bold; }
-@font-face {
-  src: url(../fonts/Montserrat/Montserrat-BoldItalic.ttf);
-  font-family: Montserrat-BoldItalic; }
-@font-face {
-  src: url(../fonts/Montserrat/Montserrat-ExtraBold.ttf);
-  font-family: Montserrat-ExtraBold; }
-@font-face {
-  src: url(../fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf);
-  font-family: Montserrat-ExtraBoldItalic; }
-@font-face {
-  src: url(../fonts/Montserrat/Montserrat-ExtraLight.ttf);
-  font-family: Montserrat-ExtraLight; }
-@font-face {
-  src: url(../fonts/Montserrat/Montserrat-ExtraLightItalic.ttf);
-  font-family: Montserrat-ExtraLightItalic; }
-@font-face {
-  src: url(../fonts/Montserrat/Montserrat-Italic.ttf);
-  font-family: Montserrat-Italic; }
-@font-face {
-  src: url(../fonts/Montserrat/Montserrat-Light.ttf);
-  font-family: Montserrat-Light; }
-@font-face {
-  src: url(../fonts/Montserrat/Montserrat-LightItalic.ttf);
-  font-family: Montserrat-LightItalic; }
-@font-face {
-  src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
-  font-family: Montserrat-Medium; }
-@font-face {
-  src: url(../fonts/Montserrat/Montserrat-MediumItalic.ttf);
-  font-family: Montserrat-MediumItalic; }
-@font-face {
-  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
-  font-family: Montserrat-Regular; }
-@font-face {
-  src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
-  font-family: Montserrat-SemiBold; }
-@font-face {
-  src: url(../fonts/Montserrat/Montserrat-SemiBoldItalic.ttf);
-  font-family: Montserrat-SemiBoldItalic; }
-@font-face {
-  src: url(../fonts/Montserrat/Montserrat-Thin.ttf);
-  font-family: Montserrat-Thin; }
-@font-face {
-  src: url(../fonts/Montserrat/Montserrat-ThinItalic.ttf);
-  font-family: Montserrat-ThinItalic; }
+  src: url(../fonts/Mulish/Mulish-SemiBoldItalic.ttf);
+  font-family: Mulish-SemiBoldItalic;
+  font-weight: 850; }
 
 /*# sourceMappingURL=fonts.css.map */

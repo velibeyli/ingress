@@ -1,0 +1,270 @@
+#topSection{
+        .owl-carousel{
+            .item{
+                width: 100%;
+                height: 90vh;
+                background-image: url(../img/section1_bg.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                .container_own{
+                    position: absolute;
+                    top: 223px;
+                    .headerOverBg{
+                        width: calc(100%/2.5);
+                        font-family: 'Mulish-ExtraBold';
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 46px;
+                        line-height: 160%;
+                    }
+                    .service{
+                        font-family: 'Mulish';
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 160%;
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        color: #FFFFFF;
+                        background-color: #3F79FF;
+                        margin-top:20px;
+                        padding: 10px 50px;
+                    }
+                }
+            }
+            .owl-dots{
+                width: 100%;
+                text-align: center;
+                position: absolute;
+                bottom: 3%;
+                .owl-dot{
+                    :hover{
+                        background-color: #3F79FF;
+                    }
+                }
+            }
+        }
+}
+#partnership{
+    background-color: #FFFFFF;
+    .containerP{
+        width: 100%;
+        padding-left: 95px;
+        padding-right: 95px;
+        .ourPartner{
+            padding-top: 80px;
+            padding-bottom: 90px;
+            .generalP{
+                width: 130px;
+                height: 65px;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            #socar{
+                background-image: url(../img/socar.svg);
+            }
+            #azercell{
+                background-image: url(../img/azercell.svg);
+            }
+            #xalqbank{
+                background-image: url(../img/xalqbank.svg);
+            }
+            #azericard{
+                background-image: url(../img/azericard.svg);
+            }
+            #kapitalbank{
+                background-image: url(../img/kapital-bank.svg);
+            }
+            #rabitebank{
+                background-image: url(../img/rabitebank.svg);
+            }
+            #pashabank{
+                background-image: url(../img/pasabank.svg);
+            }
+            #bankOfAmerica{
+                background-image: url(../img/bankofAmerica.svg);
+            }
+        }
+    }
+}
+#whatWeDo{
+    .bgColor{
+        width: 100%;
+        height: 293px;
+        background-color: #3F79FF;
+        h5{
+            padding-top: 45px;
+            padding-bottom: 50px;
+            font-family: 'Mulish-ExtraBold';
+            font-weight: 300;
+            font-size: 38px;
+            line-height: 48px;
+            color: #FFFFFF;
+        }
+    }
+    .video{
+        text-align: center;
+        margin-top: -150px;
+    }
+}
+#ourTechnology{
+    padding-top: 110px;
+    padding-bottom: 130px;
+    .header{
+        margin-bottom: 55px;
+        font-family: 'Mulish-Bold';
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 200;
+    }
+    .stacks{
+        .commonIcon{
+            width: 100px;
+            height: 100px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-bottom: 44px;
+        }
+        #bootstrap{
+            background-image: url(../img/bootstrap.svg);
+        }
+        #python{
+            background-image: url(../img/python.svg);
+        }
+        #github{
+            background-image: url(../img/github.svg);
+        }
+        #gitlab{
+            background-image: url(../img/gitlab.svg);
+        }
+        #firebase{
+            background-image: url(../img/firebase.svg);
+        }
+        #golang{
+            background-image: url(../img/golang.svg);
+        }
+        #swift{
+            background-image: url(../img/swift.svg);
+        }
+        #php{
+            background-image: url(../img/php.svg);
+        }
+    }
+}
+.linkToSite{
+    width: 100%;
+    background-color: #3F79FF;
+    margin-bottom: 110px;
+    .container_own{
+        padding-top: 58px;
+        padding-bottom: 58px;
+        .logo{
+            width: 379.52px;
+            height: 77px;
+            background-image: url(../img/logo-big.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        p{
+            margin-top: 24px;
+            font-family: 'Mulish-Regular';
+            font-style: italic;
+            font-weight: 750;
+            font-size: 24px;
+            line-height: 160%;
+            color: #FFFFFF;
+        }
+        .goToSite{
+            border: 1px solid white;
+            height: 53px;
+            padding: 16px;
+            .rightArrow{
+                width: 20px;
+                height: 20px;
+                background-image: url(../img/right-arrow-white.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-right: 10px;
+            }
+            p{
+                font-family: 'Mulish-Regular';
+                font-style: normal;
+                font-weight: 750;
+                font-size: 16px;
+                line-height: 160%;
+                color: #FFFFFF;
+                margin: 0 !important;
+            }
+        }
+    }
+}
+#ourServices{
+    h2{
+        font-family: 'Mulish-Bold';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 34px;
+        line-height: 43px;
+        margin-bottom: 100px;
+    }
+    .services{
+        width: calc(100%/3.1);
+        height: 220px;
+        background-color: #F4F6F8;
+        margin-bottom: 30px;
+        border-radius: 7px;
+        padding-top: 55px;
+        .icon{
+            width: 55px;
+            height: 55px;
+            background-image: url(../img/developer.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-bottom: 26px;
+        }
+        p{
+            font-family: 'Mulish-Bold';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 24px;
+            line-height: 18px;
+            letter-spacing: 0.2px;
+            color: #000000;
+        }
+    }
+    .consulting{
+        .icon{
+            background-image: url(../img/consulting.svg);
+        }
+    }
+    .infrstructure{
+        .icon{
+            width: 50px;
+            background-image: url(../img/cloud.svg);
+        }
+    }
+    .trainingService{
+        .icon{
+            background-image: url(../img/training.svg);
+        }
+    }
+    .cyberSecure{
+        .icon{
+            height: 47px;
+            background-image: url(../img/cyber.svg);
+        }
+    }
+}
+#ourTeam{
+    margin-top: 90px;
+    .header{
+        font-family: 'Mulish-Bold';
+        font-weight: 200;
+        font-style: normal;
+        font-size: 34px;
+        line-height: 43px;
+        color: #000000;
+        margin-bottom: 65px;
+    }
+}

@@ -1,0 +1,63 @@
+#navbar{
+    width: 100%;
+    background-color: white;
+    .container_own{
+        .ingressLogo{
+            .logo{
+                width: 197.78px;
+                height: 45px;
+                background-image: url(../img/Logo.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                cursor: pointer;
+            }
+        }
+        .ingressAcademy{
+            padding-top: 10px;
+            padding-bottom: 11px;
+            cursor: pointer;
+            .nextIcon{
+                width: 20px;
+                height: 20px;
+                background-image: url(../img/fas-fa-right-icon.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-right: 10px;
+            }
+            .ingress{
+                font-family: 'Mulish-ExtraBold';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 160%;
+            }
+        }
+        .navbar-nav{
+            margin-top: 13px;
+            font-family: 'Mulish-Medium';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 16px;
+            line-height: 18px;
+            color: #000000;
+            letter-spacing: 0.2px;
+            Ul{
+                li{
+                    margin-right: 24px;
+                    cursor: pointer;
+                }
+            }
+            .navFirstElement{
+                .downIcon{
+                    width: 8px;
+                    height: 8px;
+                    margin-top: 6px;
+                    margin-left: 5px;
+                    background-image: url(../img/fas-fa-down-icon.svg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+}

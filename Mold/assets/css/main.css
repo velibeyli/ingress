@@ -1,117 +1,209 @@
-#main {
-  width: 100%; }
-  #main .backPhoto {
+#topSection .owl-carousel .item {
+  width: 100%;
+  height: 90vh;
+  background-image: url(../img/section1_bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #topSection .owl-carousel .item .container_own {
+    position: absolute;
+    top: 223px; }
+    #topSection .owl-carousel .item .container_own .headerOverBg {
+      width: calc(100%/2.5);
+      font-family: 'Mulish-ExtraBold';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 46px;
+      line-height: 160%; }
+    #topSection .owl-carousel .item .container_own .service {
+      font-family: 'Mulish';
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+      background-color: #3F79FF;
+      margin-top: 20px;
+      padding: 10px 50px; }
+#topSection .owl-carousel .owl-dots {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 3%; }
+  #topSection .owl-carousel .owl-dots .owl-dot :hover {
+    background-color: #3F79FF; }
+
+#partnership {
+  background-color: #FFFFFF; }
+  #partnership .containerP {
     width: 100%;
-    height: 76.5vh;
-    background-image: url(../img/main_back.png);
+    padding-left: 95px;
+    padding-right: 95px; }
+    #partnership .containerP .ourPartner {
+      padding-top: 80px;
+      padding-bottom: 90px; }
+      #partnership .containerP .ourPartner .generalP {
+        width: 130px;
+        height: 65px;
+        background-size: cover;
+        background-repeat: no-repeat; }
+      #partnership .containerP .ourPartner #socar {
+        background-image: url(../img/socar.svg); }
+      #partnership .containerP .ourPartner #azercell {
+        background-image: url(../img/azercell.svg); }
+      #partnership .containerP .ourPartner #xalqbank {
+        background-image: url(../img/xalqbank.svg); }
+      #partnership .containerP .ourPartner #azericard {
+        background-image: url(../img/azericard.svg); }
+      #partnership .containerP .ourPartner #kapitalbank {
+        background-image: url(../img/kapital-bank.svg); }
+      #partnership .containerP .ourPartner #rabitebank {
+        background-image: url(../img/rabitebank.svg); }
+      #partnership .containerP .ourPartner #pashabank {
+        background-image: url(../img/pasabank.svg); }
+      #partnership .containerP .ourPartner #bankOfAmerica {
+        background-image: url(../img/bankofAmerica.svg); }
+
+#whatWeDo .bgColor {
+  width: 100%;
+  height: 293px;
+  background-color: #3F79FF; }
+  #whatWeDo .bgColor h5 {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    font-family: 'Mulish-ExtraBold';
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 48px;
+    color: #FFFFFF; }
+#whatWeDo .video {
+  text-align: center;
+  margin-top: -150px; }
+
+#ourTechnology {
+  padding-top: 110px;
+  padding-bottom: 130px; }
+  #ourTechnology .header {
+    margin-bottom: 55px;
+    font-family: 'Mulish-Bold';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 200; }
+  #ourTechnology .stacks .commonIcon {
+    width: 100px;
+    height: 100px;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -20; }
-  #main .container_own {
-    margin-top: 43.5px; }
-    #main .container_own .d-flex {
-      width: 100%; }
-      #main .container_own .d-flex .col-md-7 {
-        width: 55%;
-        padding-top: 60.22px; }
-        #main .container_own .d-flex .col-md-7 .heading {
-          font-family: Montserrat-Bold;
-          font-size: 70px;
-          line-height: 87px;
-          /* or 124% */
-          letter-spacing: -0.04em;
-          color: #2E054E; }
-        #main .container_own .d-flex .col-md-7 .playMarket {
-          margin-top: 136px; }
-          #main .container_own .d-flex .col-md-7 .playMarket .general {
-            width: 151.88px;
-            height: 45px;
-            background-size: cover;
-            background-repeat: no-repeat; }
-          #main .container_own .d-flex .col-md-7 .playMarket .appStore {
-            background-image: url(../img/App\ Store\ -\ eng.svg);
-            margin-right: 20.25px; }
-          #main .container_own .d-flex .col-md-7 .playMarket .googlePlay {
-            background-image: url(../img/Google\ Play\ -\ eng.svg); }
-      #main .container_own .d-flex .col-md-5 {
-        width: 45%;
-        align-items: center;
-        padding-left: 42px; }
-        #main .container_own .d-flex .col-md-5 .number {
-          font-family: Inter-Bold;
-          font-size: 19px;
-          line-height: 56px;
-          letter-spacing: 0.01em;
-          color: #333333; }
-        #main .container_own .d-flex .col-md-5 .generalBox {
-          background-size: cover;
-          background-repeat: no-repeat; }
-        #main .container_own .d-flex .col-md-5 .generalPrice {
-          border-bottom-left-radius: 7px;
-          border-bottom-right-radius: 7px;
-          background-color: white;
-          align-items: center; }
-        #main .container_own .d-flex .col-md-5 .leftColumn .firstBox {
-          margin-top: 12px;
-          width: 122px;
-          height: 122px;
-          background-image: url(../img/main01.png);
-          margin-bottom: 5.08px; }
-        #main .container_own .d-flex .col-md-5 .leftColumn .price {
-          width: 122px;
-          height: 30.5px;
-          padding-left: 13.56px; }
-          #main .container_own .d-flex .col-md-5 .leftColumn .price .icon {
-            width: 12.49px;
-            height: 20.33px;
-            background-image: url(../img/main_icon_color.svg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            margin-right: 6.15px; }
-        #main .container_own .d-flex .col-md-5 .midColumn {
-          padding-left: 24px;
-          padding-right: 24px; }
-          #main .container_own .d-flex .col-md-5 .midColumn .secondBox {
-            width: 158px;
-            height: 158px;
-            background-image: url(../img/main02.png);
-            margin-bottom: 6.58px; }
-          #main .container_own .d-flex .col-md-5 .midColumn .price {
-            width: 158px;
-            height: 39.5px;
-            padding-left: 17.56px;
-            margin-bottom: 42.28px; }
-            #main .container_own .d-flex .col-md-5 .midColumn .price .icon {
-              width: 16.17px;
-              height: 26.33px;
-              background-image: url(../img/main_icon.svg);
-              background-size: cover;
-              background-repeat: no-repeat;
-              margin-right: 7.97px; }
-          #main .container_own .d-flex .col-md-5 .midColumn .thirdBox {
-            width: 158px;
-            height: 158px;
-            background-image: url(../img/main03.png);
-            margin-bottom: 6.58px; }
-        #main .container_own .d-flex .col-md-5 .rightColumn .fourthBox {
-          margin-top: -115px;
-          width: 218px;
-          height: 218px;
-          background-image: url(../img/main04.png);
-          margin-bottom: 6px; }
-        #main .container_own .d-flex .col-md-5 .rightColumn .price {
-          width: 218px;
-          height: 36px;
-          padding-left: 16px; }
-          #main .container_own .d-flex .col-md-5 .rightColumn .price .icon {
-            width: 14.74px;
-            height: 24px;
-            background-image: url(../img/main_icon.svg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            margin-right: 7.26px; }
+    background-position: center;
+    margin-bottom: 44px; }
+  #ourTechnology .stacks #bootstrap {
+    background-image: url(../img/bootstrap.svg); }
+  #ourTechnology .stacks #python {
+    background-image: url(../img/python.svg); }
+  #ourTechnology .stacks #github {
+    background-image: url(../img/github.svg); }
+  #ourTechnology .stacks #gitlab {
+    background-image: url(../img/gitlab.svg); }
+  #ourTechnology .stacks #firebase {
+    background-image: url(../img/firebase.svg); }
+  #ourTechnology .stacks #golang {
+    background-image: url(../img/golang.svg); }
+  #ourTechnology .stacks #swift {
+    background-image: url(../img/swift.svg); }
+  #ourTechnology .stacks #php {
+    background-image: url(../img/php.svg); }
+
+.linkToSite {
+  width: 100%;
+  background-color: #3F79FF;
+  margin-bottom: 110px; }
+  .linkToSite .container_own {
+    padding-top: 58px;
+    padding-bottom: 58px; }
+    .linkToSite .container_own .logo {
+      width: 379.52px;
+      height: 77px;
+      background-image: url(../img/logo-big.svg);
+      background-size: cover;
+      background-repeat: no-repeat; }
+    .linkToSite .container_own p {
+      margin-top: 24px;
+      font-family: 'Mulish-Regular';
+      font-style: italic;
+      font-weight: 750;
+      font-size: 24px;
+      line-height: 160%;
+      color: #FFFFFF; }
+    .linkToSite .container_own .goToSite {
+      border: 1px solid white;
+      height: 53px;
+      padding: 16px; }
+      .linkToSite .container_own .goToSite .rightArrow {
+        width: 20px;
+        height: 20px;
+        background-image: url(../img/right-arrow-white.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-right: 10px; }
+      .linkToSite .container_own .goToSite p {
+        font-family: 'Mulish-Regular';
+        font-style: normal;
+        font-weight: 750;
+        font-size: 16px;
+        line-height: 160%;
+        color: #FFFFFF;
+        margin: 0 !important; }
+
+#ourServices h2 {
+  font-family: 'Mulish-Bold';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 34px;
+  line-height: 43px;
+  margin-bottom: 100px; }
+#ourServices .services {
+  width: calc(100%/3.1);
+  height: 220px;
+  background-color: #F4F6F8;
+  margin-bottom: 30px;
+  border-radius: 7px;
+  padding-top: 55px; }
+  #ourServices .services .icon {
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/developer.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 26px; }
+  #ourServices .services p {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #000000; }
+#ourServices .consulting .icon {
+  background-image: url(../img/consulting.svg); }
+#ourServices .infrstructure .icon {
+  width: 50px;
+  background-image: url(../img/cloud.svg); }
+#ourServices .trainingService .icon {
+  background-image: url(../img/training.svg); }
+#ourServices .cyberSecure .icon {
+  height: 47px;
+  background-image: url(../img/cyber.svg); }
+
+#ourTeam {
+  margin-top: 90px; }
+  #ourTeam .header {
+    font-family: 'Mulish-Bold';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 43px;
+    color: #000000;
+    margin-bottom: 65px; }
 
 /*# sourceMappingURL=main.css.map */
