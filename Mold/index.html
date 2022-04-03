@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css" />
     <link rel="stylesheet" href="assets/fontAwesome/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/90c94e1de5.js" crossorigin="anonymous"></script>
     <!-- FRONTEND CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
@@ -46,7 +47,7 @@
 
     <!-- Main Section -->
     <section id="topSection">
-                <div class="owl-carousel owl-theme">
+                <div class="topSection owl-carousel owl-theme">
                     <div class="item">
                         <div class="container_own">
                             <h1 class="headerOverBg">Lorem ipsum dolor sit amet, consectetur adipiscing sed do eiusmod tempor</h1>
@@ -146,29 +147,82 @@
         <h2 class="text-center">Our Services</h2>
         <div class="container_own d-flex justify-content-between flex-wrap">
             <div class="services development align-items-center text-center">
+                <p class="developHover genhoverParag pe-5 ps-5 d-none text-center">
+                    Software Development from scratch <br>
+                    Microservice Development <br>
+                    Migration from monolit to Microservice <br>
+                    Code Review and analyse</p>
                 <div class="icon me-auto ms-auto"></div>
-                <p>Development</p>
+                <p id="developmentP">Development</p>
             </div>
             <div class="services consulting align-items-center text-center">
+                <p class="consultingHover genhoverParag pe-5 ps-5 d-none text-center">IT strategy <br> Migration to Microservice consulting <br> DevOps consulting</p>
                 <div class="icon me-auto ms-auto"></div>
-                <p>Consulting</p>
+                <p id="consultingP">Consulting</p>
             </div>
             <div class="services infrstructure align-items-center text-center">
+                <p class="infrastrutureHover genhoverParag pe-5 ps-5 d-none text-center">
+                    Linux systems support <br>
+                    Network support <br>
+                    Process Automation <br>
+                    On premise cloud</p>
                 <div class="icon me-auto ms-auto"></div>
-                <p>Infrastructure</p>
+                <p id="infrastructureP">Infrastructure</p>
             </div>
             <div class="services trainingService align-items-center text-center">
+                <p class="trainingHover pt-5 genhoverParag pe-5 ps-5 d-none text-center">Ingress Academy</p>
                 <div class="icon me-auto ms-auto"></div>
-                <p>Training Services</p>
+                <p id="trainingP">Training Services</p>
             </div>
             <div class="services cyberSecure align-items-center text-center">
+                <p class="cyberHover pt-5 genhoverParag pe-5 ps-5 d-none text-center">Cybersecurity</p>
                 <div class="icon me-auto ms-auto"></div>
-                <p>Cybersecurity</p>
+                <p class="cyberP">Cybersecurity</p>
             </div>
         </div>
     </section>
     <section id="ourTeam">
-        <div class="header text-center">Meet our Team</div>
+        <h2 class="header text-center">Meet our Team</h2>
+        <div class="backgroundColor"></div>
+            <div class="container_team text-center">
+                <div class="team_corusel pb-5 owl-carousel owl-theme">
+                    <div class="item firstMember">
+                        <div class="photo"></div>
+                        <div class="namePosition">
+                            <p class="name">Elisha Raiden</p>
+                            <p class="position">Director</p>
+                        </div>
+                    </div>
+                    <div class="item secondMember">
+                        <div class="photo"></div>
+                        <div class="namePosition">
+                            <p class="name">Elisha Raiden</p>
+                            <p class="position">IT Manager</p>
+                        </div>
+                    </div>
+                    <div class="item thirdMember">
+                        <div class="photo"></div>
+                        <div class="namePosition">
+                            <p class="name">Elisha Raiden</p>
+                            <p class="position">Developer</p>
+                        </div>
+                    </div>
+                    <div class="item fourthMember">
+                        <div class="photo"></div>
+                        <div class="namePosition">
+                            <p class="name">Elisha Raiden</p>
+                            <p class="position">Designer</p>
+                        </div>
+                    </div>
+                    <div class="item fifthMember">
+                        <div class="photo"></div>
+                        <div class="namePosition">
+                            <p class="name">Elisha Raiden</p>
+                            <p class="position">Director</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
 

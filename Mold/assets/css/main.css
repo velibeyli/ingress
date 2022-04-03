@@ -168,7 +168,10 @@
   background-color: #F4F6F8;
   margin-bottom: 30px;
   border-radius: 7px;
-  padding-top: 55px; }
+  padding-top: 55px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer; }
   #ourServices .services .icon {
     width: 55px;
     height: 55px;
@@ -184,16 +187,42 @@
     line-height: 18px;
     letter-spacing: 0.2px;
     color: #000000; }
+  #ourServices .services .genhoverParag {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-decoration: underline !important; }
+#ourServices .services:hover .icon {
+  display: none; }
+#ourServices .services:hover p {
+  display: none; }
+#ourServices .services:hover .genhoverParag {
+  display: block !important;
+  color: #FFFFFF; }
+#ourServices .development:hover {
+  background-image: url(../img/developmentHover.svg); }
 #ourServices .consulting .icon {
   background-image: url(../img/consulting.svg); }
+#ourServices .consulting:hover {
+  background-image: url(../img/consultingHover.svg); }
 #ourServices .infrstructure .icon {
   width: 50px;
   background-image: url(../img/cloud.svg); }
+#ourServices .infrstructure:hover {
+  background-image: url(../img/infrastructureHover.svg); }
 #ourServices .trainingService .icon {
   background-image: url(../img/training.svg); }
+#ourServices .trainingService:hover {
+  background-image: url(../img/trainingHover.svg); }
 #ourServices .cyberSecure .icon {
   height: 47px;
   background-image: url(../img/cyber.svg); }
+#ourServices .cyberSecure:hover {
+  background-image: url(../img/cyberSecureHover.svg); }
 
 #ourTeam {
   margin-top: 90px; }
@@ -204,6 +233,61 @@
     font-size: 34px;
     line-height: 43px;
     color: #000000;
-    margin-bottom: 65px; }
+    margin-bottom: 125px;
+    z-index: 1; }
+  #ourTeam .backgroundColor {
+    width: 100%;
+    height: 287px;
+    background-color: #F4F6F8; }
+  #ourTeam .container_team {
+    transform: translateY(-100.5%); }
+    #ourTeam .container_team .team_corusel .item {
+      width: calc(100%/1.05);
+      height: 237px;
+      background: linear-gradient(180deg, #F4F6F8 0%, #FFFFFF 81.77%);
+      margin-left: 10px;
+      margin-top: 78px; }
+      #ourTeam .container_team .team_corusel .item .photo {
+        width: 156px;
+        height: 156px;
+        background-image: url(../img/1stmember.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        transform: translate(65%, -50%); }
+      #ourTeam .container_team .team_corusel .item .namePosition {
+        margin-top: -50px; }
+        #ourTeam .container_team .team_corusel .item .namePosition .name {
+          font-family: 'Mulish-SemiBold';
+          font-style: normal;
+          font-weight: 800;
+          font-size: 16px;
+          line-height: 20px;
+          color: #000000;
+          margin-bottom: 5px !important; }
+        #ourTeam .container_team .team_corusel .item .namePosition .position {
+          font-family: 'Mulish-Light';
+          font-style: italic;
+          font-weight: 550;
+          font-size: 14px;
+          line-height: 18px;
+          color: #000000; }
+    #ourTeam .container_team .team_corusel .secondMember .photo {
+      background-image: url(../img/2ndMember.svg); }
+    #ourTeam .container_team .team_corusel .thirdMember .photo {
+      background-image: url(../img/3rdMember.svg); }
+    #ourTeam .container_team .team_corusel .fourthMember .photo {
+      background-image: url(../img/4thMember.svg); }
+    #ourTeam .container_team .team_corusel .owl-nav {
+      width: 113%;
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      top: 55%;
+      left: -100px;
+      margin-top: 0 !important; }
+      #ourTeam .container_team .team_corusel .owl-nav i {
+        font-size: 35px;
+        color: #3F79FF; }
 
 /*# sourceMappingURL=main.css.map */
