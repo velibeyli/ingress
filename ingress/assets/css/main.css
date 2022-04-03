@@ -225,7 +225,8 @@
   background-image: url(../img/cyberSecureHover.svg); }
 
 #ourTeam {
-  margin-top: 90px; }
+  margin-top: 90px;
+  height: 57vh; }
   #ourTeam .header {
     font-family: 'Mulish-Bold';
     font-weight: 200;
@@ -255,7 +256,7 @@
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
-          transform: translate(65px, -60px); }
+          transform: translate(100px, -60px); }
         #ourTeam .backgroundColor .container_team .team_corusel .item .namePosition {
           margin-top: -50px; }
           #ourTeam .backgroundColor .container_team .team_corusel .item .namePosition .name {
@@ -273,6 +274,15 @@
             font-size: 14px;
             line-height: 18px;
             color: #000000; }
+        #ourTeam .backgroundColor .container_team .team_corusel .item .socialMedia {
+          margin-top: 30px;
+          font-size: 28px; }
+          #ourTeam .backgroundColor .container_team .team_corusel .item .socialMedia i {
+            margin-right: 22.5px;
+            color: #A8ACB4; }
+          #ourTeam .backgroundColor .container_team .team_corusel .item .socialMedia i:hover {
+            color: #2770F1;
+            transition: all .3s; }
       #ourTeam .backgroundColor .container_team .team_corusel .secondMember .photo {
         background-image: url(../img/2ndMember.svg); }
       #ourTeam .backgroundColor .container_team .team_corusel .thirdMember .photo {
@@ -293,7 +303,8 @@
 
 .statistics {
   padding-left: 40px;
-  padding-right: 40px; }
+  padding-right: 40px;
+  margin-bottom: 110px; }
   .statistics .background {
     width: 100%;
     background-color: #2770F1;
@@ -308,7 +319,8 @@
         font-weight: 300;
         font-style: normal;
         font-size: 48px;
-        line-height: 60px; }
+        line-height: 60px;
+        padding: 5px; }
       .statistics .background .commonStatistic p {
         font-family: 'Mulish-Medium';
         font-weight: 650;
@@ -317,5 +329,16 @@
         line-height: 18px;
         text-transform: uppercase;
         padding-top: 10px; }
+
+#onlyBenefits .header {
+  font-family: 'Mulish-Bold';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 34px;
+  line-height: 43px;
+  color: #000000;
+  margin-bottom: 70px; }
+#onlyBenefits .commonColumn {
+  width: calc(100%/3.2); }
 
 /*# sourceMappingURL=main.css.map */
