@@ -329,56 +329,84 @@ body {
     width: 100%;
     height: 287px;
     background-color: #F4F6F8; }
-  #ourTeam .container_team {
-    transform: translateY(-100.5%); }
-    #ourTeam .container_team .team_corusel .item {
-      width: calc(100%/1.05);
-      height: 237px;
-      background: linear-gradient(180deg, #F4F6F8 0%, #FFFFFF 81.77%);
-      margin-left: 10px;
-      margin-top: 78px; }
-      #ourTeam .container_team .team_corusel .item .photo {
-        width: 156px;
-        height: 156px;
-        background-image: url(../img/1stmember.svg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        transform: translate(65%, -50%); }
-      #ourTeam .container_team .team_corusel .item .namePosition {
-        margin-top: -50px; }
-        #ourTeam .container_team .team_corusel .item .namePosition .name {
-          font-family: 'Mulish-SemiBold';
-          font-style: normal;
-          font-weight: 800;
-          font-size: 16px;
-          line-height: 20px;
-          color: #000000;
-          margin-bottom: 5px !important; }
-        #ourTeam .container_team .team_corusel .item .namePosition .position {
-          font-family: 'Mulish-Light';
-          font-style: italic;
-          font-weight: 550;
-          font-size: 14px;
-          line-height: 18px;
-          color: #000000; }
-    #ourTeam .container_team .team_corusel .secondMember .photo {
-      background-image: url(../img/2ndMember.svg); }
-    #ourTeam .container_team .team_corusel .thirdMember .photo {
-      background-image: url(../img/3rdMember.svg); }
-    #ourTeam .container_team .team_corusel .fourthMember .photo {
-      background-image: url(../img/4thMember.svg); }
-    #ourTeam .container_team .team_corusel .owl-nav {
-      width: 113%;
-      display: flex;
-      justify-content: space-between;
-      position: absolute;
-      top: 55%;
-      left: -100px;
-      margin-top: 0 !important; }
-      #ourTeam .container_team .team_corusel .owl-nav i {
-        font-size: 35px;
-        color: #3F79FF; }
+    #ourTeam .backgroundColor .container_team {
+      top: 0;
+      transform: translateY(-76px); }
+      #ourTeam .backgroundColor .container_team .team_corusel .item {
+        width: calc(100%/1.05);
+        height: 237px;
+        background: linear-gradient(180deg, #F4F6F8 0%, #FFFFFF 81.77%);
+        margin-left: 10px;
+        margin-top: 78px; }
+        #ourTeam .backgroundColor .container_team .team_corusel .item .photo {
+          width: 156px;
+          height: 156px;
+          background-image: url(../img/1stmember.svg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          transform: translate(65px, -60px); }
+        #ourTeam .backgroundColor .container_team .team_corusel .item .namePosition {
+          margin-top: -50px; }
+          #ourTeam .backgroundColor .container_team .team_corusel .item .namePosition .name {
+            font-family: 'Mulish-SemiBold';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+            margin-bottom: 5px !important; }
+          #ourTeam .backgroundColor .container_team .team_corusel .item .namePosition .position {
+            font-family: 'Mulish-Light';
+            font-style: italic;
+            font-weight: 550;
+            font-size: 14px;
+            line-height: 18px;
+            color: #000000; }
+      #ourTeam .backgroundColor .container_team .team_corusel .secondMember .photo {
+        background-image: url(../img/2ndMember.svg); }
+      #ourTeam .backgroundColor .container_team .team_corusel .thirdMember .photo {
+        background-image: url(../img/3rdMember.svg); }
+      #ourTeam .backgroundColor .container_team .team_corusel .fourthMember .photo {
+        background-image: url(../img/4thMember.svg); }
+      #ourTeam .backgroundColor .container_team .team_corusel .owl-nav {
+        width: 113%;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 55%;
+        left: -100px;
+        margin-top: 0 !important; }
+        #ourTeam .backgroundColor .container_team .team_corusel .owl-nav i {
+          font-size: 35px;
+          color: #3F79FF; }
+
+.statistics {
+  padding-left: 40px;
+  padding-right: 40px; }
+  .statistics .background {
+    width: 100%;
+    background-color: #2770F1;
+    border-radius: 7px;
+    padding: 61px 125px; }
+    .statistics .background .commonStatistic {
+      width: calc(100%/4.2);
+      color: #FFFFFF; }
+      .statistics .background .commonStatistic h1 {
+        margin-right: 15px;
+        font-family: 'Mulish-ExtraBold';
+        font-weight: 300;
+        font-style: normal;
+        font-size: 48px;
+        line-height: 60px; }
+      .statistics .background .commonStatistic p {
+        font-family: 'Mulish-Medium';
+        font-weight: 650;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: uppercase;
+        padding-top: 10px; }
 
 #navbar {
   width: 100%;
