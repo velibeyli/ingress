@@ -1,0 +1,85 @@
+footer {
+  background-color: #F4F6F8; }
+  footer .container_own {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    footer .container_own .logo {
+      width: 198px;
+      height: 45px;
+      background-image: url(../img/Logo.svg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-bottom: 40px; }
+    footer .container_own .subMenu .commonCol {
+      margin-bottom: 55px; }
+      footer .container_own .subMenu .commonCol h5 {
+        font-family: 'Mulish-Bold';
+        font-weight: 200;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+        letter-spacing: 0.2px; }
+      footer .container_own .subMenu .commonCol p {
+        font-family: 'Mulish-Regular';
+        font-weight: 750;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+        letter-spacing: 0.2px; }
+    footer .container_own .contact .adress {
+      width: 48%; }
+    footer .container_own .contact p {
+      font-family: 'Mulish-Regular';
+      font-weight: 750;
+      font-style: normal;
+      font-size: 16px;
+      line-height: 20px;
+      color: rgba(0, 0, 0, 0.75);
+      padding-top: 13px; }
+    footer .container_own .contact i {
+      color: #2770F1; }
+    footer .container_own .contact .message {
+      width: 48%; }
+      footer .container_own .contact .message .inputs input {
+        width: 48%;
+        padding: 10px;
+        background-color: #FFFFFF;
+        color: rgba(0, 0, 0, 0.3);
+        border-radius: 7px;
+        border: none; }
+      footer .container_own .contact .message #messageBox {
+        width: 100%;
+        border: none;
+        padding: 10px;
+        margin-bottom: 22px; }
+      footer .container_own .contact .message .sendButton {
+        text-align: right; }
+        footer .container_own .contact .message .sendButton button {
+          width: 135px;
+          font-family: 'Mulish-SemiBold';
+          font-weight: 800;
+          font-size: 16px;
+          line-height: 27px;
+          font-style: normal;
+          color: #FFFFFF;
+          background-color: #3F79FF;
+          border-radius: 7px; }
+  footer .scrollUp {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/scrollUp.svg);
+    transform: translate(689px, -94%); }
+  footer .copyRight {
+    font-family: 'Mulish-Regular';
+    font-weight: 750;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.75);
+    padding-left: 160px;
+    margin-top: -25px; }
+
+/*# sourceMappingURL=footer.css.map */

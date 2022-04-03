@@ -8,18 +8,20 @@
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer; }
-  #navbar .container_own .ingressAcademy {
+  #navbar .container_own .d-flex .ingressAcademy {
+    width: 155px;
     padding-top: 10px;
     padding-bottom: 11px;
     cursor: pointer; }
-    #navbar .container_own .ingressAcademy .nextIcon {
-      width: 20px;
+    #navbar .container_own .d-flex .ingressAcademy .nextIcon {
+      width: 24px;
       height: 20px;
       background-image: url(../img/fas-fa-right-icon.svg);
       background-size: cover;
       background-repeat: no-repeat;
       margin-right: 10px; }
-    #navbar .container_own .ingressAcademy .ingress {
+    #navbar .container_own .d-flex .ingressAcademy .ingress {
+      width: 155px;
       font-family: 'Mulish-ExtraBold';
       font-style: normal;
       font-weight: 300;
@@ -35,6 +37,7 @@
     color: #000000;
     letter-spacing: 0.2px; }
     #navbar .container_own .navbar-nav Ul li {
+      width: 80px;
       margin-right: 24px;
       cursor: pointer; }
     #navbar .container_own .navbar-nav .navFirstElement .downIcon {

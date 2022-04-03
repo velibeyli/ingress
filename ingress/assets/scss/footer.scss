@@ -1,0 +1,105 @@
+footer{
+    background-color: #F4F6F8;
+    .container_own{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .logo{
+            width: 198px;
+            height: 45px;
+            background-image: url(../img/Logo.svg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-bottom: 40px;
+        }
+        .subMenu{
+            .commonCol{
+                margin-bottom: 55px;
+                h5{
+                    font-family: 'Mulish-Bold';
+                    font-weight: 200;
+                    font-style: normal;
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: #000000;
+                    letter-spacing: 0.2px;
+                }
+                p{
+                    font-family: 'Mulish-Regular';
+                    font-weight: 750;
+                    font-style: normal;
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #000000;
+                    letter-spacing: 0.2px;
+                }
+            }
+        }
+        .contact{
+            .adress{
+                width: 48%;
+            }
+            p{
+                font-family: 'Mulish-Regular';
+                font-weight: 750;
+                font-style: normal;
+                font-size: 16px;
+                line-height: 20px;
+                color: rgba(0, 0, 0, 0.75);
+                padding-top: 13px;
+            }
+            i{
+                color: #2770F1;
+            }
+            .message{
+                width: 48%;
+                .inputs{
+                    input{
+                        width: 48%;
+                        padding: 10px;
+                        background-color: #FFFFFF;
+                        color: rgba(0, 0, 0, 0.3);
+                        border-radius: 7px;
+                        border: none;
+                    }
+                }
+                #messageBox{
+                    width: 100%;
+                    border: none;
+                    padding: 10px;
+                    margin-bottom: 22px;
+                }
+                .sendButton{
+                    text-align: right;
+                    button{
+                        width: 135px;
+                        font-family: 'Mulish-SemiBold';
+                        font-weight: 800;
+                        font-size: 16px;
+                        line-height: 27px;
+                        font-style: normal;
+                        color: #FFFFFF;
+                        background-color: #3F79FF;
+                        border-radius: 7px;
+                    }
+                }
+            }
+        }
+    }
+    .scrollUp{
+        width: 40px;
+        height: 40px;
+        background-image: url(../img/scrollUp.svg);
+        transform: translate(689px,-94%);
+    }
+    .copyRight{
+        font-family: 'Mulish-Regular';
+        font-weight: 750;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.75);
+        padding-left: 160px;
+        margin-top: -25px;
+    }   
+}

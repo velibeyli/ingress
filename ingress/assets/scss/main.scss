@@ -10,12 +10,12 @@
                     position: absolute;
                     top: 223px;
                     .headerOverBg{
-                        width: calc(100%/2.5);
+                        width: calc(100%/1.6);
                         font-family: 'Mulish-ExtraBold';
                         font-style: normal;
                         font-weight: 300;
                         font-size: 46px;
-                        line-height: 160%;
+                        line-height: 74px;
                     }
                     .service{
                         font-family: 'Mulish';
@@ -124,7 +124,9 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-            margin-bottom: 44px;
+            margin-bottom: 25px;
+            margin-right: 12px;
+            margin-left: 13px;
         }
         #bootstrap{
             background-image: url(../img/bootstrap.svg);
@@ -159,26 +161,29 @@
     .container_own{
         padding-top: 58px;
         padding-bottom: 58px;
-        .logo{
-            width: 379.52px;
-            height: 77px;
-            background-image: url(../img/logo-big.svg);
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-        p{
-            margin-top: 24px;
-            font-family: 'Mulish-Regular';
-            font-style: italic;
-            font-weight: 750;
-            font-size: 24px;
-            line-height: 160%;
-            color: #FFFFFF;
+        .rightColumn{
+            width: 75%;
+            .logo{
+                width: 379.52px;
+                height: 77px;
+                background-image: url(../img/logo-big.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            p{
+                margin-top: 24px;
+                font-family: 'Mulish-Regular';
+                font-style: italic;
+                font-weight: 750;
+                font-size: 24px;
+                line-height: 160%;
+                color: #FFFFFF;
+            }
         }
         .goToSite{
             border: 1px solid white;
-            height: 53px;
-            padding: 16px;
+            width: 150px;
+            padding: 10px 16px;
             .rightArrow{
                 width: 20px;
                 height: 20px;
@@ -322,7 +327,7 @@
                     height: 237px;
                     background: linear-gradient(180deg, #F4F6F8 0%, #FFFFFF 81.77%);
                     margin-left: 10px;
-                    margin-top: 78px;
+                    margin-top: 76px;
                     .photo{
                         width: 156px;
                         height: 156px;
@@ -330,7 +335,7 @@
                         background-size: cover;
                         background-repeat: no-repeat;
                         background-position: center;
-                        transform: translate(100px,-60px)
+                        transform: translate(40px,-60px)
                     }
                     .namePosition{
                         margin-top: -50px;
@@ -354,7 +359,8 @@
                     }
                     .socialMedia{
                         margin-top: 30px;
-                        font-size: 28px;
+                        font-size: 20px;
+                        padding-left: 13px;
                         i{
                             margin-right: 22.5px;
                             color: #A8ACB4;
@@ -381,7 +387,7 @@
                     }
                 }
                 .owl-nav{
-                    width: 113%;
+                    width: 122%;
                     display: flex;
                     justify-content: space-between;
                     position: absolute;
@@ -401,16 +407,19 @@
     padding-left: 40px;
     padding-right: 40px;
     margin-bottom: 110px;
+    margin-top: 180px;
     .background{
         width: 100%;
+        height: 181px;
         background-color: #2770F1;
         border-radius: 7px;
         padding: 61px 125px;
         .commonStatistic{
-            width: calc(100%/4.2);
+            width: 230px;
             color: #FFFFFF;
             h1{
-                margin-right: 15px;
+                width: 140px;
+                margin-right: 5px;
                 font-family: 'Mulish-ExtraBold';
                 font-weight: 300;
                 font-style: normal;
@@ -431,6 +440,7 @@
     }
 }
 #onlyBenefits{
+    padding-bottom: 100px;
     .header{
         font-family: 'Mulish-Bold';
         font-style: normal;
@@ -441,6 +451,31 @@
         margin-bottom: 70px;
     }
     .commonColumn{
-        width: calc(100%/3.2);
+        width: calc(100%/3.3);
+        .logo{
+            width: 60px;
+            height: 60px;
+            background-image: url(../img/logotip.svg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-bottom: 31px;
+        }
+        h5{
+            font-family: 'Mulish-SemiBold';
+            font-weight: 800;
+            font-size: 24px;
+            font-style: normal;
+            line-height: 30px;
+            color: #000000;
+        }
+        p{
+            font-family: 'Mulish-Regular';
+            font-weight: 750;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: rgba(0, 0, 0, 0.6);
+        }
     }
 }

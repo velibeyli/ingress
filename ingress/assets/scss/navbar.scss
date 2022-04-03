@@ -12,24 +12,28 @@
                 cursor: pointer;
             }
         }
-        .ingressAcademy{
-            padding-top: 10px;
-            padding-bottom: 11px;
-            cursor: pointer;
-            .nextIcon{
-                width: 20px;
-                height: 20px;
-                background-image: url(../img/fas-fa-right-icon.svg);
-                background-size: cover;
-                background-repeat: no-repeat;
-                margin-right: 10px;
-            }
-            .ingress{
-                font-family: 'Mulish-ExtraBold';
-                font-style: normal;
-                font-weight: 300;
-                font-size: 15px;
-                line-height: 160%;
+        .d-flex{
+            .ingressAcademy{
+                width: 155px;
+                padding-top: 10px;
+                padding-bottom: 11px;
+                cursor: pointer;
+                .nextIcon{
+                    width: 24px;
+                    height: 20px;
+                    background-image: url(../img/fas-fa-right-icon.svg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    margin-right: 10px;
+                }
+                .ingress{
+                    width: 155px;
+                    font-family: 'Mulish-ExtraBold';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 15px;
+                    line-height: 160%;
+                }
             }
         }
         .navbar-nav{
@@ -43,6 +47,7 @@
             letter-spacing: 0.2px;
             Ul{
                 li{
+                    width: 80px;
                     margin-right: 24px;
                     cursor: pointer;
                 }
