@@ -14,7 +14,7 @@ body {
 //   color: #333333;
 }
 
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 375px) {
   #navbar{
     .navbar-nav{
       ul li{
@@ -24,6 +24,9 @@ body {
         }
       }
     }
+    .container_own{
+      padding-left: 50px !important;
+    }
   }
   #topSection{
     .owl-carousel{
@@ -31,9 +34,11 @@ body {
         .container_own{
           padding-left: 50px !important;
           padding-right: 50px !important;
+          top: 90px !important;
           .headerOverBg{
             width: 70% !important;
             font-size: 23px !important;
+            line-height: 50px !important;
           }
         }
       }
@@ -74,17 +79,96 @@ body {
       }
     }
   }
+  #ourServices{
+    .container_own{
+      padding-left: 80px !important;
+      padding-right: 80px !important;
+      .services{
+        width: 100% !important;
+        height: 220px !important;
+      }
+    }    
+  }
+  .statistics{
+    .background{
+      .innerBg{
+        .commonStatistic{
+          h1{
+            font-size: 30px !important;
+          }
+          p{
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  #onlyBenefits{
+    .container_benefits{
+      padding-left: 80px !important;
+      padding-right: 80px !important;
+      .commonColumn{
+        width: 100% !important;
+      }
+    }
+  }
+  #ourTeam{
+    .backgroundColor{
+      .container_team{
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+        .team_corusel{
+          .owl-nav{
+            width: 140% !important;
+            left: -48px !important;
+          }
+        }
+      }
+    }
+  }
+  footer{
+    .container_own{
+      padding-left: 100px !important;
+      padding-right: 100px !important;
+      .contact{
+        .adress{
+          width: 100% !important;
+          .googleMap{
+            iframe{
+              width: 260px !important;
+            }
+          }
+        }
+        .message{
+          width: 100%!important;
+          .sendButton{
+            text-align: center !important;
+          }
+        }
+      }
+    }
+    .copyRight{
+      padding-left: 100px !important;
+    }
+  }
 }
 @media screen and (min-width: 570px) {
+  #navbar{
+    .container_own{
+      padding-left: 100px !important;
+    }
+  }
   #topSection{
     .owl-carousel{
       .item{
         .container_own{
           padding-left: 80px !important;
           padding-right: 80px !important;
+          top: 100px !important;
           .headerOverBg{
             width: 70% !important;
             font-size: 28px !important;
+            line-height: 74px;
           }
         }
       }
@@ -125,6 +209,77 @@ body {
       }
     }
   }
+  #ourServices{
+    .container_own{
+      padding-left: 80px !important;
+      padding-right: 80px !important;
+      .services{
+        width: 100% !important;
+        height: 220px !important;
+      }
+    }    
+  }
+  #ourTeam{
+    .backgroundColor{
+      .container_team{
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+        .team_corusel{
+          .owl-nav{
+            width: 137% !important;
+            left: -63px !important;
+          }
+        }
+      }
+    }
+  }
+  .statistics{
+    .background{
+      .innerBg{
+        .commonStatistic{
+          h1{
+            font-size: 48px !important;
+          }
+          p{
+            font-size: 14px !important;
+          }
+        }
+      }
+    }
+  }
+  footer{
+    .container_own{
+      padding-left: 100px !important;
+      padding-right: 100px !important;
+      .contact{
+        .adress{
+          width: 100% !important;
+          .googleMap{
+            iframe{
+              width: 500px !important;
+            }
+          }
+        }
+        .message{
+          width: 100%!important;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 590px) {
+  #ourTeam{
+    .backgroundColor{
+      .container_team{
+        .team_corusel{
+          .owl-nav{
+            width: 129% !important;
+            left: -55px !important;
+          }
+        }
+      }
+    }
+  }
 }
 @media screen and (min-width: 768px) {
   .container-own {
@@ -134,8 +289,9 @@ body {
     .owl-carousel{
       .item{
         .container_own{
-          padding-left: 80px !important;
-          padding-right: 80px !important;
+          padding-left: 100px !important;
+          padding-right: 165px !important;
+          top: 100px !important;
           .headerOverBg{
             width: 70% !important;
             font-size: 28px !important;
@@ -179,14 +335,97 @@ body {
       }
     }
   }
+  #ourServices{
+    .container_own{
+      padding-left: 165px !important;
+      padding-right: 165px !important;
+      .services{
+        width: 350px !important;
+        height: 220px !important;
+      }
+    }    
+  }
+  #ourTeam{
+    .backgroundColor{
+      .container_team{
+        padding-left: 180px !important;
+        padding-right: 180px !important;
+        .team_corusel{
+          .owl-nav{
+            width: 137% !important;
+            left: -70px !important;
+          }
+        }
+      }
+    }
+  }
+  #onlyBenefits{
+    .container_benefits{
+      padding-left: 197px !important;
+      padding-right: 197px !important;
+      .commonColumn{
+        width: calc(100%/2.3) !important;
+      }
+    }
+  }
+  footer{
+    .container_own{
+      padding-left: 165px !important;
+      padding-right: 165px !important;
+      .contact{
+        .adress{
+          width: 48% !important;
+          .googleMap{
+            iframe{
+              width: 323px !important;
+            }
+          }
+        }
+        .message{
+          width: 60%!important;
+        }
+      }
+    }
+    .copyRight{
+      padding-left: 160px !important;
+    }
+  }
 }
 @media screen and (min-width: 922px) {
+  #navbar{
+    .container_own{
+      padding-left: 165px !important;
+    }
+  }
   .linkToSite{
     .container_own{
       padding-left: 80px !important;
       padding-right: 80px !important;
       .goToSite{
 
+      }
+    }
+  }
+  #topSection{
+    .owl-carousel{
+      .item{
+        .container_own{
+          top: 150px !important;
+          padding-left: 165px !important;
+          padding-right: 165px !important;
+        }
+      }
+    }
+  }
+  #ourTeam{
+    .backgroundColor{
+      .container_team{
+        .team_corusel{
+          .owl-nav{
+            width: 126% !important;
+            left: -71px !important;
+          }
+        }
       }
     }
   }
@@ -199,6 +438,8 @@ body {
     .owl-carousel{
       .item{
         .container_own{
+          padding-left: 165px !important;
+          padding-right: 165px !important;
           .headerOverBg{
             width: 70% !important;
             font-size: 32px !important;
@@ -236,6 +477,42 @@ body {
       }
     }
   }
+  #ourTeam{
+    .backgroundColor{
+      .container_team{
+        .team_corusel{
+          .owl-nav{
+            width: 126% !important;
+            left: -71px !important;
+          }
+        }
+      }
+    }
+  }
+  #onlyBenefits{
+    .commonColumn{
+      width: calc(100%/3.3) !important;
+    }
+  }
+  footer{
+    .container_own{
+      .contact{
+        .adress{
+          .googleMap{
+            iframe{
+              width: 323px !important;
+            }
+          }
+        }
+        .message{
+          width: 48% !important;
+          .sendButton{
+            text-align: right !important;
+          }
+        }
+      }
+    }
+  }
 }
 @media screen and (min-width: 1200px) {
   .container-own {
@@ -245,6 +522,7 @@ body {
     .owl-carousel{
       .item{
         .container_own{
+          top: 223px !important;
           .headerOverBg{
             width: 60% !important;
             font-size: 38px !important;
@@ -263,7 +541,32 @@ body {
       }
     }
   }
+  #ourTeam{
+    .backgroundColor{
+      .container_team{
+        .team_corusel{
+          .owl-nav{
+            width: 123% !important;
+          }
+        }
+      }
+    }
+  }
+  footer{
+    .container_own{
+      .contact{
+        .adress{
+          .googleMap{
+            iframe{
+              width: 425px !important;
+            }
+          }
+        }
+      }
+    }
+  }
 }
+
 @media screen and (min-width: 1350px) {
   .container-own {
     max-width: 1205px;
@@ -290,6 +593,56 @@ body {
       }
     }
   }
+  #ourTeam{
+    .backgroundColor{
+      .container_team{
+        .team_corusel{
+          .owl-nav{
+            width: 120% !important;
+          }
+        }
+      }
+    }
+  }
+  footer{
+    .container_own{
+      .contact{
+        .adress{
+          .googleMap{
+            iframe{
+              width: 495px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1500px) {
+  #ourTeam{
+    .backgroundColor{
+      .container_team{
+        .team_corusel{
+          .owl-nav{
+            width: 116% !important;
+          }
+        }
+      }
+    }
+  }
+  footer{
+    .container_own{
+      .contact{
+        .adress{
+          .googleMap{
+            iframe{
+              width: 575px !important;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 @media screen and (min-width: 1700px) {
   #ourTechnology{
@@ -302,7 +655,47 @@ body {
       }
     }
   }
+  #ourTeam{
+    .backgroundColor{
+      .container_team{
+        .team_corusel{
+          .owl-nav{
+            width: 114% !important;
+          }
+        }
+      }
+    }
+  }
+  footer{
+    .container_own{
+      .contact{
+        .adress{
+          .googleMap{
+            iframe{
+              width: 660px !important;
+            }
+          }
+        }
+      }
+    }
+  }
 }
+@media screen and (min-width: 1828px) {
+  footer{
+    .container_own{
+      .contact{
+        .adress{
+          .googleMap{
+            iframe{
+              width: 750px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 1920px) {
   .container-own {
     max-width: 1205px;

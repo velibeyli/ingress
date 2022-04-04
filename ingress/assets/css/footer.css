@@ -31,6 +31,9 @@ footer {
         letter-spacing: 0.2px; }
     footer .container_own .contact .adress {
       width: 48%; }
+      footer .container_own .contact .adress .googleMap iframe {
+        width: 750px;
+        height: 150px; }
     footer .container_own .contact p {
       font-family: 'Mulish-Regular';
       font-weight: 750;
@@ -67,11 +70,6 @@ footer {
           color: #FFFFFF;
           background-color: #3F79FF;
           border-radius: 7px; }
-  footer .scrollUp {
-    width: 40px;
-    height: 40px;
-    background-image: url(../img/scrollUp.svg);
-    transform: translate(689px, -94%); }
   footer .copyRight {
     font-family: 'Mulish-Regular';
     font-weight: 750;
@@ -80,6 +78,7 @@ footer {
     line-height: 20px;
     color: rgba(0, 0, 0, 0.75);
     padding-left: 160px;
-    margin-top: -25px; }
+    margin-top: 25px;
+    padding-bottom: 25px; }
 
 /*# sourceMappingURL=footer.css.map */

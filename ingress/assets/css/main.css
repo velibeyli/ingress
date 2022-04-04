@@ -168,7 +168,7 @@
   line-height: 43px;
   margin-bottom: 100px; }
 #ourServices .services {
-  width: calc(100%/3.1);
+  width: 350px;
   height: 220px;
   background-color: #F4F6F8;
   margin-bottom: 30px;
@@ -261,7 +261,9 @@
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
-          transform: translate(40px, -60px); }
+          margin-left: auto;
+          margin-right: auto;
+          transform: translateY(-60px); }
         #ourTeam .backgroundColor .container_team .team_corusel .item .namePosition {
           margin-top: -50px; }
           #ourTeam .backgroundColor .container_team .team_corusel .item .namePosition .name {
@@ -310,11 +312,9 @@
 .statistics {
   padding-left: 40px;
   padding-right: 40px;
-  margin-bottom: 110px;
-  margin-top: 180px; }
+  margin-bottom: 110px; }
   .statistics .background {
     width: 100%;
-    height: 181px;
     background-color: #2770F1;
     border-radius: 7px;
     padding: 61px 125px; }
@@ -350,7 +350,8 @@
     color: #000000;
     margin-bottom: 70px; }
   #onlyBenefits .commonColumn {
-    width: calc(100%/3.3); }
+    width: calc(100%/3.3);
+    margin-bottom: 10px; }
     #onlyBenefits .commonColumn .logo {
       width: 60px;
       height: 60px;
