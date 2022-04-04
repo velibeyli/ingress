@@ -1,64 +1,755 @@
-/*
-Error: File to import not found or unreadable: place.
-       Load path: C:/Users/Valibayli/Desktop/ingress/ingress/assets/scss
-        on line 9 of scss/style.scss
+* {
+  list-style-type: none;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  word-break: break-word; }
 
-4: @import "group";
-5: @import "variables";
-6: @import "main";
-7: @import "navbar";
-8: // @import "about";
-9: @import "place";
-10: @import "footer";
-11: 
-12: *{
-13:     margin: 0;
-14:     padding: 0;
+body {
+  overflow-x: hidden; }
 
-Backtrace:
-scss/style.scss:9
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: place.\A        Load path: C:/Users/Valibayli/Desktop/ingress/ingress/assets/scss\A         on line 9 of scss/style.scss\A \A 4: @import \"group\";\A 5: @import \"variables\";\A 6: @import \"main\";\A 7: @import \"navbar\";\A 8: // @import \"about\";\A 9: @import \"place\";\A 10: @import \"footer\";\A 11: \A 12: *{\A 13:     margin: 0;\A 14:     padding: 0;"; }
+@media screen and (min-width: 350px) {
+  #navbar .navbar-nav ul li {
+    margin-bottom: 5px; }
+    #navbar .navbar-nav ul li #service {
+      margin-bottom: 0; }
+
+  #topSection .owl-carousel .item .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+    #topSection .owl-carousel .item .container_own .headerOverBg {
+      width: 70% !important;
+      font-size: 23px !important; }
+
+  #whatWeDo .video iframe {
+    width: 350px;
+    height: 190px; }
+
+  #ourTechnology .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+    #ourTechnology .container_own .stacks .commonIcon {
+      width: calc(100%/4.1) !important;
+      height: 107px !important; }
+
+  .linkToSite .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+    .linkToSite .container_own .rightColumn .logo {
+      width: 229.52px !important;
+      height: 42px !important; }
+    .linkToSite .container_own .rightColumn P {
+      font-size: 13px !important; } }
+@media screen and (min-width: 570px) {
+  #topSection .owl-carousel .item .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; }
+    #topSection .owl-carousel .item .container_own .headerOverBg {
+      width: 70% !important;
+      font-size: 28px !important; }
+
+  #whatWeDo .video iframe {
+    width: 450px;
+    height: 244px; }
+
+  #ourTechnology .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+    #ourTechnology .container_own .stacks .commonIcon {
+      width: calc(100%/5.4) !important;
+      height: 110px !important; }
+
+  .linkToSite .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+    .linkToSite .container_own .rightColumn .logo {
+      width: 229.52px !important;
+      height: 42px !important; }
+    .linkToSite .container_own .rightColumn P {
+      font-size: 13px !important; } }
+@media screen and (min-width: 768px) {
+  .container-own {
+    max-width: 760px; }
+
+  #topSection .owl-carousel .item .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; }
+    #topSection .owl-carousel .item .container_own .headerOverBg {
+      width: 70% !important;
+      font-size: 28px !important; }
+
+  #whatWeDo .video iframe {
+    width: 650px;
+    height: 353px; }
+
+  #ourTechnology .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+    #ourTechnology .container_own .stacks .commonIcon {
+      width: calc(100%/11.4) !important;
+      height: 78px !important; }
+
+  .linkToSite .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; }
+    .linkToSite .container_own .rightColumn .logo {
+      width: 379.52px !important;
+      height: 77px !important; }
+    .linkToSite .container_own .rightColumn P {
+      font-size: 24px !important; } }
+@media screen and (min-width: 922px) {
+  .linkToSite .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; } }
+@media screen and (min-width: 991px) {
+  .container-own {
+    max-width: 960px; }
+
+  #topSection .owl-carousel .item .container_own .headerOverBg {
+    width: 70% !important;
+    font-size: 32px !important; }
+
+  #whatWeDo .video iframe {
+    width: 836px !important;
+    height: 454px !important; }
+
+  #ourTechnology .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; }
+    #ourTechnology .container_own .stacks .commonIcon {
+      width: calc(100%/11.4) !important;
+      height: 78px !important; }
+
+  .linkToSite .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; } }
+@media screen and (min-width: 1200px) {
+  .container-own {
+    max-width: 1155px; }
+
+  #topSection .owl-carousel .item .container_own .headerOverBg {
+    width: 60% !important;
+    font-size: 38px !important; }
+
+  #ourTechnology .container_own .stacks .commonIcon {
+    width: calc(100%/11.4) !important;
+    height: 78px !important; } }
+@media screen and (min-width: 1350px) {
+  .container-own {
+    max-width: 1205px; }
+
+  #topSection .owl-carousel .item .container_own .headerOverBg {
+    width: 60% !important;
+    font-size: 38px !important; }
+
+  #ourTechnology .container_own .stacks .commonIcon {
+    width: calc(100%/10.4) !important;
+    height: 100px !important; } }
+@media screen and (min-width: 1700px) {
+  #ourTechnology .container_own .stacks .commonIcon {
+    width: calc(100%/9.4) !important;
+    height: 150px !important; } }
+@media screen and (min-width: 1920px) {
+  .container-own {
+    max-width: 1205px; } }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-Black.ttf);
+  font-family: Mulish-Black;
+  font-weight: 100; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-BlackItalic.ttf);
+  font-family: Mulish-BlackItalic;
+  font-weight: 150; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-Bold.ttf);
+  font-family: Mulish-Bold;
+  font-weight: 200; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-BoldItalic.ttf);
+  font-family: Mulish-BoldItalic;
+  font-weight: 250; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-ExtraBold.ttf);
+  font-family: Mulish-ExtraBold;
+  font-weight: 300; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-ExtraBoldItalic.ttf);
+  font-family: Mulish-ExtraBoldItalic;
+  font-weight: 350; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-ExtraLight.ttf);
+  font-family: Mulish-ExtraLight;
+  font-weight: 400; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-ExtraLightItalic.ttf);
+  font-family: Mulish-ExtraLightItalic;
+  font-weight: 450; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-Italic.ttf);
+  font-family: Mulish-Italic;
+  font-weight: 500; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-Light.ttf);
+  font-family: Mulish-Light;
+  font-weight: 550; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-LightItalic.ttf);
+  font-family: Mulish-LightItalic;
+  font-weight: 600; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-Medium.ttf);
+  font-family: Mulish-Medium;
+  font-weight: 650; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-MediumItalic.ttf);
+  font-family: Mulish-MediumItalic;
+  font-weight: 700; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-Regular.ttf);
+  font-family: Mulish-Regular;
+  font-weight: 750; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-SemiBold.ttf);
+  font-family: Mulish-SemiBold;
+  font-weight: 800; }
+@font-face {
+  src: url(../fonts/Mulish/Mulish-SemiBoldItalic.ttf);
+  font-family: Mulish-SemiBoldItalic;
+  font-weight: 850; }
+#topSection .owl-carousel .item {
+  width: 100%;
+  height: 90vh;
+  background-image: url(../img/section1_bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #topSection .owl-carousel .item .container_own {
+    position: absolute;
+    top: 223px; }
+    #topSection .owl-carousel .item .container_own .headerOverBg {
+      width: calc(100%/2.4);
+      font-family: 'Mulish-ExtraBold';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 46px;
+      line-height: 74px; }
+    #topSection .owl-carousel .item .container_own .service {
+      font-family: 'Mulish';
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+      background-color: #3F79FF;
+      margin-top: 20px;
+      padding: 10px 50px; }
+#topSection .owl-carousel .owl-dots {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 3%; }
+  #topSection .owl-carousel .owl-dots .owl-dot :hover {
+    background-color: #3F79FF; }
+
+#partnership {
+  background-color: #FFFFFF; }
+  #partnership .containerP {
+    width: 100%;
+    padding-left: 95px;
+    padding-right: 95px; }
+    #partnership .containerP .ourPartner {
+      padding-top: 80px;
+      padding-bottom: 90px; }
+      #partnership .containerP .ourPartner .generalP {
+        width: 130px;
+        height: 65px;
+        background-size: cover;
+        background-repeat: no-repeat; }
+      #partnership .containerP .ourPartner #socar {
+        background-image: url(../img/socar.svg); }
+      #partnership .containerP .ourPartner #azercell {
+        background-image: url(../img/azercell.svg); }
+      #partnership .containerP .ourPartner #xalqbank {
+        background-image: url(../img/xalqbank.svg); }
+      #partnership .containerP .ourPartner #azericard {
+        background-image: url(../img/azericard.svg); }
+      #partnership .containerP .ourPartner #kapitalbank {
+        background-image: url(../img/kapital-bank.svg); }
+      #partnership .containerP .ourPartner #rabitebank {
+        background-image: url(../img/rabitebank.svg); }
+      #partnership .containerP .ourPartner #pashabank {
+        background-image: url(../img/pasabank.svg); }
+      #partnership .containerP .ourPartner #bankOfAmerica {
+        background-image: url(../img/bankofAmerica.svg); }
+
+#whatWeDo .bgColor {
+  width: 100%;
+  height: 293px;
+  background-color: #3F79FF; }
+  #whatWeDo .bgColor h5 {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    font-family: 'Mulish-ExtraBold';
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 48px;
+    color: #FFFFFF; }
+#whatWeDo .video {
+  text-align: center;
+  margin-top: -150px; }
+
+#ourTechnology {
+  padding-top: 110px;
+  padding-bottom: 130px; }
+  #ourTechnology .header {
+    margin-bottom: 55px;
+    font-family: 'Mulish-Bold';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 200; }
+  #ourTechnology .stacks .commonIcon {
+    width: calc(100%/9.4);
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 25px;
+    margin-right: 12px;
+    margin-left: 13px;
+    border-radius: 7px; }
+  #ourTechnology .stacks #bootstrap {
+    background-image: url(../img/bootstrap.svg); }
+  #ourTechnology .stacks #python {
+    background-image: url(../img/python.svg); }
+  #ourTechnology .stacks #github {
+    background-image: url(../img/github.svg); }
+  #ourTechnology .stacks #gitlab {
+    background-image: url(../img/gitlab.svg); }
+  #ourTechnology .stacks #firebase {
+    background-image: url(../img/firebase.svg); }
+  #ourTechnology .stacks #golang {
+    background-image: url(../img/golang.svg); }
+  #ourTechnology .stacks #swift {
+    background-image: url(../img/swift.svg); }
+  #ourTechnology .stacks #php {
+    background-image: url(../img/php.svg); }
+
+.linkToSite {
+  width: 100%;
+  background-color: #3F79FF;
+  margin-bottom: 110px; }
+  .linkToSite .container_own {
+    padding-top: 58px;
+    padding-bottom: 58px; }
+    .linkToSite .container_own .rightColumn {
+      width: 75%; }
+      .linkToSite .container_own .rightColumn .logo {
+        width: 379.52px;
+        height: 77px;
+        background-image: url(../img/logo-big.svg);
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .linkToSite .container_own .rightColumn p {
+        margin-top: 24px;
+        font-family: 'Mulish-Regular';
+        font-style: italic;
+        font-weight: 750;
+        font-size: 24px;
+        line-height: 160%;
+        color: #FFFFFF; }
+    .linkToSite .container_own .goToSite {
+      border: 1px solid white;
+      width: 150px;
+      padding: 10px 16px; }
+      .linkToSite .container_own .goToSite .rightArrow {
+        width: 20px;
+        height: 20px;
+        background-image: url(../img/right-arrow-white.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-right: 10px; }
+      .linkToSite .container_own .goToSite p {
+        font-family: 'Mulish-Regular';
+        font-style: normal;
+        font-weight: 750;
+        font-size: 16px;
+        line-height: 160%;
+        color: #FFFFFF;
+        margin: 0 !important; }
+
+#ourServices h2 {
+  font-family: 'Mulish-Bold';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 34px;
+  line-height: 43px;
+  margin-bottom: 100px; }
+#ourServices .services {
+  width: calc(100%/3.1);
+  height: 220px;
+  background-color: #F4F6F8;
+  margin-bottom: 30px;
+  border-radius: 7px;
+  padding-top: 55px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer; }
+  #ourServices .services .icon {
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/developer.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 26px; }
+  #ourServices .services p {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #000000; }
+  #ourServices .services .genhoverParag {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-decoration: underline !important; }
+#ourServices .services:hover .icon {
+  display: none; }
+#ourServices .services:hover p {
+  display: none; }
+#ourServices .services:hover .genhoverParag {
+  display: block !important;
+  color: #FFFFFF; }
+#ourServices .development:hover {
+  background-image: url(../img/developmentHover.svg); }
+#ourServices .consulting .icon {
+  background-image: url(../img/consulting.svg); }
+#ourServices .consulting:hover {
+  background-image: url(../img/consultingHover.svg); }
+#ourServices .infrstructure .icon {
+  width: 50px;
+  background-image: url(../img/cloud.svg); }
+#ourServices .infrstructure:hover {
+  background-image: url(../img/infrastructureHover.svg); }
+#ourServices .trainingService .icon {
+  background-image: url(../img/training.svg); }
+#ourServices .trainingService:hover {
+  background-image: url(../img/trainingHover.svg); }
+#ourServices .cyberSecure .icon {
+  height: 47px;
+  background-image: url(../img/cyber.svg); }
+#ourServices .cyberSecure:hover {
+  background-image: url(../img/cyberSecureHover.svg); }
+
+#ourTeam {
+  margin-top: 90px;
+  height: 57vh; }
+  #ourTeam .header {
+    font-family: 'Mulish-Bold';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 43px;
+    color: #000000;
+    margin-bottom: 125px;
+    z-index: 1; }
+  #ourTeam .backgroundColor {
+    width: 100%;
+    height: 287px;
+    background-color: #F4F6F8; }
+    #ourTeam .backgroundColor .container_team {
+      top: 0;
+      transform: translateY(-76px); }
+      #ourTeam .backgroundColor .container_team .team_corusel .item {
+        width: calc(100%/1.05);
+        height: 237px;
+        background: linear-gradient(180deg, #F4F6F8 0%, #FFFFFF 81.77%);
+        margin-left: 10px;
+        margin-top: 76px; }
+        #ourTeam .backgroundColor .container_team .team_corusel .item .photo {
+          width: 156px;
+          height: 156px;
+          background-image: url(../img/1stmember.svg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          transform: translate(40px, -60px); }
+        #ourTeam .backgroundColor .container_team .team_corusel .item .namePosition {
+          margin-top: -50px; }
+          #ourTeam .backgroundColor .container_team .team_corusel .item .namePosition .name {
+            font-family: 'Mulish-SemiBold';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+            margin-bottom: 5px !important; }
+          #ourTeam .backgroundColor .container_team .team_corusel .item .namePosition .position {
+            font-family: 'Mulish-Light';
+            font-style: italic;
+            font-weight: 550;
+            font-size: 14px;
+            line-height: 18px;
+            color: #000000; }
+        #ourTeam .backgroundColor .container_team .team_corusel .item .socialMedia {
+          margin-top: 30px;
+          font-size: 20px;
+          padding-left: 13px; }
+          #ourTeam .backgroundColor .container_team .team_corusel .item .socialMedia i {
+            margin-right: 22.5px;
+            color: #A8ACB4; }
+          #ourTeam .backgroundColor .container_team .team_corusel .item .socialMedia i:hover {
+            color: #2770F1;
+            transition: all .3s; }
+      #ourTeam .backgroundColor .container_team .team_corusel .secondMember .photo {
+        background-image: url(../img/2ndMember.svg); }
+      #ourTeam .backgroundColor .container_team .team_corusel .thirdMember .photo {
+        background-image: url(../img/3rdMember.svg); }
+      #ourTeam .backgroundColor .container_team .team_corusel .fourthMember .photo {
+        background-image: url(../img/4thMember.svg); }
+      #ourTeam .backgroundColor .container_team .team_corusel .owl-nav {
+        width: 122%;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 55%;
+        left: -100px;
+        margin-top: 0 !important; }
+        #ourTeam .backgroundColor .container_team .team_corusel .owl-nav i {
+          font-size: 35px;
+          color: #3F79FF; }
+
+.statistics {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 110px;
+  margin-top: 180px; }
+  .statistics .background {
+    width: 100%;
+    height: 181px;
+    background-color: #2770F1;
+    border-radius: 7px;
+    padding: 61px 125px; }
+    .statistics .background .commonStatistic {
+      width: 230px;
+      color: #FFFFFF; }
+      .statistics .background .commonStatistic h1 {
+        width: 140px;
+        margin-right: 5px;
+        font-family: 'Mulish-ExtraBold';
+        font-weight: 300;
+        font-style: normal;
+        font-size: 48px;
+        line-height: 60px;
+        padding: 5px; }
+      .statistics .background .commonStatistic p {
+        font-family: 'Mulish-Medium';
+        font-weight: 650;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: uppercase;
+        padding-top: 10px; }
+
+#onlyBenefits {
+  padding-bottom: 100px; }
+  #onlyBenefits .header {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 34px;
+    line-height: 43px;
+    color: #000000;
+    margin-bottom: 70px; }
+  #onlyBenefits .commonColumn {
+    width: calc(100%/3.3); }
+    #onlyBenefits .commonColumn .logo {
+      width: 60px;
+      height: 60px;
+      background-image: url(../img/logotip.svg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-bottom: 31px; }
+    #onlyBenefits .commonColumn h5 {
+      font-family: 'Mulish-SemiBold';
+      font-weight: 800;
+      font-size: 24px;
+      font-style: normal;
+      line-height: 30px;
+      color: #000000; }
+    #onlyBenefits .commonColumn p {
+      font-family: 'Mulish-Regular';
+      font-weight: 750;
+      font-style: normal;
+      font-size: 16px;
+      line-height: 20px;
+      color: rgba(0, 0, 0, 0.6); }
+
+#navbar {
+  width: 100%;
+  background-color: white; }
+  #navbar .container_own .ingressLogo .logo {
+    width: 197.78px;
+    height: 45px;
+    background-image: url(../img/Logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer; }
+  #navbar .container_own .d-flex .ingressAcademy {
+    width: 155px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    cursor: pointer; }
+    #navbar .container_own .d-flex .ingressAcademy .nextIcon {
+      width: 24px;
+      height: 20px;
+      background-image: url(../img/fas-fa-right-icon.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-right: 10px; }
+    #navbar .container_own .d-flex .ingressAcademy .ingress {
+      width: 155px;
+      font-family: 'Mulish-ExtraBold';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 160%; }
+  #navbar .container_own .navbar-nav {
+    margin-top: 13px;
+    font-family: 'Mulish-Medium';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    letter-spacing: 0.2px; }
+    #navbar .container_own .navbar-nav Ul li {
+      width: 80px;
+      margin-right: 24px;
+      cursor: pointer; }
+    #navbar .container_own .navbar-nav .navFirstElement .downIcon {
+      width: 8px;
+      height: 8px;
+      margin-top: 6px;
+      margin-left: 5px;
+      background-image: url(../img/fas-fa-down-icon.svg);
+      background-size: cover;
+      background-repeat: no-repeat; }
+
+footer {
+  background-color: #F4F6F8; }
+  footer .container_own {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    footer .container_own .logo {
+      width: 198px;
+      height: 45px;
+      background-image: url(../img/Logo.svg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-bottom: 40px; }
+    footer .container_own .subMenu .commonCol {
+      margin-bottom: 55px; }
+      footer .container_own .subMenu .commonCol h5 {
+        font-family: 'Mulish-Bold';
+        font-weight: 200;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+        letter-spacing: 0.2px; }
+      footer .container_own .subMenu .commonCol p {
+        font-family: 'Mulish-Regular';
+        font-weight: 750;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+        letter-spacing: 0.2px; }
+    footer .container_own .contact .adress {
+      width: 48%; }
+    footer .container_own .contact p {
+      font-family: 'Mulish-Regular';
+      font-weight: 750;
+      font-style: normal;
+      font-size: 16px;
+      line-height: 20px;
+      color: rgba(0, 0, 0, 0.75);
+      padding-top: 13px; }
+    footer .container_own .contact i {
+      color: #2770F1; }
+    footer .container_own .contact .message {
+      width: 48%; }
+      footer .container_own .contact .message .inputs input {
+        width: 48%;
+        padding: 10px;
+        background-color: #FFFFFF;
+        color: rgba(0, 0, 0, 0.3);
+        border-radius: 7px;
+        border: none; }
+      footer .container_own .contact .message #messageBox {
+        width: 100%;
+        border: none;
+        padding: 10px;
+        margin-bottom: 22px; }
+      footer .container_own .contact .message .sendButton {
+        text-align: right; }
+        footer .container_own .contact .message .sendButton button {
+          width: 135px;
+          font-family: 'Mulish-SemiBold';
+          font-weight: 800;
+          font-size: 16px;
+          line-height: 27px;
+          font-style: normal;
+          color: #FFFFFF;
+          background-color: #3F79FF;
+          border-radius: 7px; }
+  footer .scrollUp {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/scrollUp.svg);
+    transform: translate(689px, -94%); }
+  footer .copyRight {
+    font-family: 'Mulish-Regular';
+    font-weight: 750;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.75);
+    padding-left: 160px;
+    margin-top: -25px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #E5E5E5; }
+
+.container_own {
+  width: 100%;
+  padding-left: 165px;
+  padding-right: 165px;
+  padding-top: 15px; }
+
+.container_team {
+  width: 100%;
+  padding-left: 180px;
+  padding-right: 180px; }
+
+.container_benefits {
+  width: 100%;
+  padding-left: 197px;
+  padding-right: 197px; }
+
+/*# sourceMappingURL=style.css.map */

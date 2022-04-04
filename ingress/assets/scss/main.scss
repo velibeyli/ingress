@@ -10,7 +10,7 @@
                     position: absolute;
                     top: 223px;
                     .headerOverBg{
-                        width: calc(100%/1.6);
+                        width: calc(100%/2.4);
                         font-family: 'Mulish-ExtraBold';
                         font-style: normal;
                         font-weight: 300;
@@ -119,14 +119,15 @@
     }
     .stacks{
         .commonIcon{
-            width: 100px;
-            height: 100px;
+            width: calc(100%/9.4);
+            height: 150px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
             margin-bottom: 25px;
             margin-right: 12px;
             margin-left: 13px;
+            border-radius: 7px;
         }
         #bootstrap{
             background-image: url(../img/bootstrap.svg);

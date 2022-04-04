@@ -8,7 +8,7 @@
     position: absolute;
     top: 223px; }
     #topSection .owl-carousel .item .container_own .headerOverBg {
-      width: calc(100%/1.6);
+      width: calc(100%/2.4);
       font-family: 'Mulish-ExtraBold';
       font-style: normal;
       font-weight: 300;
@@ -91,14 +91,15 @@
     font-style: normal;
     font-weight: 200; }
   #ourTechnology .stacks .commonIcon {
-    width: 100px;
-    height: 100px;
+    width: calc(100%/9.4);
+    height: 150px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 25px;
     margin-right: 12px;
-    margin-left: 13px; }
+    margin-left: 13px;
+    border-radius: 7px; }
   #ourTechnology .stacks #bootstrap {
     background-image: url(../img/bootstrap.svg); }
   #ourTechnology .stacks #python {
