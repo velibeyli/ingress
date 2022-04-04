@@ -258,8 +258,11 @@ body {
     width: 126% !important;
     left: -71px !important; }
 
-  #onlyBenefits .commonColumn {
-    width: calc(100%/3.3) !important; }
+  #onlyBenefits .container_benefits {
+    padding-left: 197px !important;
+    padding-right: 197px !important; }
+    #onlyBenefits .container_benefits .commonColumn {
+      width: calc(100%/3.3) !important; }
 
   footer .container_own .contact .adress .googleMap iframe {
     width: 323px !important; }

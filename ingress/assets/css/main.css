@@ -13,7 +13,8 @@
       font-style: normal;
       font-weight: 300;
       font-size: 46px;
-      line-height: 74px; }
+      line-height: 74px;
+      color: #000000; }
     #topSection .owl-carousel .item .container_own .service {
       font-family: 'Mulish';
       font-weight: 400;

@@ -490,8 +490,12 @@ body {
     }
   }
   #onlyBenefits{
-    .commonColumn{
-      width: calc(100%/3.3) !important;
+    .container_benefits{
+      padding-left: 197px !important;
+      padding-right: 197px !important;
+      .commonColumn{
+        width: calc(100%/3.3) !important;
+      }
     }
   }
   footer{

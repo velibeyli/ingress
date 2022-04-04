@@ -6,7 +6,7 @@
 @import "main";
 @import "navbar";
 // @import "about";
-//@import "place";
+@import "services";
 @import "footer";
 
 *{
@@ -32,4 +32,7 @@ body{
     width: 100%;
     padding-left: 197px;
     padding-right: 197px;
+}
+.active{
+    color: #3F79FF !important;
 }

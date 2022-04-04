@@ -50,6 +50,13 @@
                     width: 80px;
                     margin-right: 24px;
                     cursor: pointer;
+                    a{
+                        color: #000000;
+                    }
+                    a:hover{
+                        color: #3F79FF;
+                        transition: all .3s linear;
+                    }
                 }
             }
             .navFirstElement{
