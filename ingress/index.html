@@ -33,6 +33,7 @@
                             <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Services
                               <i class="fa-solid fa-arrow-down"></i>
+                              <i class="fa-solid d-none fa-arrow-up"></i>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <div class="d-flex justify-content-between flex-wrap">
@@ -44,14 +45,14 @@
                                             <li><a href="#">Code Review and analyse</a></li>
                                         </ul>
                                     </li>
-                                    <li class="subMenu"><a class="dropdown-item" href="#">Consulting</a>
+                                    <li id="subConsulting" class="subMenu"><a class="dropdown-item" href="#">Consulting</a>
                                         <ul class="subConsulting">
                                             <li><a href="#">IT strategy</a></li>
                                             <li><a href="#">Migration to Microservice consulting</a></li>
                                             <li><a href="#">DevOps consulting</a></li>
                                         </ul>
                                     </li>
-                                    <li class="subMenu"><a class="dropdown-item" href="#">Infrastructure</a>
+                                    <li id="subInfrastructure" class="subMenu"><a class="dropdown-item" href="#">Infrastructure</a>
                                         <ul class="subInfrastructure">
                                             <li><a href="#">Linux systems support</a></li>
                                             <li><a href="#">Network support</a></li>
@@ -59,12 +60,14 @@
                                             <li><a href="#">On premise cloud</a></li>
                                         </ul>
                                     </li>
-                                    <li class="subMenu"><a class="dropdown-item" href="#">Training Services</a>
+                                    <li id="subTraining" class="subMenu"><a class="dropdown-item" href="#">Training Services</a>
                                         <ul class="subTraining">
                                             <li><a href="#">Ingress Academy</a></li>
                                         </ul>
                                     </li>
-                                    <li class="subMenu ms-auto me-auto"><a class="dropdown-item" href="#">Cybersecurity</a></li>
+                                    <li id="subCyber" class="subMenu">
+                                        <a id="cyberSecurity" href="#" class="dropdown-item">Cybersecurity</a>
+                                    </li>
                                 </div>
                             </ul>
                           </li>
@@ -144,8 +147,8 @@
             <h5>See what we can do</h5>
         </div>
         <div class="video">
-            <iframe width="853" height="480" src="https://www.youtube.com/embed/tUP5S4YdEJo" 
-            title="YouTube video player" frameborder="0" 
+            <iframe src="./assets/video/Digitalization_ People, technology and services.mp4" 
+            title="video player" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen></iframe>
         </div>
@@ -469,10 +472,10 @@
     <!-- Footer Section -->
     <footer>
         <div class="container_own">
-            <div class="logo"></div>
+            <a href="./index.html"><div class="logo"></div></a>
             <div class="subMenu d-flex justify-content-between flex-wrap">
                 <div id="development" class="commonCol">
-                    <h6>Development</h6>
+                    <a href="#"><h6>Development</h6></a>
                     <a href="#">Software Development from scratch</a>
                     <br>
                     <a href="#">Microservice Development</a>
@@ -482,7 +485,7 @@
                     <a href="#">Code Review and analyse</a>
                 </div>
                 <div id="consulting" class="commonCol">
-                    <h6>Consulting</h6>
+                    <a href="#"><h6>Consulting</h6></a>
                     <a href="#">IT strategy</a>
                     <br>
                     <a href="#">Migration to Microservice consulting</a>
@@ -490,7 +493,7 @@
                     <a href="#">DevOps consulting</a>
                 </div>
                 <div id="infrastrusture" class="commonCol">
-                    <h6>Infrastructure</h6>
+                    <a href="#"><h6>Infrastructure</h6></a>
                     <a href="#">Linux systems support</a>
                     <br>
                     <a href="#">Network support</a>
@@ -500,11 +503,11 @@
                     <a href="#">On premise cloud</a>
                 </div>
                 <div id="training" class="commonCol">
-                    <h6>Training Services</h6>
+                    <a href="#"><h6>Training Services</h6></a>
                     <a href="#">Ingress Academy</a>
                 </div>
                 <div id="cyber" class="commonCol">
-                    <h6>Cybersecurity</h6>
+                    <a href="#"><h6>Cybersecurity</h6></a>
                 </div>
             </div>
             <div class="contact d-flex justify-content-between flex-wrap">
@@ -543,6 +546,7 @@
         <hr style="height: 3px; width: 100%; border-width:0;color:#2770F1;background-color: #2770F1">
         <p class="copyRight">Copyright © 2022 Ingress Group. All Rights Reserved.</p>
     </footer>
+<!-- /////////////////////////////////////////////////////////////////////////////////////// -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>

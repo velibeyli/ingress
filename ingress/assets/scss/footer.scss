@@ -15,7 +15,7 @@ footer {
     .subMenu {
       .commonCol {
         margin-bottom: 55px;
-        h5 {
+        h6 {
           font-family: "Mulish-Bold";
           font-weight: 200;
           font-style: normal;
@@ -34,7 +34,6 @@ footer {
           letter-spacing: 0.2px;
         }
         a:hover{
-          text-decoration: underline !important;
           color: #2770f1;
         }
       }
@@ -139,7 +138,7 @@ footer {
           }
         }
         .copyRight{
-          padding-left: 100px !important;
+          padding-left: 50px !important;
         }
       } 
 }
@@ -161,6 +160,9 @@ footer {
               width: 100%!important;
             }
           }
+        }
+        .copyRight{
+          padding-left: 100px !important;
         }
       }
 }
@@ -184,7 +186,7 @@ footer {
           }
         }
         .copyRight{
-          padding-left: 160px !important;
+          padding-left: 165px !important;
         }
       }
 }

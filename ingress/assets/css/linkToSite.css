@@ -46,14 +46,16 @@
       background-color: #155bff8f; }
 
 @media screen and (min-width: 375px) {
-  #linkToSite .container_own {
-    padding-left: 50px !important;
-    padding-right: 50px !important; }
-    #linkToSite .container_own .rightColumn .logo {
-      width: 229.52px !important;
-      height: 42px !important; }
-    #linkToSite .container_own .rightColumn P {
-      font-size: 13px !important; } }
+  #linkToSite {
+    margin-bottom: 45px !important; }
+    #linkToSite .container_own {
+      padding-left: 50px !important;
+      padding-right: 50px !important; }
+      #linkToSite .container_own .rightColumn .logo {
+        width: 229.52px !important;
+        height: 42px !important; }
+      #linkToSite .container_own .rightColumn P {
+        font-size: 13px !important; } }
 @media screen and (min-width: 570px) {
   #linkToSite .container_own {
     padding-left: 50px !important;
@@ -64,21 +66,28 @@
     #linkToSite .container_own .rightColumn P {
       font-size: 13px !important; } }
 @media screen and (min-width: 768px) {
-  #linkToSite .container_own {
-    padding-left: 80px !important;
-    padding-right: 80px !important; }
-    #linkToSite .container_own .rightColumn .logo {
-      width: 379.52px !important;
-      height: 77px !important; }
-    #linkToSite .container_own .rightColumn P {
-      font-size: 24px !important; } }
+  #linkToSite {
+    margin-bottom: 60px !important; }
+    #linkToSite .container_own {
+      padding-left: 80px !important;
+      padding-right: 80px !important; }
+      #linkToSite .container_own .rightColumn .logo {
+        width: 379.52px !important;
+        height: 77px !important; }
+      #linkToSite .container_own .rightColumn P {
+        font-size: 24px !important; } }
 @media screen and (min-width: 922px) {
   #linkToSite .container_own {
     padding-left: 80px !important;
     padding-right: 80px !important; } }
 @media screen and (min-width: 991px) {
-  #linkToSite .container_own {
-    padding-left: 165px !important;
-    padding-right: 165px !important; } }
+  #linkToSite {
+    margin-bottom: 80px !important; }
+    #linkToSite .container_own {
+      padding-left: 165px !important;
+      padding-right: 165px !important; } }
+@media screen and (min-width: 1200px) {
+  #linkToSite {
+    margin-bottom: 110px !important; } }
 
 /*# sourceMappingURL=linkToSite.css.map */

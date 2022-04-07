@@ -1,6 +1,5 @@
 #ourTeam {
   margin-top: 90px;
-  height: 57vh;
   .header {
     font-family: "Mulish-Bold";
     font-weight: 200;
@@ -108,6 +107,7 @@
 
 @media screen and (min-width: 350px) and (max-width: 400px) {
   #ourTeam {
+    margin-top: 40px !important;
     .backgroundColor {
       .container_team {
         padding-left: 100px !important;
@@ -124,6 +124,7 @@
 }
 @media screen and (min-width: 400px) and (max-width: 450px) {
   #ourTeam {
+    margin-top: 40px !important;
     .backgroundColor {
       .container_team {
         padding-left: 100px !important;
@@ -140,6 +141,7 @@
 }
 @media screen and (min-width: 450px) and (max-width: 535px) {
   #ourTeam {
+    margin-top: 45px !important;
     .backgroundColor {
       .container_team {
         padding-left: 100px !important;
@@ -156,6 +158,7 @@
 }
 @media screen and (min-width: 535px) and (max-width: 570px) {
   #ourTeam {
+    margin-top: 45px !important;
     .backgroundColor {
       .container_team {
         padding-left: 100px !important;
@@ -172,6 +175,7 @@
 }
 @media screen and (min-width: 570px) {
   #ourTeam {
+    margin-top: 50px !important;
     .backgroundColor {
       .container_team {
         padding-left: 100px !important;
@@ -202,6 +206,7 @@
 }
 @media screen and (min-width: 768px) {
   #ourTeam {
+    margin-top: 60px !important;
     .backgroundColor {
       .container_team {
         padding-left: 180px !important;
@@ -232,6 +237,7 @@
 }
 @media screen and (min-width: 991px) {
   #ourTeam {
+    margin-top: 70px !important;
     .backgroundColor {
       .container_team {
         .team_carousel {
@@ -246,6 +252,7 @@
 }
 @media screen and (min-width: 1200px) {
   #ourTeam {
+    margin-top: 90px !important;
     .backgroundColor {
       .container_team {
         .team_carousel {

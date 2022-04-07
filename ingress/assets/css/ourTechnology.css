@@ -65,18 +65,25 @@
     margin-bottom: 13px; }
 
 @media screen and (min-width: 375px) {
-  #ourTechnology .container_own {
-    padding-left: 40px !important;
-    padding-right: 40px !important; }
-    #ourTechnology .container_own .stacks .col-xl-1 {
-      margin-right: 10px !important;
-      margin-left: 10px !important; }
-    #ourTechnology .container_own .stacks .col-sm-3 {
-      width: 25%; } }
+  #ourTechnology {
+    padding-top: 50px !important;
+    padding-bottom: 30px !important; }
+    #ourTechnology .container_own {
+      padding-left: 40px !important;
+      padding-right: 40px !important; }
+      #ourTechnology .container_own .header {
+        font-size: 24px; }
+      #ourTechnology .container_own .stacks .col-xl-1 {
+        margin-right: 10px !important;
+        margin-left: 10px !important; }
+      #ourTechnology .container_own .stacks .col-sm-3 {
+        width: 25%; } }
 @media screen and (min-width: 575px) {
   #ourTechnology .container_own {
     padding-left: 40px !important;
     padding-right: 40px !important; }
+    #ourTechnology .container_own .header {
+      font-size: 28px; }
     #ourTechnology .container_own .stacks .col-xl-1 {
       margin-right: 13px !important;
       margin-left: 13px !important; } }
@@ -84,36 +91,47 @@
   #ourTechnology .container_own {
     padding-left: 50px !important;
     padding-right: 50px !important; }
+    #ourTechnology .container_own .header {
+      font-size: 34px; }
     #ourTechnology .container_own .stacks .col-xl-1 {
       margin-right: 13px !important;
       margin-left: 13px !important; } }
 @media screen and (min-width: 768px) {
-  #ourTechnology .container_own {
-    padding-left: 60px !important;
-    padding-right: 60px !important; }
-    #ourTechnology .container_own .stacks .col-xl-1 {
-      margin-right: 18px !important;
-      margin-left: 18px !important;
-      width: 16.6666666667%; } }
+  #ourTechnology {
+    padding-top: 70px !important;
+    padding-bottom: 50px !important; }
+    #ourTechnology .container_own {
+      padding-left: 60px !important;
+      padding-right: 60px !important; }
+      #ourTechnology .container_own .stacks .col-xl-1 {
+        margin-right: 18px !important;
+        margin-left: 18px !important;
+        width: 16.6666666667%; } }
 @media screen and (min-width: 991px) {
-  #ourTechnology .container_own {
-    padding-left: 60px !important;
-    padding-right: 60px !important; }
-    #ourTechnology .container_own .stacks .col-xl-1 {
-      margin-right: 18px !important;
-      margin-left: 18px !important; } }
+  #ourTechnology {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important; }
+    #ourTechnology .container_own {
+      padding-left: 60px !important;
+      padding-right: 60px !important; }
+      #ourTechnology .container_own .stacks .col-xl-1 {
+        margin-right: 18px !important;
+        margin-left: 18px !important; } }
 @media screen and (min-width: 1100px) {
   #ourTechnology .container_own {
     padding-left: 80px !important;
     padding-right: 80px !important; } }
 @media screen and (min-width: 1200px) {
-  #ourTechnology .container_own {
-    padding-left: 120px !important;
-    padding-right: 120px !important; }
-    #ourTechnology .container_own .stacks .col-xl-1 {
-      width: 8.3333333333%;
-      margin-right: 20px !important;
-      margin-left: 20px !important; } }
+  #ourTechnology {
+    padding-top: 110px !important;
+    padding-bottom: 130px !important; }
+    #ourTechnology .container_own {
+      padding-left: 120px !important;
+      padding-right: 120px !important; }
+      #ourTechnology .container_own .stacks .col-xl-1 {
+        width: 8.3333333333%;
+        margin-right: 20px !important;
+        margin-left: 20px !important; } }
 @media screen and (min-width: 1350px) {
   #ourTechnology .container_own {
     padding-left: 165px !important;

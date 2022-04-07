@@ -36,6 +36,8 @@
 }
 @media screen and (min-width: 375px) {
   #statistics {
+    margin-bottom: 40px !important;
+    margin-top: 30px !important;
     .background {
       padding: 50px 70px !important;
       .innerBg {
@@ -53,6 +55,8 @@
 }
 @media screen and (min-width: 570px) {
   #statistics {
+    margin-bottom: 60px !important;
+    margin-top: 50px !important;
     .background {
       .innerBg {
         .commonStatistic {
@@ -69,8 +73,23 @@
 }
 @media screen and (min-width: 768px) {
   #statistics {
+    margin-bottom: 90px !important;
+    margin-top: 80px !important;
+    .background {
+      padding: 61px 110px !important;
+    }
+  }
+}
+@media screen and (min-width: 790px) {
+  #statistics {
     .background {
       padding: 61px 125px !important;
     }
+  }
+}
+@media screen and (min-width: 1200px) {
+  #statistics {
+    margin-bottom: 110px !important;
+    margin-top: 100px !important;
   }
 }

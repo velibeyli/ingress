@@ -12,12 +12,11 @@
                 height: 65px;
                 background-size: cover;
                 background-repeat: no-repeat;
-                filter: grayscale(100%);
+                opacity: 50%;
                 transition: 600ms ease;
             }
             .generalP:hover{
-                filter: grayscale(0);
-
+                opacity: 100%;
             }
             #socar{
                 background-image: url(../img/socar.svg);
@@ -43,6 +42,36 @@
             #bankOfAmerica{
                 background-image: url(../img/bankofAmerica.svg);
             }
+        }
+    }
+}
+@media screen and (min-width: 350px) {
+    #partnership{
+        .containerP{
+            padding-left: 60px !important;
+            padding-right: 60px !important;
+            .generalP{
+                width: 100px !important ;
+                height: 50px !important;
+            }
+        }
+    }
+}
+@media screen and (min-width: 420px) {
+    #partnership{
+        .containerP{
+            .generalP{
+                width: 130px !important ;
+                height: 65px !important;
+            }
+        }
+    }
+}
+@media screen and (min-width: 500px) {
+    #partnership{
+        .containerP{
+            padding-left: 95px !important;
+            padding-right: 95px !important;
         }
     }
 }

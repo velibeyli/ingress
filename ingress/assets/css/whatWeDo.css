@@ -14,33 +14,29 @@
   text-align: center;
   margin-top: -150px; }
   #whatWeDo .video iframe {
+    width: 836px !important;
+    height: 470px !important;
     cursor: pointer; }
 
-@media screen and (min-width: 250px) {
+@media screen and (min-width: 300px) {
   #whatWeDo .video iframe {
-    width: 350px;
-    height: 190px; }
-  #whatWeDo .bgColor h5 {
-    font-size: 25px; } }
-@media screen and (min-width: 375px) {
-  #whatWeDo .video iframe {
-    width: 350px;
-    height: 190px; }
+    width: 350px !important;
+    height: 190px !important; }
   #whatWeDo .bgColor h5 {
     font-size: 25px; } }
 @media screen and (min-width: 570px) {
   #whatWeDo .video iframe {
-    width: 450px;
-    height: 244px; }
+    width: 450px !important;
+    height: 244px !important; }
   #whatWeDo .bgColor h5 {
     font-size: 38px; } }
 @media screen and (min-width: 768px) {
   #whatWeDo .video iframe {
-    width: 650px;
-    height: 353px; } }
+    width: 650px !important;
+    height: 353px !important; } }
 @media screen and (min-width: 991px) {
   #whatWeDo .video iframe {
     width: 836px !important;
-    height: 454px !important; } }
+    height: 470px !important; } }
 
 /*# sourceMappingURL=whatWeDo.css.map */

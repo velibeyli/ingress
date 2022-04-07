@@ -30,19 +30,35 @@
         padding-top: 10px; }
 
 @media screen and (min-width: 375px) {
-  #statistics .background {
-    padding: 50px 70px !important; }
-    #statistics .background .innerBg .commonStatistic h1 {
-      font-size: 30px !important; }
-    #statistics .background .innerBg .commonStatistic p {
-      font-size: 12px; } }
+  #statistics {
+    margin-bottom: 40px !important;
+    margin-top: 30px !important; }
+    #statistics .background {
+      padding: 50px 70px !important; }
+      #statistics .background .innerBg .commonStatistic h1 {
+        font-size: 30px !important; }
+      #statistics .background .innerBg .commonStatistic p {
+        font-size: 12px; } }
 @media screen and (min-width: 570px) {
-  #statistics .background .innerBg .commonStatistic h1 {
-    font-size: 48px !important; }
-  #statistics .background .innerBg .commonStatistic p {
-    font-size: 14px !important; } }
+  #statistics {
+    margin-bottom: 60px !important;
+    margin-top: 50px !important; }
+    #statistics .background .innerBg .commonStatistic h1 {
+      font-size: 48px !important; }
+    #statistics .background .innerBg .commonStatistic p {
+      font-size: 14px !important; } }
 @media screen and (min-width: 768px) {
+  #statistics {
+    margin-bottom: 90px !important;
+    margin-top: 80px !important; }
+    #statistics .background {
+      padding: 61px 110px !important; } }
+@media screen and (min-width: 790px) {
   #statistics .background {
     padding: 61px 125px !important; } }
+@media screen and (min-width: 1200px) {
+  #statistics {
+    margin-bottom: 110px !important;
+    margin-top: 100px !important; } }
 
 /*# sourceMappingURL=statistics.css.map */

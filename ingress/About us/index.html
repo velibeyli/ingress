@@ -30,9 +30,10 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown me-3">
-                            <a class="nav-link" href="../services/index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Services
                               <i class="fa-solid fa-arrow-down"></i>
+                              <i class="fa-solid d-none fa-arrow-up"></i>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <div class="d-flex justify-content-between flex-wrap">
@@ -44,14 +45,14 @@
                                             <li><a href="#">Code Review and analyse</a></li>
                                         </ul>
                                     </li>
-                                    <li class="subMenu"><a class="dropdown-item" href="#">Consulting</a>
+                                    <li id="subConsulting" class="subMenu"><a class="dropdown-item" href="#">Consulting</a>
                                         <ul class="subConsulting">
                                             <li><a href="#">IT strategy</a></li>
                                             <li><a href="#">Migration to Microservice consulting</a></li>
                                             <li><a href="#">DevOps consulting</a></li>
                                         </ul>
                                     </li>
-                                    <li class="subMenu"><a class="dropdown-item" href="#">Infrastructure</a>
+                                    <li id="subInfrastructure" class="subMenu"><a class="dropdown-item" href="#">Infrastructure</a>
                                         <ul class="subInfrastructure">
                                             <li><a href="#">Linux systems support</a></li>
                                             <li><a href="#">Network support</a></li>
@@ -59,12 +60,14 @@
                                             <li><a href="#">On premise cloud</a></li>
                                         </ul>
                                     </li>
-                                    <li class="subMenu"><a class="dropdown-item" href="#">Training Services</a>
+                                    <li id="subTraining" class="subMenu"><a class="dropdown-item" href="#">Training Services</a>
                                         <ul class="subTraining">
                                             <li><a href="#">Ingress Academy</a></li>
                                         </ul>
                                     </li>
-                                    <li class="subMenu ms-auto me-auto"><a class="dropdown-item" href="#">Cybersecurity</a></li>
+                                    <li id="subCyber" class="subMenu">
+                                        <a id="cyberSecurity" href="#" class="dropdown-item">Cybersecurity</a>
+                                    </li>
                                 </div>
                             </ul>
                           </li>
@@ -72,7 +75,7 @@
                         <a class="nav-link" aria-current="page" href="../Careers/index.html">Careers</a>
                       </li>
                       <li class="nav-item me-3">
-                        <a class="nav-link active" href="../About us/index.html">About us</a>
+                        <a class="nav-link active" href="index.html">About us</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="../Contact us/index.html">Contact us</a>
@@ -90,18 +93,19 @@
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
 
     <!-- Top Section -->
+
     <div id="aboutUs" class="topCoverPhoto">
         <div class="backgroundPhoto">
             <div class="container_own">
                 <h1>About us</h1>
-                <p id="home">Home 
+                <a href="../index.html" class="home">Home 
                     <span class="ps-2 pe-2">
                         <i class="fa-solid fa-arrow-right"></i>
                     </span>
-                    <span class="services">
+                    <a style="color: #000000;" href="index.html" class="services">
                         About us
-                    </span>
-                </p>
+                    </a>
+                </a>
             </div>
         </div>
     </div>
@@ -258,10 +262,10 @@
     <!-- Footer -->
     <footer>
         <div class="container_own">
-            <div class="logo"></div>
+            <a href="../index.html"><div class="logo"></div></a>
             <div class="subMenu d-flex justify-content-between flex-wrap">
                 <div id="development" class="commonCol">
-                    <h6>Development</h6>
+                    <a href="#"><h6>Development</h6></a>
                     <a href="#">Software Development from scratch</a>
                     <br>
                     <a href="#">Microservice Development</a>
@@ -271,7 +275,7 @@
                     <a href="#">Code Review and analyse</a>
                 </div>
                 <div id="consulting" class="commonCol">
-                    <h6>Consulting</h6>
+                    <a href="#"><h6>Consulting</h6></a>
                     <a href="#">IT strategy</a>
                     <br>
                     <a href="#">Migration to Microservice consulting</a>
@@ -279,7 +283,7 @@
                     <a href="#">DevOps consulting</a>
                 </div>
                 <div id="infrastrusture" class="commonCol">
-                    <h6>Infrastructure</h6>
+                    <a href="#"><h6>Infrastructure</h6></a>
                     <a href="#">Linux systems support</a>
                     <br>
                     <a href="#">Network support</a>
@@ -289,11 +293,11 @@
                     <a href="#">On premise cloud</a>
                 </div>
                 <div id="training" class="commonCol">
-                    <h6>Training Services</h6>
+                    <a href="#"><h6>Training Services</h6></a>
                     <a href="#">Ingress Academy</a>
                 </div>
                 <div id="cyber" class="commonCol">
-                    <h6>Cybersecurity</h6>
+                    <a href="#"><h6>Cybersecurity</h6></a>
                 </div>
             </div>
             <div class="contact d-flex justify-content-between flex-wrap">

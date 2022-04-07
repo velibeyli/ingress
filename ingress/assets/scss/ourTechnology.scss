@@ -94,9 +94,14 @@
 }
 @media screen and (min-width: 375px){
   #ourTechnology{
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
     .container_own{
       padding-left: 40px !important;
       padding-right: 40px !important;
+      .header{
+        font-size: 24px;
+      }
       .stacks{
         .col-xl-1{ 
           margin-right: 10px !important;
@@ -114,6 +119,9 @@
     .container_own{
       padding-left: 40px !important;
       padding-right: 40px !important;
+      .header{
+        font-size: 28px;
+      }
       .stacks{
         .col-xl-1{        
           margin-right: 13px !important;
@@ -128,6 +136,9 @@
     .container_own{
       padding-left: 50px !important;
       padding-right: 50px !important;
+      .header{
+        font-size: 34px;
+      }
       .stacks{
         .col-xl-1{        
           margin-right: 13px !important;
@@ -140,6 +151,8 @@
 
 @media screen and (min-width: 768px){
   #ourTechnology{
+    padding-top: 70px !important;
+    padding-bottom: 50px !important;
     .container_own{
       padding-left: 60px !important;
       padding-right: 60px !important;
@@ -155,6 +168,8 @@
 }
 @media screen and (min-width: 991px){
   #ourTechnology{
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
     .container_own{
       padding-left: 60px !important;
       padding-right: 60px !important;
@@ -177,6 +192,8 @@
 }
 @media screen and (min-width: 1200px){
   #ourTechnology{
+    padding-top: 110px !important;
+    padding-bottom: 130px !important;
     .container_own{
       padding-left: 120px !important;
       padding-right: 120px !important;
@@ -213,12 +230,6 @@
           margin-left: 25px !important;
         }
       }
-    }
-  }
-}
-@media screen and (min-width: 1920px){
-  #ourTechnology{
-    .container_own{
     }
   }
 }

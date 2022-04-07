@@ -30,6 +30,14 @@
                             letter-spacing: 0.2px;
                             color: #000000;
                         }
+                        .nav-link.show{
+                            .fa-arrow-up{
+                                display: var(--fa-display,inline-block) !important;
+                            }
+                            .fa-arrow-down{
+                                display: none !important;
+                            }
+                        }
                         .nav-link:hover{
                             color:#3F79FF;
                         }
@@ -55,6 +63,8 @@
                                 }
                                 .dropdown-item:hover{
                                     text-decoration: none !important;
+                                    background-color: #FFFFFF;
+                                    color: #1f5be9 !important;
                                 }
                                 .subDevelopment{
                                     a{
@@ -76,12 +86,17 @@
                                         line-height: 18px;
                                         letter-spacing: 0.2px;
                                         color: #000000;
+                                        transition: all .3s linear;
                                     }
                                 }
                             }
                             .subMenu a:hover{
                                 color: #3F79FF !important;
-                                text-decoration: underline !important;
+                                transition:  all .3s linear;
+                            }
+                            #subCyber.subMenu{
+                                margin-left: auto;
+                                margin-top: -90px;
                             }
                         }
                     }
@@ -107,13 +122,39 @@
         }
     }
 }
+.navbar-light .navbar-toggler {
+    color: #FFFFFF;
+    border: 1px solid #3F79FF;
+}
 @media screen and (min-width: 375px){
     #navbar{
         .container_own{
             padding-left: 50px !important;
+            padding-right: 50px !important;
             .navbar{
                 .navbar-brand{
-                    display: none;
+                    width: 150px;
+                    height: 33px;
+                }
+                .dropdown-menu{
+                    width: 100% !important;
+                    #subInfrastructure.subMenu{
+                        margin-top: 20px !important;
+                    }
+                    #subCyber.subMenu{
+                        margin-left: 0% !important;
+                        margin-top: 20px !important;
+                    }
+                    #subTraining.subMenu{
+                        margin-top: 20px !important;
+                    }
+                    #subConsulting.subMenu{
+                        margin-top: 20px !important;
+                    }
+                    .subMenu{
+                        width: 100% !important;
+                        text-align: center !important;
+                    }
                 }
             }
         }
@@ -122,7 +163,6 @@
 @media screen and (min-width: 450px){
     #navbar{
         .container_own{
-            padding-left: 50px !important;
             .navbar{
                 .navbar-brand{
                     width: 150px;
@@ -136,7 +176,6 @@
 @media screen and (min-width: 500px){
 #navbar{
     .container_own{
-        padding-left: 50px !important;
         .navbar{
             .navbar-brand{
                 width: 170px;
@@ -149,20 +188,86 @@
 @media screen and (min-width: 570px){
 #navbar{
     .container_own{
-        padding-left: 100px !important;
+        padding-left: 70px !important;
+        padding-right: 70px !important;
         .navbar{
             .navbar-brand{
                 width: 198px;
                 height: 45px;
             }
+            .dropdown-menu{
+                .subMenu{
+                    width: calc(100%/2.2) !important;
+                    text-align: left !important;
+                }
+                #subConsulting.subMenu{
+                    margin-top: 0 !important;
+                }
+            }
         }
     }
+}
+}
+@media screen and (min-width: 768px){
+    #navbar{
+        .container_own{
+            padding-left: 100px !important;
+            padding-right: 100px !important;
+            .navbar{
+                
+            }
+        }
     }
 }
-@media screen and (min-width: 922px){
+@media screen and (min-width: 876px){
+    #navbar{
+        .container_own{
+            .navbar{
+                .dropdown-menu{
+                    .subMenu{
+                        width: calc(100%/3.2) !important;
+                    }
+                    #subInfrastructure.subMenu{
+                        margin-top: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 992px){
+    #navbar{
+        .container_own{
+            .navbar{
+                .container-fluid{
+                    .collapse{
+                        .navbar-nav{
+                            .dropdown-menu{
+                                width: 793px !important;
+                                .subMenu{
+                                    width: calc(100%/4.1) !important;
+                                }
+                                #subCyber.subMenu{
+                                    margin-left: auto !important;
+                                    margin-top: -90px !important;
+                                }
+                                #subTraining.subMenu{
+                                    margin-top: 0 !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1130px){
 #navbar{
     .container_own{
         padding-left: 165px !important;
-    }
+        padding-right: 165px !important;
+        }
     }
 }
