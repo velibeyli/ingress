@@ -1,0 +1,36 @@
+#partnership {
+  background-color: #FFFFFF; }
+  #partnership .containerP {
+    width: 100%;
+    padding-left: 95px;
+    padding-right: 95px; }
+    #partnership .containerP .ourPartner {
+      padding-top: 80px;
+      padding-bottom: 90px; }
+      #partnership .containerP .ourPartner .generalP {
+        width: 130px;
+        height: 65px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter: grayscale(100%);
+        transition: 600ms ease; }
+      #partnership .containerP .ourPartner .generalP:hover {
+        filter: grayscale(0); }
+      #partnership .containerP .ourPartner #socar {
+        background-image: url(../img/socar.svg); }
+      #partnership .containerP .ourPartner #azercell {
+        background-image: url(../img/azercell.svg); }
+      #partnership .containerP .ourPartner #xalqbank {
+        background-image: url(../img/xalqbank.svg); }
+      #partnership .containerP .ourPartner #azericard {
+        background-image: url(../img/azericard.svg); }
+      #partnership .containerP .ourPartner #kapitalbank {
+        background-image: url(../img/kapital-bank.svg); }
+      #partnership .containerP .ourPartner #rabitebank {
+        background-image: url(../img/rabitebank.svg); }
+      #partnership .containerP .ourPartner #pashabank {
+        background-image: url(../img/pasabank.svg); }
+      #partnership .containerP .ourPartner #bankOfAmerica {
+        background-image: url(../img/bankofAmerica.svg); }
+
+/*# sourceMappingURL=partnership.css.map */

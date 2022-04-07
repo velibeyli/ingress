@@ -7,324 +7,35 @@
   word-break: break-word; }
 
 body {
+  background-color: #E5E5E5;
   overflow-x: hidden; }
 
-@media screen and (min-width: 375px) {
-  #navbar .navbar-nav ul li {
-    margin-bottom: 5px; }
-    #navbar .navbar-nav ul li #service {
-      margin-bottom: 0; }
-  #navbar .container_own {
-    padding-left: 50px !important; }
+.container_own {
+  width: 100%;
+  padding: 10px 165px; }
 
-  #topSection .owl-carousel .item .container_own {
-    padding-left: 50px !important;
-    padding-right: 50px !important;
-    top: 90px !important; }
-    #topSection .owl-carousel .item .container_own .headerOverBg {
-      width: 70% !important;
-      font-size: 23px !important;
-      line-height: 50px !important; }
+.container_team {
+  width: 100%;
+  padding-left: 180px;
+  padding-right: 180px; }
 
-  #whatWeDo .video iframe {
-    width: 350px;
-    height: 190px; }
+.container_benefits {
+  width: 100%;
+  padding-left: 197px;
+  padding-right: 197px; }
 
-  #ourTechnology .container_own {
-    padding-left: 50px !important;
-    padding-right: 50px !important; }
-    #ourTechnology .container_own .stacks .commonIcon {
-      width: calc(100%/4.1) !important;
-      height: 107px !important; }
-
-  .linkToSite .container_own {
-    padding-left: 50px !important;
-    padding-right: 50px !important; }
-    .linkToSite .container_own .rightColumn .logo {
-      width: 229.52px !important;
-      height: 42px !important; }
-    .linkToSite .container_own .rightColumn P {
-      font-size: 13px !important; }
-
-  #ourServices .container_own {
-    padding-left: 80px !important;
-    padding-right: 80px !important; }
-    #ourServices .container_own .services {
-      width: 100% !important;
-      height: 220px !important; }
-
-  .statistics .background .innerBg .commonStatistic h1 {
-    font-size: 30px !important; }
-  .statistics .background .innerBg .commonStatistic p {
-    font-size: 12px; }
-
-  #onlyBenefits .container_benefits {
-    padding-left: 80px !important;
-    padding-right: 80px !important; }
-    #onlyBenefits .container_benefits .commonColumn {
-      width: 100% !important; }
-
-  #ourTeam .backgroundColor .container_team {
-    padding-left: 100px !important;
-    padding-right: 100px !important; }
-    #ourTeam .backgroundColor .container_team .team_corusel .owl-nav {
-      width: 140% !important;
-      left: -48px !important; }
-
-  footer .container_own {
-    padding-left: 100px !important;
-    padding-right: 100px !important; }
-    footer .container_own .contact .adress {
-      width: 100% !important; }
-      footer .container_own .contact .adress .googleMap iframe {
-        width: 260px !important; }
-    footer .container_own .contact .message {
-      width: 100% !important; }
-      footer .container_own .contact .message .sendButton {
-        text-align: center !important; }
-  footer .copyRight {
-    padding-left: 100px !important; } }
-@media screen and (min-width: 570px) {
-  #navbar .container_own {
-    padding-left: 100px !important; }
-
-  #topSection .owl-carousel .item .container_own {
-    padding-left: 80px !important;
-    padding-right: 80px !important;
-    top: 100px !important; }
-    #topSection .owl-carousel .item .container_own .headerOverBg {
-      width: 70% !important;
-      font-size: 28px !important;
-      line-height: 74px; }
-
-  #whatWeDo .video iframe {
-    width: 450px;
-    height: 244px; }
-
-  #ourTechnology .container_own {
-    padding-left: 50px !important;
-    padding-right: 50px !important; }
-    #ourTechnology .container_own .stacks .commonIcon {
-      width: calc(100%/5.4) !important;
-      height: 110px !important; }
-
-  .linkToSite .container_own {
-    padding-left: 50px !important;
-    padding-right: 50px !important; }
-    .linkToSite .container_own .rightColumn .logo {
-      width: 229.52px !important;
-      height: 42px !important; }
-    .linkToSite .container_own .rightColumn P {
-      font-size: 13px !important; }
-
-  #ourServices .container_own {
-    padding-left: 80px !important;
-    padding-right: 80px !important; }
-    #ourServices .container_own .services {
-      width: 100% !important;
-      height: 220px !important; }
-
-  #ourTeam .backgroundColor .container_team {
-    padding-left: 100px !important;
-    padding-right: 100px !important; }
-    #ourTeam .backgroundColor .container_team .team_corusel .owl-nav {
-      width: 137% !important;
-      left: -63px !important; }
-
-  .statistics .background .innerBg .commonStatistic h1 {
-    font-size: 48px !important; }
-  .statistics .background .innerBg .commonStatistic p {
-    font-size: 14px !important; }
-
-  footer .container_own {
-    padding-left: 100px !important;
-    padding-right: 100px !important; }
-    footer .container_own .contact .adress {
-      width: 100% !important; }
-      footer .container_own .contact .adress .googleMap iframe {
-        width: 500px !important; }
-    footer .container_own .contact .message {
-      width: 100% !important; } }
-@media screen and (min-width: 590px) {
-  #ourTeam .backgroundColor .container_team .team_corusel .owl-nav {
-    width: 129% !important;
-    left: -55px !important; } }
 @media screen and (min-width: 768px) {
   .container-own {
-    max-width: 760px; }
-
-  #topSection .owl-carousel .item .container_own {
-    padding-left: 100px !important;
-    padding-right: 165px !important;
-    top: 100px !important; }
-    #topSection .owl-carousel .item .container_own .headerOverBg {
-      width: 70% !important;
-      font-size: 28px !important; }
-
-  #whatWeDo .video iframe {
-    width: 650px;
-    height: 353px; }
-
-  #ourTechnology .container_own {
-    padding-left: 50px !important;
-    padding-right: 50px !important; }
-    #ourTechnology .container_own .stacks .commonIcon {
-      width: calc(100%/11.4) !important;
-      height: 78px !important; }
-
-  .linkToSite .container_own {
-    padding-left: 80px !important;
-    padding-right: 80px !important; }
-    .linkToSite .container_own .rightColumn .logo {
-      width: 379.52px !important;
-      height: 77px !important; }
-    .linkToSite .container_own .rightColumn P {
-      font-size: 24px !important; }
-
-  #ourServices .container_own {
-    padding-left: 165px !important;
-    padding-right: 165px !important; }
-    #ourServices .container_own .services {
-      width: 350px !important;
-      height: 220px !important; }
-
-  #ourTeam .backgroundColor .container_team {
-    padding-left: 180px !important;
-    padding-right: 180px !important; }
-    #ourTeam .backgroundColor .container_team .team_corusel .owl-nav {
-      width: 137% !important;
-      left: -70px !important; }
-
-  #onlyBenefits .container_benefits {
-    padding-left: 197px !important;
-    padding-right: 197px !important; }
-    #onlyBenefits .container_benefits .commonColumn {
-      width: calc(100%/2.3) !important; }
-
-  footer .container_own {
-    padding-left: 165px !important;
-    padding-right: 165px !important; }
-    footer .container_own .contact .adress {
-      width: 48% !important; }
-      footer .container_own .contact .adress .googleMap iframe {
-        width: 323px !important; }
-    footer .container_own .contact .message {
-      width: 60% !important; }
-  footer .copyRight {
-    padding-left: 160px !important; } }
-@media screen and (min-width: 922px) {
-  #navbar .container_own {
-    padding-left: 165px !important; }
-
-  .linkToSite .container_own {
-    padding-left: 80px !important;
-    padding-right: 80px !important; }
-
-  #topSection .owl-carousel .item .container_own {
-    top: 150px !important;
-    padding-left: 165px !important;
-    padding-right: 165px !important; }
-
-  #ourTeam .backgroundColor .container_team .team_corusel .owl-nav {
-    width: 126% !important;
-    left: -71px !important; } }
+    max-width: 760px; } }
 @media screen and (min-width: 991px) {
   .container-own {
-    max-width: 960px; }
-
-  #topSection .owl-carousel .item .container_own {
-    padding-left: 165px !important;
-    padding-right: 165px !important; }
-    #topSection .owl-carousel .item .container_own .headerOverBg {
-      width: 70% !important;
-      font-size: 32px !important; }
-
-  #whatWeDo .video iframe {
-    width: 836px !important;
-    height: 454px !important; }
-
-  #ourTechnology .container_own {
-    padding-left: 80px !important;
-    padding-right: 80px !important; }
-    #ourTechnology .container_own .stacks .commonIcon {
-      width: calc(100%/11.4) !important;
-      height: 78px !important; }
-
-  .linkToSite .container_own {
-    padding-left: 165px !important;
-    padding-right: 165px !important; }
-
-  #ourTeam .backgroundColor .container_team .team_corusel .owl-nav {
-    width: 126% !important;
-    left: -71px !important; }
-
-  #onlyBenefits .container_benefits {
-    padding-left: 197px !important;
-    padding-right: 197px !important; }
-    #onlyBenefits .container_benefits .commonColumn {
-      width: calc(100%/3.3) !important; }
-
-  footer .container_own .contact .adress .googleMap iframe {
-    width: 323px !important; }
-  footer .container_own .contact .message {
-    width: 48% !important; }
-    footer .container_own .contact .message .sendButton {
-      text-align: right !important; } }
+    max-width: 960px; } }
 @media screen and (min-width: 1200px) {
   .container-own {
-    max-width: 1155px; }
-
-  #topSection .owl-carousel .item .container_own {
-    top: 223px !important; }
-    #topSection .owl-carousel .item .container_own .headerOverBg {
-      width: 60% !important;
-      font-size: 38px !important; }
-
-  #ourTechnology .container_own .stacks .commonIcon {
-    width: calc(100%/11.4) !important;
-    height: 78px !important; }
-
-  #ourTeam .backgroundColor .container_team .team_corusel .owl-nav {
-    width: 123% !important; }
-
-  footer .container_own .contact .adress .googleMap iframe {
-    width: 425px !important; } }
+    max-width: 1155px; } }
 @media screen and (min-width: 1350px) {
   .container-own {
-    max-width: 1205px; }
-
-  #topSection .owl-carousel .item .container_own .headerOverBg {
-    width: 60% !important;
-    font-size: 38px !important; }
-
-  #ourTechnology .container_own .stacks .commonIcon {
-    width: calc(100%/10.4) !important;
-    height: 100px !important; }
-
-  #ourTeam .backgroundColor .container_team .team_corusel .owl-nav {
-    width: 120% !important; }
-
-  footer .container_own .contact .adress .googleMap iframe {
-    width: 495px !important; } }
-@media screen and (min-width: 1500px) {
-  #ourTeam .backgroundColor .container_team .team_corusel .owl-nav {
-    width: 116% !important; }
-
-  footer .container_own .contact .adress .googleMap iframe {
-    width: 575px !important; } }
-@media screen and (min-width: 1700px) {
-  #ourTechnology .container_own .stacks .commonIcon {
-    width: calc(100%/9.4) !important;
-    height: 150px !important; }
-
-  #ourTeam .backgroundColor .container_team .team_corusel .owl-nav {
-    width: 114% !important; }
-
-  footer .container_own .contact .adress .googleMap iframe {
-    width: 660px !important; } }
-@media screen and (min-width: 1828px) {
-  footer .container_own .contact .adress .googleMap iframe {
-    width: 750px !important; } }
+    max-width: 1205px; } }
 @media screen and (min-width: 1920px) {
   .container-own {
     max-width: 1205px; } }
@@ -392,6 +103,114 @@ body {
   src: url(../fonts/Mulish/Mulish-SemiBoldItalic.ttf);
   font-family: Mulish-SemiBoldItalic;
   font-weight: 850; }
+#navbar {
+  background-color: #FFFFFF; }
+  #navbar a {
+    color: #000000; }
+  #navbar .container_own .navbar .navbar-brand {
+    width: 198px;
+    height: 45px;
+    background-image: url(../img/Logo.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+  #navbar .container_own .navbar .collapse .navbar-nav .nav-item i {
+    color: #3F79FF;
+    font-size: 12px;
+    padding-left: 5px; }
+  #navbar .container_own .navbar .collapse .navbar-nav .nav-item .nav-link {
+    font-family: 'Mulish-Medium';
+    font-style: normal;
+    font-weight: 650;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #000000; }
+  #navbar .container_own .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #3F79FF; }
+  #navbar .container_own .navbar .collapse .navbar-nav .nav-item .nav-link.active {
+    color: #3F79FF !important; }
+  #navbar .container_own .navbar .collapse .navbar-nav .nav-item .dropdown-menu {
+    width: 793px;
+    top: 50px;
+    left: -150px;
+    border-radius: 0px 0px 5px 5px;
+    border-top: 4px solid #3F79FF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); }
+    #navbar .container_own .navbar .collapse .navbar-nav .nav-item .dropdown-menu .subMenu {
+      width: calc(100%/4.1); }
+      #navbar .container_own .navbar .collapse .navbar-nav .nav-item .dropdown-menu .subMenu .dropdown-item {
+        font-family: 'Mulish-Bold';
+        font-weight: 200;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #3F79FF; }
+      #navbar .container_own .navbar .collapse .navbar-nav .nav-item .dropdown-menu .subMenu .dropdown-item:hover {
+        text-decoration: none !important; }
+      #navbar .container_own .navbar .collapse .navbar-nav .nav-item .dropdown-menu .subMenu .subDevelopment a {
+        font-family: 'Mulish-Regular';
+        font-weight: 750;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.2px; }
+      #navbar .container_own .navbar .collapse .navbar-nav .nav-item .dropdown-menu .subMenu ul {
+        padding-left: 17px; }
+        #navbar .container_own .navbar .collapse .navbar-nav .nav-item .dropdown-menu .subMenu ul li a {
+          font-family: 'Mulish-Regular';
+          font-weight: 750;
+          font-style: normal;
+          font-size: 14px;
+          line-height: 18px;
+          letter-spacing: 0.2px;
+          color: #000000; }
+    #navbar .container_own .navbar .collapse .navbar-nav .nav-item .dropdown-menu .subMenu a:hover {
+      color: #3F79FF !important;
+      text-decoration: underline !important; }
+  #navbar .container_own .navbar .collapse .ingressAcademy {
+    font-family: 'Mulish-Bold';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000; }
+    #navbar .container_own .navbar .collapse .ingressAcademy .rightArrowIcon {
+      width: 20px;
+      height: 21px;
+      background-image: url(../img/fas-fa-right-icon.svg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-right: 10px; }
+
+@media screen and (min-width: 375px) {
+  #navbar .container_own {
+    padding-left: 50px !important; }
+    #navbar .container_own .navbar .navbar-brand {
+      display: none; } }
+@media screen and (min-width: 450px) {
+  #navbar .container_own {
+    padding-left: 50px !important; }
+    #navbar .container_own .navbar .navbar-brand {
+      width: 150px;
+      height: 33px;
+      display: block; } }
+@media screen and (min-width: 500px) {
+  #navbar .container_own {
+    padding-left: 50px !important; }
+    #navbar .container_own .navbar .navbar-brand {
+      width: 170px;
+      height: 38px; } }
+@media screen and (min-width: 570px) {
+  #navbar .container_own {
+    padding-left: 100px !important; }
+    #navbar .container_own .navbar .navbar-brand {
+      width: 198px;
+      height: 45px; } }
+@media screen and (min-width: 922px) {
+  #navbar .container_own {
+    padding-left: 165px !important; } }
 #topSection .owl-carousel .item {
   width: 100%;
   height: 90vh;
@@ -402,33 +221,93 @@ body {
     position: absolute;
     top: 223px; }
     #topSection .owl-carousel .item .container_own .headerOverBg {
-      width: calc(100%/2.4);
-      font-family: 'Mulish-ExtraBold';
+      width: calc(100% / 2.4);
+      font-family: "Mulish-ExtraBold";
       font-style: normal;
       font-weight: 300;
       font-size: 46px;
-      line-height: 74px;
-      color: #000000; }
+      line-height: 74px; }
     #topSection .owl-carousel .item .container_own .service {
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-weight: 400;
       font-size: 16px;
       line-height: 160%;
       display: flex;
       align-items: center;
       text-align: center;
-      color: #FFFFFF;
-      background-color: #3F79FF;
+      color: #ffffff;
+      background-color: #3f79ff;
       margin-top: 20px;
-      padding: 10px 50px; }
+      padding: 10px 50px;
+      box-shadow: none; }
+    #topSection .owl-carousel .item .container_own .service:hover {
+      background-color: #3f79ffd0; }
 #topSection .owl-carousel .owl-dots {
   width: 100%;
   text-align: center;
   position: absolute;
   bottom: 3%; }
+  #topSection .owl-carousel .owl-dots .owl-dot span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #FFFFFF; }
+  #topSection .owl-carousel .owl-dots .owl-dot.active span {
+    width: 19px;
+    height: 8px;
+    border-radius: 30px;
+    background-color: #2770F1; }
   #topSection .owl-carousel .owl-dots .owl-dot :hover {
-    background-color: #3F79FF; }
+    background-color: #3f79ff; }
 
+@media screen and (min-width: 375px) {
+  #topSection .owl-carousel .item .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    top: 90px !important; }
+    #topSection .owl-carousel .item .container_own .headerOverBg {
+      width: 70% !important;
+      font-size: 23px !important;
+      line-height: 50px !important; } }
+@media screen and (min-width: 570px) {
+  #topSection .owl-carousel .item .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+    top: 100px !important; }
+    #topSection .owl-carousel .item .container_own .headerOverBg {
+      width: 70% !important;
+      font-size: 28px !important;
+      line-height: 74px; } }
+@media screen and (min-width: 768px) {
+  #topSection .owl-carousel .item .container_own {
+    padding-left: 100px !important;
+    padding-right: 165px !important;
+    top: 100px !important; }
+    #topSection .owl-carousel .item .container_own .headerOverBg {
+      width: 70% !important;
+      font-size: 28px !important; } }
+@media screen and (min-width: 922px) {
+  #topSection .owl-carousel .item .container_own {
+    top: 150px !important;
+    padding-left: 165px !important;
+    padding-right: 165px !important; } }
+@media screen and (min-width: 991px) {
+  #topSection .owl-carousel .item .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; }
+    #topSection .owl-carousel .item .container_own .headerOverBg {
+      width: 70% !important;
+      font-size: 32px !important; } }
+@media screen and (min-width: 1200px) {
+  #topSection .owl-carousel .item .container_own {
+    top: 223px !important; }
+    #topSection .owl-carousel .item .container_own .headerOverBg {
+      width: 60% !important;
+      font-size: 38px !important; } }
+@media screen and (min-width: 1350px) {
+  #topSection .owl-carousel .item .container_own .headerOverBg {
+    width: 60% !important;
+    font-size: 38px !important; } }
 #partnership {
   background-color: #FFFFFF; }
   #partnership .containerP {
@@ -442,7 +321,11 @@ body {
         width: 130px;
         height: 65px;
         background-size: cover;
-        background-repeat: no-repeat; }
+        background-repeat: no-repeat;
+        filter: grayscale(100%);
+        transition: 600ms ease; }
+      #partnership .containerP .ourPartner .generalP:hover {
+        filter: grayscale(0); }
       #partnership .containerP .ourPartner #socar {
         background-image: url(../img/socar.svg); }
       #partnership .containerP .ourPartner #azercell {
@@ -463,19 +346,47 @@ body {
 #whatWeDo .bgColor {
   width: 100%;
   height: 293px;
-  background-color: #3F79FF; }
+  background-color: #3f79ff; }
   #whatWeDo .bgColor h5 {
     padding-top: 45px;
     padding-bottom: 50px;
-    font-family: 'Mulish-ExtraBold';
+    font-family: "Mulish-ExtraBold";
     font-weight: 300;
     font-size: 38px;
     line-height: 48px;
-    color: #FFFFFF; }
+    color: #ffffff; }
 #whatWeDo .video {
   text-align: center;
   margin-top: -150px; }
+  #whatWeDo .video iframe {
+    cursor: pointer; }
 
+@media screen and (min-width: 250px) {
+  #whatWeDo .video iframe {
+    width: 350px;
+    height: 190px; }
+  #whatWeDo .bgColor h5 {
+    font-size: 25px; } }
+@media screen and (min-width: 375px) {
+  #whatWeDo .video iframe {
+    width: 350px;
+    height: 190px; }
+  #whatWeDo .bgColor h5 {
+    font-size: 25px; } }
+@media screen and (min-width: 570px) {
+  #whatWeDo .video iframe {
+    width: 450px;
+    height: 244px; }
+  #whatWeDo .bgColor h5 {
+    font-size: 38px; } }
+@media screen and (min-width: 768px) {
+  #whatWeDo .video iframe {
+    width: 650px;
+    height: 353px; } }
+@media screen and (min-width: 991px) {
+  #whatWeDo .video iframe {
+    width: 836px !important;
+    height: 454px !important; } }
 #ourTechnology {
   padding-top: 110px;
   padding-bottom: 130px; }
@@ -485,77 +396,207 @@ body {
     font-size: 34px;
     font-style: normal;
     font-weight: 200; }
-  #ourTechnology .stacks .commonIcon {
-    width: calc(100%/9.4);
-    height: 150px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 25px;
-    margin-right: 12px;
-    margin-left: 13px;
-    border-radius: 7px; }
+  #ourTechnology .stacks .col-xl-1 {
+    height: 100px;
+    background-color: #FAFAFA;
+    padding-top: 16px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 44px; }
+    #ourTechnology .stacks .col-xl-1 .icon {
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-left: auto;
+      margin-right: auto; }
+    #ourTechnology .stacks .col-xl-1 .iconName {
+      text-align: center;
+      font-family: 'Mulish-Regular';
+      font-weight: 750;
+      font-style: normal;
+      font-size: 13px;
+      line-height: 16px;
+      color: #000000; }
   #ourTechnology .stacks #bootstrap {
-    background-image: url(../img/bootstrap.svg); }
-  #ourTechnology .stacks #python {
-    background-image: url(../img/python.svg); }
-  #ourTechnology .stacks #github {
-    background-image: url(../img/github.svg); }
-  #ourTechnology .stacks #gitlab {
-    background-image: url(../img/gitlab.svg); }
-  #ourTechnology .stacks #firebase {
-    background-image: url(../img/firebase.svg); }
+    padding-top: 20px; }
+    #ourTechnology .stacks #bootstrap .icon {
+      height: 31.87px;
+      background-image: url(../img/bootstrap.svg);
+      margin-bottom: 17.13px; }
+  #ourTechnology .stacks #python .icon {
+    background-image: url(../img/python.svg);
+    margin-bottom: 13px; }
+  #ourTechnology .stacks #github .icon {
+    background-image: url(../img/github.svg);
+    margin-bottom: 13px; }
+  #ourTechnology .stacks #gitlab .icon {
+    height: 39.13px;
+    background-image: url(../img/gitlab.svg);
+    margin-bottom: 13.87px; }
+  #ourTechnology .stacks #firebase .icon {
+    background-image: url(../img/firebase.svg);
+    margin-bottom: 13px; }
   #ourTechnology .stacks #golang {
-    background-image: url(../img/golang.svg); }
-  #ourTechnology .stacks #swift {
-    background-image: url(../img/swift.svg); }
-  #ourTechnology .stacks #php {
-    background-image: url(../img/php.svg); }
+    padding-top: 28px; }
+    #ourTechnology .stacks #golang .icon {
+      height: 15px;
+      background-image: url(../img/golang.svg);
+      margin-bottom: 26px; }
+  #ourTechnology .stacks #swift .icon {
+    background-image: url(../img/swift.svg);
+    margin-bottom: 13px; }
+  #ourTechnology .stacks #php .icon {
+    background-image: url(../img/php.svg);
+    margin-bottom: 13px; }
 
-.linkToSite {
+@media screen and (min-width: 375px) {
+  #ourTechnology .container_own {
+    padding-left: 40px !important;
+    padding-right: 40px !important; }
+    #ourTechnology .container_own .stacks .col-xl-1 {
+      margin-right: 10px !important;
+      margin-left: 10px !important; }
+    #ourTechnology .container_own .stacks .col-sm-3 {
+      width: 25%; } }
+@media screen and (min-width: 575px) {
+  #ourTechnology .container_own {
+    padding-left: 40px !important;
+    padding-right: 40px !important; }
+    #ourTechnology .container_own .stacks .col-xl-1 {
+      margin-right: 13px !important;
+      margin-left: 13px !important; } }
+@media screen and (min-width: 696px) {
+  #ourTechnology .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+    #ourTechnology .container_own .stacks .col-xl-1 {
+      margin-right: 13px !important;
+      margin-left: 13px !important; } }
+@media screen and (min-width: 768px) {
+  #ourTechnology .container_own {
+    padding-left: 60px !important;
+    padding-right: 60px !important; }
+    #ourTechnology .container_own .stacks .col-xl-1 {
+      margin-right: 18px !important;
+      margin-left: 18px !important;
+      width: 16.6666666667%; } }
+@media screen and (min-width: 991px) {
+  #ourTechnology .container_own {
+    padding-left: 60px !important;
+    padding-right: 60px !important; }
+    #ourTechnology .container_own .stacks .col-xl-1 {
+      margin-right: 18px !important;
+      margin-left: 18px !important; } }
+@media screen and (min-width: 1100px) {
+  #ourTechnology .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; } }
+@media screen and (min-width: 1200px) {
+  #ourTechnology .container_own {
+    padding-left: 120px !important;
+    padding-right: 120px !important; }
+    #ourTechnology .container_own .stacks .col-xl-1 {
+      width: 8.3333333333%;
+      margin-right: 20px !important;
+      margin-left: 20px !important; } }
+@media screen and (min-width: 1350px) {
+  #ourTechnology .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; }
+    #ourTechnology .container_own .stacks .col-xl-1 {
+      margin-right: 20px !important;
+      margin-left: 20px !important; } }
+@media screen and (min-width: 1500px) {
+  #ourTechnology .container_own .stacks .col-xl-1 {
+    margin-right: 25px !important;
+    margin-left: 25px !important; } }
+#linkToSite {
   width: 100%;
-  background-color: #3F79FF;
+  background-color: #3f79ff;
   margin-bottom: 110px; }
-  .linkToSite .container_own {
+  #linkToSite .container_own {
     padding-top: 58px;
     padding-bottom: 58px; }
-    .linkToSite .container_own .rightColumn {
+    #linkToSite .container_own .rightColumn {
       width: 75%; }
-      .linkToSite .container_own .rightColumn .logo {
+      #linkToSite .container_own .rightColumn .logo {
         width: 379.52px;
         height: 77px;
         background-image: url(../img/logo-big.svg);
         background-size: cover;
         background-repeat: no-repeat; }
-      .linkToSite .container_own .rightColumn p {
+      #linkToSite .container_own .rightColumn p {
         margin-top: 24px;
-        font-family: 'Mulish-Regular';
+        font-family: "Mulish-Regular";
         font-style: italic;
         font-weight: 750;
         font-size: 24px;
         line-height: 160%;
-        color: #FFFFFF; }
-    .linkToSite .container_own .goToSite {
+        color: #ffffff; }
+    #linkToSite .container_own .goToSite {
       border: 1px solid white;
       width: 150px;
-      padding: 10px 16px; }
-      .linkToSite .container_own .goToSite .rightArrow {
+      padding: 10px 16px;
+      box-shadow: none;
+      transition: all .3s linear; }
+      #linkToSite .container_own .goToSite .rightArrow {
         width: 20px;
         height: 20px;
         background-image: url(../img/right-arrow-white.svg);
         background-size: cover;
         background-repeat: no-repeat;
         margin-right: 10px; }
-      .linkToSite .container_own .goToSite p {
-        font-family: 'Mulish-Regular';
+      #linkToSite .container_own .goToSite p {
+        font-family: "Mulish-Regular";
         font-style: normal;
         font-weight: 750;
         font-size: 16px;
         line-height: 160%;
-        color: #FFFFFF;
+        color: #ffffff;
         margin: 0 !important; }
+    #linkToSite .container_own .goToSite:hover {
+      background-color: #155bff8f; }
 
-#ourServices h2 {
+@media screen and (min-width: 375px) {
+  #linkToSite .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+    #linkToSite .container_own .rightColumn .logo {
+      width: 229.52px !important;
+      height: 42px !important; }
+    #linkToSite .container_own .rightColumn P {
+      font-size: 13px !important; } }
+@media screen and (min-width: 570px) {
+  #linkToSite .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+    #linkToSite .container_own .rightColumn .logo {
+      width: 229.52px !important;
+      height: 42px !important; }
+    #linkToSite .container_own .rightColumn P {
+      font-size: 13px !important; } }
+@media screen and (min-width: 768px) {
+  #linkToSite .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; }
+    #linkToSite .container_own .rightColumn .logo {
+      width: 379.52px !important;
+      height: 77px !important; }
+    #linkToSite .container_own .rightColumn P {
+      font-size: 24px !important; } }
+@media screen and (min-width: 922px) {
+  #linkToSite .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; } }
+@media screen and (min-width: 991px) {
+  #linkToSite .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; } }
+#ourServices .title {
   font-family: 'Mulish-Bold';
   font-style: normal;
   font-weight: 200;
@@ -571,7 +612,8 @@ body {
   padding-top: 55px;
   background-size: cover;
   background-repeat: no-repeat;
-  cursor: pointer; }
+  transition: all .3s linear;
+  margin-right: 20px; }
   #ourServices .services .icon {
     width: 55px;
     height: 55px;
@@ -597,38 +639,100 @@ body {
     letter-spacing: 0.2px;
     text-decoration: underline !important; }
 #ourServices .services:hover .icon {
-  display: none; }
+  display: none;
+  transition: all .3s linear; }
 #ourServices .services:hover p {
-  display: none; }
+  display: none;
+  transition: all .3s linear; }
 #ourServices .services:hover .genhoverParag {
   display: block !important;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  transition: all .3s linear; }
 #ourServices .development:hover {
-  background-image: url(../img/developmentHover.svg); }
-#ourServices .consulting .icon {
-  background-image: url(../img/consulting.svg); }
+  background-image: url(../img/developmentHover.svg);
+  transition: all .3s linear; }
+#ourServices .consulting {
+  transition: all .3s linear; }
+  #ourServices .consulting .icon {
+    background-image: url(../img/consulting.svg); }
 #ourServices .consulting:hover {
-  background-image: url(../img/consultingHover.svg); }
-#ourServices .infrstructure .icon {
-  width: 50px;
-  background-image: url(../img/cloud.svg); }
+  background-image: url(../img/consultingHover.svg);
+  transition: all .3s linear; }
+#ourServices .infrstructure {
+  transition: all .3s linear; }
+  #ourServices .infrstructure .icon {
+    width: 50px;
+    background-image: url(../img/cloud.svg); }
 #ourServices .infrstructure:hover {
-  background-image: url(../img/infrastructureHover.svg); }
-#ourServices .trainingService .icon {
-  background-image: url(../img/training.svg); }
+  background-image: url(../img/infrastructureHover.svg);
+  transition: all .3s linear; }
+#ourServices .trainingService {
+  transition: all .3s linear; }
+  #ourServices .trainingService .icon {
+    background-image: url(../img/training.svg); }
 #ourServices .trainingService:hover {
-  background-image: url(../img/trainingHover.svg); }
-#ourServices .cyberSecure .icon {
-  height: 47px;
-  background-image: url(../img/cyber.svg); }
+  background-image: url(../img/trainingHover.svg);
+  transition: all .3s linear; }
+#ourServices .cyberSecure {
+  transition: all .3s linear; }
+  #ourServices .cyberSecure .icon {
+    height: 47px;
+    background-image: url(../img/cyber.svg); }
 #ourServices .cyberSecure:hover {
-  background-image: url(../img/cyberSecureHover.svg); }
+  background-image: url(../img/cyberSecureHover.svg);
+  transition: all .3s linear; }
 
+@media screen and (min-width: 375px) {
+  #ourServices .title {
+    margin-bottom: 50px; }
+  #ourServices .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; }
+    #ourServices .container_own .services {
+      width: 100% !important;
+      height: 220px !important; } }
+@media screen and (min-width: 570px) {
+  #ourServices .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; }
+    #ourServices .container_own .services {
+      width: 100% !important;
+      height: 220px !important; } }
+@media screen and (min-width: 768px) {
+  #ourServices .title {
+    margin-bottom: 100px; }
+  #ourServices .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; }
+    #ourServices .container_own .services {
+      width: 40% !important;
+      height: 220px !important; } }
+@media screen and (min-width: 991px) {
+  #ourServices .container_own {
+    padding-left: 100px !important;
+    padding-right: 100px !important; }
+    #ourServices .container_own .services {
+      width: 330px !important;
+      height: 220px !important; } }
+@media screen and (min-width: 1350px) {
+  #ourServices .container_own {
+    padding-left: 100px !important;
+    padding-right: 100px !important; }
+    #ourServices .container_own .services {
+      width: 350px !important;
+      height: 220px !important; } }
+@media screen and (min-width: 1524px) {
+  #ourServices .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; }
+    #ourServices .container_own .services {
+      width: 350px !important;
+      height: 220px !important; } }
 #ourTeam {
   margin-top: 90px;
   height: 57vh; }
   #ourTeam .header {
-    font-family: 'Mulish-Bold';
+    font-family: "Mulish-Bold";
     font-weight: 200;
     font-style: normal;
     font-size: 34px;
@@ -639,17 +743,17 @@ body {
   #ourTeam .backgroundColor {
     width: 100%;
     height: 287px;
-    background-color: #F4F6F8; }
+    background-color: #f4f6f8; }
     #ourTeam .backgroundColor .container_team {
       top: 0;
       transform: translateY(-76px); }
-      #ourTeam .backgroundColor .container_team .team_corusel .item {
-        width: calc(100%/1.05);
+      #ourTeam .backgroundColor .container_team .team_carousel .item {
+        width: calc(100% / 1.05);
         height: 237px;
-        background: linear-gradient(180deg, #F4F6F8 0%, #FFFFFF 81.77%);
+        background: linear-gradient(180deg, #f4f6f8 0%, #ffffff 81.77%);
         margin-left: 10px;
         margin-top: 76px; }
-        #ourTeam .backgroundColor .container_team .team_corusel .item .photo {
+        #ourTeam .backgroundColor .container_team .team_carousel .item .photo {
           width: 156px;
           height: 156px;
           background-image: url(../img/1stmember.svg);
@@ -659,40 +763,40 @@ body {
           margin-left: auto;
           margin-right: auto;
           transform: translateY(-60px); }
-        #ourTeam .backgroundColor .container_team .team_corusel .item .namePosition {
+        #ourTeam .backgroundColor .container_team .team_carousel .item .namePosition {
           margin-top: -50px; }
-          #ourTeam .backgroundColor .container_team .team_corusel .item .namePosition .name {
-            font-family: 'Mulish-SemiBold';
+          #ourTeam .backgroundColor .container_team .team_carousel .item .namePosition .name {
+            font-family: "Mulish-SemiBold";
             font-style: normal;
             font-weight: 800;
             font-size: 16px;
             line-height: 20px;
             color: #000000;
             margin-bottom: 5px !important; }
-          #ourTeam .backgroundColor .container_team .team_corusel .item .namePosition .position {
-            font-family: 'Mulish-Light';
+          #ourTeam .backgroundColor .container_team .team_carousel .item .namePosition .position {
+            font-family: "Mulish-Light";
             font-style: italic;
             font-weight: 550;
             font-size: 14px;
             line-height: 18px;
             color: #000000; }
-        #ourTeam .backgroundColor .container_team .team_corusel .item .socialMedia {
+        #ourTeam .backgroundColor .container_team .team_carousel .item .socialMedia {
           margin-top: 30px;
           font-size: 20px;
           padding-left: 13px; }
-          #ourTeam .backgroundColor .container_team .team_corusel .item .socialMedia i {
+          #ourTeam .backgroundColor .container_team .team_carousel .item .socialMedia i {
             margin-right: 22.5px;
-            color: #A8ACB4; }
-          #ourTeam .backgroundColor .container_team .team_corusel .item .socialMedia i:hover {
-            color: #2770F1;
-            transition: all .3s; }
-      #ourTeam .backgroundColor .container_team .team_corusel .secondMember .photo {
+            color: #a8acb4; }
+          #ourTeam .backgroundColor .container_team .team_carousel .item .socialMedia a i:hover {
+            color: #2770f1;
+            transition: all 0.3s linear; }
+      #ourTeam .backgroundColor .container_team .team_carousel .secondMember .photo {
         background-image: url(../img/2ndMember.svg); }
-      #ourTeam .backgroundColor .container_team .team_corusel .thirdMember .photo {
+      #ourTeam .backgroundColor .container_team .team_carousel .thirdMember .photo {
         background-image: url(../img/3rdMember.svg); }
-      #ourTeam .backgroundColor .container_team .team_corusel .fourthMember .photo {
+      #ourTeam .backgroundColor .container_team .team_carousel .fourthMember .photo {
         background-image: url(../img/4thMember.svg); }
-      #ourTeam .backgroundColor .container_team .team_corusel .owl-nav {
+      #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
         width: 122%;
         display: flex;
         justify-content: space-between;
@@ -700,34 +804,102 @@ body {
         top: 55%;
         left: -100px;
         margin-top: 0 !important; }
-        #ourTeam .backgroundColor .container_team .team_corusel .owl-nav i {
+        #ourTeam .backgroundColor .container_team .team_carousel .owl-nav i {
           font-size: 35px;
-          color: #3F79FF; }
+          color: #3f79ff; }
+        #ourTeam .backgroundColor .container_team .team_carousel .owl-nav button {
+          background-color: transparent; }
 
-.statistics {
+@media screen and (min-width: 350px) and (max-width: 400px) {
+  #ourTeam .backgroundColor .container_team {
+    padding-left: 100px !important;
+    padding-right: 100px !important; }
+    #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+      width: 157% !important;
+      left: -51px !important; } }
+@media screen and (min-width: 400px) and (max-width: 450px) {
+  #ourTeam .backgroundColor .container_team {
+    padding-left: 100px !important;
+    padding-right: 100px !important; }
+    #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+      width: 159% !important;
+      left: -59px !important; } }
+@media screen and (min-width: 450px) and (max-width: 535px) {
+  #ourTeam .backgroundColor .container_team {
+    padding-left: 100px !important;
+    padding-right: 100px !important; }
+    #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+      width: 139% !important;
+      left: -51px !important; } }
+@media screen and (min-width: 535px) and (max-width: 570px) {
+  #ourTeam .backgroundColor .container_team {
+    padding-left: 100px !important;
+    padding-right: 100px !important; }
+    #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+      width: 131% !important;
+      left: -55px !important; } }
+@media screen and (min-width: 570px) {
+  #ourTeam .backgroundColor .container_team {
+    padding-left: 100px !important;
+    padding-right: 100px !important; }
+    #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+      width: 137% !important;
+      left: -63px !important; } }
+@media screen and (min-width: 590px) {
+  #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+    width: 129% !important;
+    left: -55px !important; } }
+@media screen and (min-width: 768px) {
+  #ourTeam .backgroundColor .container_team {
+    padding-left: 180px !important;
+    padding-right: 180px !important; }
+    #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+      width: 137% !important;
+      left: -70px !important; } }
+@media screen and (min-width: 922px) {
+  #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+    width: 126% !important;
+    left: -71px !important; } }
+@media screen and (min-width: 991px) {
+  #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+    width: 126% !important;
+    left: -71px !important; } }
+@media screen and (min-width: 1200px) {
+  #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+    width: 123% !important; } }
+@media screen and (min-width: 1350px) {
+  #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+    width: 120% !important; } }
+@media screen and (min-width: 1500px) {
+  #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+    width: 116% !important; } }
+@media screen and (min-width: 1700px) {
+  #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+    width: 114% !important; } }
+#statistics {
   padding-left: 40px;
   padding-right: 40px;
   margin-bottom: 110px;
   margin-top: 100px; }
-  .statistics .background {
+  #statistics .background {
     width: 100%;
-    background-color: #2770F1;
+    background-color: #2770f1;
     border-radius: 7px;
     padding: 61px 125px; }
-    .statistics .background .commonStatistic {
+    #statistics .background .commonStatistic {
       width: 230px;
-      color: #FFFFFF; }
-      .statistics .background .commonStatistic h1 {
+      color: #ffffff; }
+      #statistics .background .commonStatistic h1 {
         width: 140px;
         margin-right: 5px;
-        font-family: 'Mulish-ExtraBold';
+        font-family: "Mulish-ExtraBold";
         font-weight: 300;
         font-style: normal;
         font-size: 48px;
         line-height: 60px;
         padding: 5px; }
-      .statistics .background .commonStatistic p {
-        font-family: 'Mulish-Medium';
+      #statistics .background .commonStatistic p {
+        font-family: "Mulish-Medium";
         font-weight: 650;
         font-style: normal;
         font-size: 14px;
@@ -735,8 +907,23 @@ body {
         text-transform: uppercase;
         padding-top: 10px; }
 
+@media screen and (min-width: 375px) {
+  #statistics .background {
+    padding: 50px 70px !important; }
+    #statistics .background .innerBg .commonStatistic h1 {
+      font-size: 30px !important; }
+    #statistics .background .innerBg .commonStatistic p {
+      font-size: 12px; } }
+@media screen and (min-width: 570px) {
+  #statistics .background .innerBg .commonStatistic h1 {
+    font-size: 48px !important; }
+  #statistics .background .innerBg .commonStatistic p {
+    font-size: 14px !important; } }
+@media screen and (min-width: 768px) {
+  #statistics .background {
+    padding: 61px 125px !important; } }
 #onlyBenefits {
-  padding-bottom: 100px; }
+  padding-bottom: 60px; }
   #onlyBenefits .header {
     font-family: 'Mulish-Bold';
     font-style: normal;
@@ -771,70 +958,181 @@ body {
       line-height: 20px;
       color: rgba(0, 0, 0, 0.6); }
 
-#navbar {
-  width: 100%;
-  background-color: white; }
-  #navbar .container_own .ingressLogo .logo {
-    width: 197.78px;
-    height: 45px;
-    background-image: url(../img/Logo.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    cursor: pointer; }
-  #navbar .container_own .d-flex .ingressAcademy {
-    width: 155px;
-    padding-top: 10px;
-    padding-bottom: 11px;
-    cursor: pointer; }
-    #navbar .container_own .d-flex .ingressAcademy .nextIcon {
-      width: 24px;
-      height: 20px;
-      background-image: url(../img/fas-fa-right-icon.svg);
+@media screen and (min-width: 375px) {
+  #onlyBenefits .container_benefits {
+    padding-left: 80px !important;
+    padding-right: 80px !important; }
+    #onlyBenefits .container_benefits .commonColumn {
+      width: 100% !important; } }
+@media screen and (min-width: 768px) {
+  #onlyBenefits .container_benefits {
+    padding-left: 197px !important;
+    padding-right: 197px !important; }
+    #onlyBenefits .container_benefits .commonColumn {
+      width: calc(100%/2.3) !important; } }
+@media screen and (min-width: 991px) {
+  #onlyBenefits .container_benefits {
+    padding-left: 197px !important;
+    padding-right: 197px !important; }
+    #onlyBenefits .container_benefits .commonColumn {
+      width: calc(100%/3.3) !important; } }
+footer {
+  background-color: #f4f6f8; }
+  footer .container_own {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    footer .container_own .logo {
+      width: 198px;
+      height: 45px;
+      background-image: url(../img/Logo.svg);
+      background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      margin-right: 10px; }
-    #navbar .container_own .d-flex .ingressAcademy .ingress {
-      width: 155px;
-      font-family: 'Mulish-ExtraBold';
-      font-style: normal;
-      font-weight: 300;
-      font-size: 15px;
-      line-height: 160%; }
-  #navbar .container_own .navbar-nav {
-    margin-top: 13px;
-    font-family: 'Mulish-Medium';
+      margin-bottom: 40px; }
+    footer .container_own .subMenu .commonCol {
+      margin-bottom: 55px; }
+      footer .container_own .subMenu .commonCol h5 {
+        font-family: "Mulish-Bold";
+        font-weight: 200;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+        letter-spacing: 0.2px; }
+      footer .container_own .subMenu .commonCol a {
+        font-family: "Mulish-Regular";
+        font-weight: 750;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+        letter-spacing: 0.2px; }
+      footer .container_own .subMenu .commonCol a:hover {
+        text-decoration: underline !important;
+        color: #2770f1; }
+    footer .container_own .contact .adress {
+      width: 48%; }
+      footer .container_own .contact .adress .emailAddress {
+        margin-bottom: 16px; }
+      footer .container_own .contact .adress .googleMap iframe {
+        width: 750px;
+        height: 150px; }
+      footer .container_own .contact .adress a {
+        font-family: "Mulish-Regular";
+        font-weight: 750;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.75); }
+    footer .container_own .contact i {
+      color: #2770f1; }
+    footer .container_own .contact .message {
+      width: 48%; }
+      footer .container_own .contact .message .inputs input {
+        width: 48%;
+        padding: 10px;
+        background-color: #ffffff;
+        color: rgba(0, 0, 0, 0.3);
+        border-radius: 7px;
+        border: none; }
+      footer .container_own .contact .message #messageBox {
+        width: 100%;
+        border: none;
+        padding: 10px;
+        margin-bottom: 22px; }
+      footer .container_own .contact .message .sendButton {
+        text-align: right; }
+        footer .container_own .contact .message .sendButton button {
+          width: 135px;
+          font-family: "Mulish-SemiBold";
+          font-weight: 800;
+          font-size: 16px;
+          line-height: 27px;
+          font-style: normal;
+          color: #ffffff;
+          background-color: #3f79ff;
+          border-radius: 7px;
+          box-shadow: none; }
+        footer .container_own .contact .message .sendButton button:hover {
+          background-color: #2362f5;
+          transition: all .3s linear; }
+  footer .copyRight {
+    font-family: "Mulish-Regular";
+    font-weight: 750;
     font-style: normal;
-    font-weight: 200;
-    font-size: 16px;
-    line-height: 18px;
-    color: #000000;
-    letter-spacing: 0.2px; }
-    #navbar .container_own .navbar-nav Ul li {
-      width: 80px;
-      margin-right: 24px;
-      cursor: pointer; }
-      #navbar .container_own .navbar-nav Ul li a {
-        color: #000000; }
-      #navbar .container_own .navbar-nav Ul li a:hover {
-        color: #3F79FF;
-        transition: all .3s linear; }
-    #navbar .container_own .navbar-nav .navFirstElement .downIcon {
-      width: 8px;
-      height: 8px;
-      margin-top: 6px;
-      margin-left: 5px;
-      background-image: url(../img/fas-fa-down-icon.svg);
-      background-size: cover;
-      background-repeat: no-repeat; }
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.75);
+    padding-left: 160px;
+    margin-top: 25px;
+    padding-bottom: 25px; }
 
-#career .backgroundPhoto {
+@media screen and (min-width: 375px) {
+  footer .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+    footer .container_own .contact .adress {
+      width: 100% !important; }
+      footer .container_own .contact .adress .googleMap iframe {
+        width: 260px !important; }
+    footer .container_own .contact .message {
+      width: 100% !important; }
+      footer .container_own .contact .message .sendButton {
+        text-align: center !important; }
+  footer .copyRight {
+    padding-left: 100px !important; } }
+@media screen and (min-width: 570px) {
+  footer .container_own {
+    padding-left: 100px !important;
+    padding-right: 100px !important; }
+    footer .container_own .contact .adress {
+      width: 100% !important; }
+      footer .container_own .contact .adress .googleMap iframe {
+        width: 500px !important; }
+    footer .container_own .contact .message {
+      width: 100% !important; } }
+@media screen and (min-width: 768px) {
+  footer .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; }
+    footer .container_own .contact .adress {
+      width: 48% !important; }
+      footer .container_own .contact .adress .googleMap iframe {
+        width: 323px !important; }
+    footer .container_own .contact .message {
+      width: 60% !important; }
+  footer .copyRight {
+    padding-left: 160px !important; } }
+@media screen and (min-width: 991px) {
+  footer .container_own .contact .adress .googleMap iframe {
+    width: 323px !important; }
+  footer .container_own .contact .message {
+    width: 48% !important; }
+    footer .container_own .contact .message .sendButton {
+      text-align: right !important; } }
+@media screen and (min-width: 1200px) {
+  footer .container_own .contact .adress .googleMap iframe {
+    width: 425px !important; } }
+@media screen and (min-width: 1350px) {
+  footer .container_own .contact .adress .googleMap iframe {
+    width: 495px !important; } }
+@media screen and (min-width: 1500px) {
+  footer .container_own .contact .adress .googleMap iframe {
+    width: 575px !important; } }
+@media screen and (min-width: 1700px) {
+  footer .container_own .contact .adress .googleMap iframe {
+    width: 660px !important; } }
+@media screen and (min-width: 1828px) {
+  footer .container_own .contact .adress .googleMap iframe {
+    width: 750px !important; } }
+.topCoverPhoto .backgroundPhoto {
   width: 100%;
   height: 267px;
-  background-image: url(../img/career-topsection-bg.svg);
+  background-image: url(../img/services-topsection-bg.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
-  #career .backgroundPhoto .container_own h1 {
+  .topCoverPhoto .backgroundPhoto .container_own h1 {
     margin-top: 60px;
     margin-bottom: 20px;
     font-family: 'Mulish-SemiBold';
@@ -842,18 +1140,26 @@ body {
     font-style: normal;
     font-size: 40px;
     line-height: 24px; }
-  #career .backgroundPhoto .container_own p {
+  .topCoverPhoto .backgroundPhoto .container_own p {
     font-family: 'Mulish-Medium';
     font-weight: 650;
     font-style: normal;
     font-size: 14px;
     line-height: 24px;
     color: #3F79FF; }
-    #career .backgroundPhoto .container_own p .services {
+    .topCoverPhoto .backgroundPhoto .container_own p .services {
       color: #000000; }
-    #career .backgroundPhoto .container_own p i {
+    .topCoverPhoto .backgroundPhoto .container_own p i {
       color: #000000; }
 
+@media screen and (min-width: 350px) {
+  #services .backgroundPhoto .container_own {
+    padding-left: 60px !important;
+    padding-right: 60px !important; } }
+@media screen and (min-width: 570px) {
+  #services .backgroundPhoto .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; } }
 .underCoverP .container_own {
   padding-top: 50px;
   padding-bottom: 80px; }
@@ -872,6 +1178,12 @@ body {
     line-height: 24px;
     color: #000000; }
 
+@media screen and (min-width: 350px) {
+  .underCoverP .container_own {
+    padding: 30px 60px 40px 60px !important; } }
+@media screen and (min-width: 570px) {
+  .underCoverP .container_own {
+    padding: 10px 165px !important; } }
 .commonBackground {
   width: 100%;
   height: 150px;
@@ -890,41 +1202,69 @@ body {
     letter-spacing: 0.2px;
     color: #FFFFFF; }
 
-.commonServices .container_own .comDevSer {
-  width: calc(100%/2.5);
-  margin-bottom: 60px; }
-  .commonServices .container_own .comDevSer .icon {
-    width: 50px;
-    height: 50px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 24px;
-    margin-left: auto;
-    margin-right: auto; }
-  .commonServices .container_own .comDevSer h4 {
-    font-family: 'Mulish-SemiBold';
-    font-weight: 800;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 30px;
-    color: #000000; }
-  .commonServices .container_own .comDevSer p {
-    font-family: 'Mulish-Regular';
-    font-weight: 750;
-    font-size: 16px;
-    line-height: 20px;
-    color: rgba(0, 0, 0, 0.6); }
-  .commonServices .container_own .comDevSer .softwareIcon {
-    width: 47.72px !important;
-    background-image: url(../img/setingIcon.svg); }
-  .commonServices .container_own .comDevSer .microServeIcon {
-    background-image: url(../img/microServeIcon.svg); }
-  .commonServices .container_own .comDevSer .codeReviewIcon {
-    background-image: url(../img/codeReviewIcon.svg); }
-  .commonServices .container_own .comDevSer .migrationIcon {
-    background-image: url(../img/migrationIcon.svg); }
+.comDevSer .icon {
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto; }
 
+.developmentServices {
+  margin-bottom: 0; }
+  .developmentServices .container_own .comDevSer {
+    width: calc(100%/2.5);
+    margin-bottom: 60px; }
+    .developmentServices .container_own .comDevSer h4 {
+      font-family: 'Mulish-SemiBold';
+      font-weight: 800;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 30px;
+      color: #000000; }
+    .developmentServices .container_own .comDevSer p {
+      font-family: 'Mulish-Regular';
+      font-weight: 750;
+      font-size: 16px;
+      line-height: 20px;
+      color: rgba(0, 0, 0, 0.6); }
+    .developmentServices .container_own .comDevSer .softwareIcon {
+      width: 47.72px !important;
+      background-image: url(../img/setingIcon.svg); }
+    .developmentServices .container_own .comDevSer .microServeIcon {
+      background-image: url(../img/microServeIcon.svg); }
+    .developmentServices .container_own .comDevSer .codeReviewIcon {
+      width: 42.87px;
+      background-image: url(../img/codeReviewIcon.svg); }
+    .developmentServices .container_own .comDevSer .migrationIcon {
+      background-image: url(../img/migrationIcon.svg); }
+
+@media screen and (min-width: 350px) {
+  .developmentServices .container_own {
+    padding: 30px 60px 0 60px !important; }
+    .developmentServices .container_own .comDevSer {
+      width: 100% !important;
+      margin-bottom: 30px !important; }
+
+  .commonBackground {
+    margin-bottom: 30px !important; }
+    .commonBackground h1 {
+      font-size: 35px !important; } }
+@media screen and (min-width: 570px) {
+  .developmentServices .container_own .comDevSer {
+    width: calc(100%/2.5) !important;
+    margin-bottom: 60px !important; }
+
+  .commonBackground h1 {
+    font-size: 45px !important; } }
+@media screen and (min-width: 768px) {
+  .developmentServices .container_own {
+    padding: 10px 165px !important; }
+
+  .commonBackground {
+    margin-bottom: 65px !important; } }
 .consultingBg {
   margin-top: 50px;
   background-image: url(../img/consultingBg.svg); }
@@ -940,6 +1280,41 @@ body {
   .consultingServices .container_own .comDevSer .devOpsIcon {
     background-image: url(../img/devOpsIcon.svg); }
 
+@media screen and (min-width: 350px) {
+  .commonBackground {
+    margin-top: 0 !important; }
+
+  .consultingServices .container_own {
+    padding-left: 60px !important;
+    padding-right: 60px !important; }
+    .consultingServices .container_own .comDevSer {
+      width: 100% !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      margin-bottom: 20px !important; } }
+@media screen and (min-width: 768px) {
+  .commonBackground {
+    margin-top: 50px !important; }
+
+  .consultingServices .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; }
+    .consultingServices .container_own .comDevSer {
+      width: calc(100%/2.1) !important;
+      padding-left: 20px !important;
+      padding-right: 20px !important; } }
+@media screen and (min-width: 991px) {
+  .commonBackground {
+    margin-top: 50px !important; }
+
+  .consultingServices .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; }
+    .consultingServices .container_own .comDevSer {
+      width: calc(100%/3.01) !important;
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+      margin-bottom: 0 !important; } }
 .infrastructureBg {
   margin-top: 50px;
   background-image: url(../img/infrastructure-background.svg); }
@@ -947,7 +1322,8 @@ body {
 .infrastructureServices .container_own .comDevSer {
   width: calc(100%/2.5);
   padding-left: 30px;
-  padding-right: 30px; }
+  padding-right: 30px;
+  margin-bottom: 20px; }
   .infrastructureServices .container_own .comDevSer .linuxIcon {
     background-image: url(../img/linux-icon.svg); }
   .infrastructureServices .container_own .comDevSer .networkIcon {
@@ -957,6 +1333,22 @@ body {
   .infrastructureServices .container_own .comDevSer .cloudIcon {
     background-image: url(../img/cloud-icon.svg); }
 
+@media screen and (min-width: 350px) {
+  .infrastructureServices .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+    .infrastructureServices .container_own .comDevSer {
+      width: 100% !important; } }
+@media screen and (min-width: 768px) {
+  .infrastructureServices .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; }
+    .infrastructureServices .container_own .comDevSer {
+      width: calc(100%/2.5) !important; } }
+@media screen and (min-width: 991px) {
+  .infrastructureServices .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; } }
 .trainingBg {
   margin-top: 50px;
   background-image: url(../img/training-services-background.svg); }
@@ -971,23 +1363,25 @@ body {
     width: 124px !important;
     height: 105px !important;
     background-image: url(../img/squared-logo.svg); }
-  .trainingServices .container_own .comDevSer button {
-    width: 198x;
+  .trainingServices .container_own .comDevSer a {
+    width: 198px;
     border-radius: 7px;
     border: 1px solid #3F79FF;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px; }
-    .trainingServices .container_own .comDevSer button .rightArrow {
+    margin-top: 30px;
+    transition: all .3s linear; }
+    .trainingServices .container_own .comDevSer a .rightArrow {
       width: 20px;
       height: 21px;
+      border-radius: 50%;
       background-image: url(../img/fas-fa-right-icon.svg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
       margin-right: 10px;
       margin-top: 12px; }
-    .trainingServices .container_own .comDevSer button p {
+    .trainingServices .container_own .comDevSer a p {
       font-family: 'Mulish-SemiBold';
       font-weight: 800;
       font-style: normal;
@@ -995,120 +1389,298 @@ body {
       line-height: 26px;
       color: #000000;
       padding-top: 9px; }
+  .trainingServices .container_own .comDevSer a:hover {
+    background-color: #3F79FF;
+    transition: all .3s linear;
+    border: 1px solid #FFFFFF; }
+    .trainingServices .container_own .comDevSer a:hover p {
+      color: white; }
+    .trainingServices .container_own .comDevSer a:hover .rightArrow {
+      background-image: url(../img/right-arrow-white.svg);
+      margin-top: 13px; }
 
+@media screen and (min-width: 350px) {
+  .trainingServices .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; }
+    .trainingServices .container_own .comDevSer {
+      width: 100% !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      margin-bottom: 30px !important; } }
+@media screen and (min-width: 768px) {
+  .trainingServices .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; }
+    .trainingServices .container_own .comDevSer {
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+      margin-bottom: 0 !important; } }
+@media screen and (min-width: 991px) {
+  .trainingServices .container_own .comDevSer {
+    width: calc(100%/1.2) !important; } }
+@media screen and (min-width: 1200px) {
+  .trainingServices .container_own .comDevSer {
+    width: calc(100%/1.5) !important; } }
+@media screen and (min-width: 1350px) {
+  .trainingServices .container_own .comDevSer {
+    width: calc(100%/2.5) !important; } }
 .cyberBg {
   margin-top: 50px;
   margin-bottom: 150px;
   background-image: url(../img/cyber-security-background-photo.svg); }
 
-footer {
-  background-color: #F4F6F8; }
-  footer .container_own {
-    padding-top: 50px;
-    padding-bottom: 50px; }
-    footer .container_own .logo {
-      width: 198px;
-      height: 45px;
-      background-image: url(../img/Logo.svg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin-bottom: 40px; }
-    footer .container_own .subMenu .commonCol {
-      margin-bottom: 55px; }
-      footer .container_own .subMenu .commonCol h5 {
+#career.topCoverPhoto .backgroundPhoto {
+  background-image: url(../img/careers-cover-photo.svg); }
+
+@media screen and (min-width: 350px) {
+  #career .backgroundPhoto .container_own {
+    padding-left: 70px !important;
+    padding-right: 70px !important; } }
+@media screen and (min-width: 570px) {
+  #career .backgroundPhoto .container_own {
+    padding-left: 110px !important;
+    padding-right: 110px !important; } }
+@media screen and (min-width: 922px) {
+  #career.topCoverPhoto .backgroundPhoto .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; } }
+#hiring .hiringWrapper {
+  padding-top: 50px;
+  padding-bottom: 80px; }
+  #hiring .hiringWrapper .title {
+    font-family: "Mulish-Bold";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 27px;
+    color: #333333; }
+  #hiring .hiringWrapper .container_own {
+    padding-top: 50px; }
+    #hiring .hiringWrapper .container_own .vacancyPart {
+      margin-bottom: 70px; }
+    #hiring .hiringWrapper .container_own .form-outer {
+      width: 332px; }
+      #hiring .hiringWrapper .container_own .form-outer .form {
+        position: relative; }
+        #hiring .hiringWrapper .container_own .form-outer .form .placeHolder p {
+          font-family: 'Mulish-Regular';
+          font-weight: 750;
+          font-style: normal;
+          font-size: 14px;
+          line-height: 26px; }
+        #hiring .hiringWrapper .container_own .form-outer .form input {
+          border: none;
+          background-color: #F4F6F8;
+          border-radius: 7px;
+          width: 100%;
+          padding: 10px; }
+        #hiring .hiringWrapper .container_own .form-outer .form .placeHolder {
+          position: absolute;
+          top: 8px; }
+          #hiring .hiringWrapper .container_own .form-outer .form .placeHolder i {
+            margin: 5px 10px;
+            font-size: 22px;
+            color: #3F79FF; }
+    #hiring .hiringWrapper .container_own .nameOfVac .vacancyDetails {
+      width: calc(100%/3.2);
+      background-color: #FAFAFA;
+      border-radius: 7px;
+      margin-bottom: 29px; }
+      #hiring .hiringWrapper .container_own .nameOfVac .vacancyDetails .newVacancy {
+        width: 78px;
+        margin-left: auto;
+        background-color: #3F79FF;
+        border-radius: 0px 7px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         font-family: 'Mulish-Bold';
         font-weight: 200;
         font-style: normal;
-        font-size: 15px;
-        line-height: 18px;
-        color: #000000;
-        letter-spacing: 0.2px; }
-      footer .container_own .subMenu .commonCol p {
-        font-family: 'Mulish-Regular';
-        font-weight: 750;
+        font-size: 16px;
+        line-height: 27px;
+        color: #FFFFFF; }
+      #hiring .hiringWrapper .container_own .nameOfVac .vacancyDetails .respVacancy {
+        padding: 10px 24px 20px 24px;
+        margin-top: 30px; }
+        #hiring .hiringWrapper .container_own .nameOfVac .vacancyDetails .respVacancy .name {
+          font-family: 'Mulish-Bold';
+          font-weight: 200;
+          font-style: normal;
+          font-size: 24px;
+          line-height: 27px;
+          color: #333333;
+          margin-bottom: 24px; }
+        #hiring .hiringWrapper .container_own .nameOfVac .vacancyDetails .respVacancy .responsibilities {
+          font-family: 'Mulish-Regular';
+          font-weight: 750;
+          font-style: normal;
+          font-size: 16px;
+          line-height: 20px;
+          color: rgba(0, 0, 0, 0.5); }
+    #hiring .hiringWrapper .container_own .nameOfVac .firstVac .respVacancy {
+      margin-top: 0;
+      padding-top: 3px; }
+    #hiring .hiringWrapper .container_own .nameOfVac .sixthVac .respVacancy {
+      margin-top: 0;
+      padding-top: 3px; }
+    #hiring .hiringWrapper .container_own .showMore {
+      width: 154px;
+      border: 1px solid #3F79FF;
+      border-radius: 5px;
+      padding: 15px;
+      transition: all .3s linear; }
+      #hiring .hiringWrapper .container_own .showMore .downIcon {
+        width: 20px;
+        height: 20px;
+        background-image: url(../img/down-arrow-icon.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-right: 14px;
+        margin-top: 2px; }
+      #hiring .hiringWrapper .container_own .showMore p {
+        margin-bottom: 0;
+        font-family: 'Mulish-SemiBold';
+        font-weight: 800;
         font-style: normal;
-        font-size: 14px;
-        line-height: 18px;
-        color: #000000;
-        letter-spacing: 0.2px; }
-    footer .container_own .contact .adress {
-      width: 48%; }
-      footer .container_own .contact .adress .googleMap iframe {
-        width: 750px;
-        height: 150px; }
-    footer .container_own .contact p {
-      font-family: 'Mulish-Regular';
-      font-weight: 750;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000000; }
+    #hiring .hiringWrapper .container_own .showMore:hover {
+      background-color: #3F79FF;
+      transition: all .3s linear; }
+      #hiring .hiringWrapper .container_own .showMore:hover p {
+        color: #ffffff; }
+
+@media screen and (min-width: 350px) {
+  #hiring .hiringWrapper .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+    #hiring .hiringWrapper .container_own .vacancyPart {
+      display: block !important; }
+      #hiring .hiringWrapper .container_own .vacancyPart .form-outer {
+        width: 240px !important; }
+    #hiring .hiringWrapper .container_own .nameOfVac .vacancyDetails {
+      width: 100% !important; } }
+@media screen and (min-width: 500px) {
+  #hiring .hiringWrapper .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; }
+    #hiring .hiringWrapper .container_own .vacancyPart {
+      display: flex !important; } }
+@media screen and (min-width: 768px) {
+  #hiring .hiringWrapper .container_own {
+    padding-left: 120px !important;
+    padding-right: 120px !important; }
+    #hiring .hiringWrapper .container_own .nameOfVac .vacancyDetails {
+      width: calc(100%/2.1) !important; } }
+@media screen and (min-width: 991px) {
+  #hiring .hiringWrapper .container_own .nameOfVac .vacancyDetails {
+    width: calc(100%/3.2) !important; } }
+@media screen and (min-width: 1200px) {
+  #hiring .hiringWrapper .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; }
+    #hiring .hiringWrapper .container_own .vacancyPart .form-outer {
+      width: 275px !important; } }
+@media screen and (min-width: 1300px) {
+  #hiring .hiringWrapper .container_own .vacancyPart .form-outer {
+    width: 300px !important; } }
+@media screen and (min-width: 1400px) {
+  #hiring .hiringWrapper .container_own .vacancyPart .form-outer {
+    width: 332px !important; } }
+#aboutUs.topCoverPhoto .backgroundPhoto {
+  background-image: url(../img/about-cover-photo.svg); }
+
+@media screen and (min-width: 370px) {
+  #aboutUs.topCoverPhoto .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; } }
+@media screen and (min-width: 570px) {
+  #aboutUs.topCoverPhoto .container_own {
+    padding-left: 120px !important;
+    padding-right: 120px !important; } }
+@media screen and (min-width: 768px) {
+  #aboutUs.topCoverPhoto .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; } }
+.ingressGroup {
+  margin-top: 40px;
+  margin-bottom: 50px; }
+  .ingressGroup .container_own .title {
+    font-family: 'Mulish-Bold';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 64px;
+    color: #000000;
+    margin-bottom: 20px; }
+  .ingressGroup .container_own p {
+    font-family: 'Mulish-Medium';
+    font-weight: 650;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000; }
+
+@media screen and (min-width: 370px) {
+  .ingressGroup .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; } }
+@media screen and (min-width: 768px) {
+  .ingressGroup .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; } }
+.address .googleMap {
+  width: 100%;
+  height: 510px;
+  margin-bottom: 50px; }
+  .address .googleMap iframe {
+    width: 100%;
+    height: 100%; }
+.address .info .container_own {
+  padding-top: 0; }
+  .address .info .container_own i {
+    color: #2770F1;
+    font-size: 20px; }
+  .address .info .container_own .locationAddress {
+    margin-bottom: 50px; }
+    .address .info .container_own .locationAddress p {
+      font-family: 'Mulish-Medium';
+      font-weight: 650;
       font-style: normal;
       font-size: 16px;
       line-height: 20px;
-      color: rgba(0, 0, 0, 0.75);
-      padding-top: 13px; }
-    footer .container_own .contact i {
-      color: #2770F1; }
-    footer .container_own .contact .message {
-      width: 48%; }
-      footer .container_own .contact .message .inputs input {
-        width: 48%;
-        padding: 10px;
-        background-color: #FFFFFF;
-        color: rgba(0, 0, 0, 0.3);
-        border-radius: 7px;
-        border: none; }
-      footer .container_own .contact .message #messageBox {
-        width: 100%;
-        border: none;
-        padding: 10px;
-        margin-bottom: 22px; }
-      footer .container_own .contact .message .sendButton {
-        text-align: right; }
-        footer .container_own .contact .message .sendButton button {
-          width: 135px;
-          font-family: 'Mulish-SemiBold';
-          font-weight: 800;
-          font-size: 16px;
-          line-height: 27px;
-          font-style: normal;
-          color: #FFFFFF;
-          background-color: #3F79FF;
-          border-radius: 7px; }
-  footer .copyRight {
-    font-family: 'Mulish-Regular';
-    font-weight: 750;
+      color: #000000;
+      margin-bottom: 0; }
+  .address .info .container_own .emailAddress {
+    margin-bottom: 50px; }
+  .address .info .container_own .phoneNumber {
+    margin-bottom: 50px; }
+  .address .info .container_own a {
+    font-family: 'Mulish-Medium';
+    font-weight: 650;
     font-style: normal;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 20px;
-    color: rgba(0, 0, 0, 0.75);
-    padding-left: 160px;
-    margin-top: 25px;
-    padding-bottom: 25px; }
+    color: #000000; }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-body {
-  background-color: #E5E5E5; }
-
-.container_own {
-  width: 100%;
-  padding-left: 165px;
-  padding-right: 165px;
-  padding-top: 15px; }
-
-.container_team {
-  width: 100%;
-  padding-left: 180px;
-  padding-right: 180px; }
-
-.container_benefits {
-  width: 100%;
-  padding-left: 197px;
-  padding-right: 197px; }
-
-.active {
-  color: #3F79FF !important; }
+@media screen and (min-width: 350px) {
+  .address .info .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    justify-content: space-between !important; } }
+@media screen and (min-width: 570px) {
+  .address .info .container_own {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    justify-content: space-around !important; } }
+@media screen and (min-width: 768px) {
+  .address .info .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; } }
+#contactUs.topCoverPhoto .backgroundPhoto {
+  background-image: url(../img/contact-cover-photo.svg); }
 
 /*# sourceMappingURL=style.css.map */

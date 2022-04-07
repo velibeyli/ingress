@@ -4,143 +4,282 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>MOLD</title>
-    <!-- <link rel="shortcut icon" href="assets/img/favicon.svg" /> -->
+    <title>Ingress GROUP</title>
+    <link rel="shortcut icon" href="assets/img/favicon.svg" />
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css" />
     <link rel="stylesheet" href="assets/fontAwesome/css/all.min.css" />
-    <script src="https://kit.fontawesome.com/90c94e1de5.js" crossorigin="anonymous"></script>
     <!-- FRONTEND CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- Navbar Section -->
     <nav id="navbar">
-        <div class="container_own">
-            <div class="d-flex justify-content-between flex-wrap">
-                <div class="ingressLogo">
-                    <div class="logo"></div>
-                </div>
-                <div class="navbar-nav">
-                    <ul class="d-flex flex-wrap">
-                        <li class="d-flex navFirstElement">
-                            <p id="service"><a href="services.html">Services</a></p>
-                            <div class="downIcon"></div>
-                        </li>
-                        <li><a href="careers.html">Careers</a></li>
-                        <li><a href="aboutUs.html">About us</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+        <div class="container_own">     
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown me-3">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Services
+                              <i class="fa-solid fa-arrow-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="d-flex justify-content-between flex-wrap">
+                                    <li class="subMenu"><a class="dropdown-item" href="#">Development</a>
+                                        <ul class="subDevelopment">
+                                            <li><a href="#">Software Development from scratch</a></li>
+                                            <li><a href="#">Microservice Development</a></li>
+                                            <li><a href="#">Migration from monolit to Microservice</a></li>
+                                            <li><a href="#">Code Review and analyse</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="subMenu"><a class="dropdown-item" href="#">Consulting</a>
+                                        <ul class="subConsulting">
+                                            <li><a href="#">IT strategy</a></li>
+                                            <li><a href="#">Migration to Microservice consulting</a></li>
+                                            <li><a href="#">DevOps consulting</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="subMenu"><a class="dropdown-item" href="#">Infrastructure</a>
+                                        <ul class="subInfrastructure">
+                                            <li><a href="#">Linux systems support</a></li>
+                                            <li><a href="#">Network support</a></li>
+                                            <li><a href="#">Process Automation</a></li>
+                                            <li><a href="#">On premise cloud</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="subMenu"><a class="dropdown-item" href="#">Training Services</a>
+                                        <ul class="subTraining">
+                                            <li><a href="#">Ingress Academy</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="subMenu ms-auto me-auto"><a class="dropdown-item" href="#">Cybersecurity</a></li>
+                                </div>
+                            </ul>
+                          </li>
+                      <li class="nav-item me-3">
+                        <a class="nav-link" aria-current="page" href="./Careers/index.html">Careers</a>
+                      </li>
+                      <li class="nav-item me-3">
+                        <a class="nav-link" href="./About us/index.html">About us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./Contact us/index.html">Contact us</a>
+                      </li>
                     </ul>
+                    <a href="#" class="d-flex ingressAcademy">
+                        <div class="rightArrowIcon"></div>
+                        Ingress academy
+                    </a>
+                  </div>
                 </div>
-                <div class="ingressAcademy d-flex">
-                    <div class="nextIcon"></div>
-                    <P class="ingress">Ingress Academy</P>
-                </div>
-            </div>            
+              </nav>     
         </div>
     </nav>
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
 
-    <!-- Main Section -->
+    <!-- Top Section Section -->
     <section id="topSection">
-                <div class="topSection owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="container_own">
-                            <h1 class="headerOverBg">Lorem ipsum dolor sit amet, consectetur adipiscing sed do eiusmod tempor</h1>
-                            <button class="service btn">Service</button>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="item">
-                            <div class="container_own">
-                                <h1 class="headerOverBg">Lorem ipsum dolor sit amet, consectetur adipiscing sed do eiusmod tempor</h1>
-                                <button class="service btn">Service</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="item">
-                            <div class="container_own">
-                                <h1 class="headerOverBg">Lorem ipsum dolor sit amet, consectetur adipiscing sed do eiusmod tempor</h1>
-                                <button class="service btn">Service</button>
-                            </div>
-                        </div>
+        <div class="topSection owl-carousel owl-theme">
+            <div class="item">
+                <div class="container_own">
+                    <h1 class="headerOverBg">Lorem ipsum dolor sit amet, consectetur adipiscing sed do eiusmod tempor
+                    </h1>
+                    <button class="service btn">Service</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item">
+                    <div class="container_own">
+                        <h1 class="headerOverBg">Lorem ipsum dolor sit amet, consectetur adipiscing sed do eiusmod
+                            tempor</h1>
+                        <button class="service btn">Service</button>
                     </div>
                 </div>
-    </section>
-    <div id="partnership">
-        <div class="containerP">
-            <div class="ourPartner d-flex justify-content-between flex-wrap">
-                <div class="generalP me-2" id="socar"></div>
-                <div class="generalP me-2" id="azercell"></div>
-                <div class="generalP me-2" id="xalqbank"></div>
-                <div class="generalP me-2" id="azericard"></div>
-                <div class="generalP me-2" id="kapitalbank"></div>
-                <div class="generalP me-2" id="rabitebank"></div>
-                <div class="generalP me-2" id="pashabank"></div>
-                <div class="generalP me-2" id="bankOfAmerica"></div>
+            </div>
+            <div class="item">
+                <div class="item">
+                    <div class="container_own">
+                        <h1 class="headerOverBg">Lorem ipsum dolor sit amet, consectetur adipiscing sed do eiusmod
+                            tempor</h1>
+                        <button class="service btn">Service</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- Partnership Section -->
+    <section id="partnership">
+        <div class="containerP">
+            <div class="ourPartner d-flex justify-content-between flex-wrap">
+                <a class="generalP me-2" id="socar" href="#"></a>
+                <a class="generalP me-2" id="azercell" href="#"></a>
+                <a class="generalP me-2" id="xalqbank" href="#"></a>
+                <a class="generalP me-2" id="azericard" href="#"></a>
+                <a class="generalP me-2" id="kapitalbank" href="#"></a>
+                <a class="generalP me-2" id="rabitebank" href="#"></a>
+                <a class="generalP me-2" id="pashabank" href="#"></a>
+                <a class="generalP me-2" id="bankOfAmerica" href="#"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- What We Do Section -->
     <section id="whatWeDo">
         <div class="bgColor text-center">
             <h5>See what we can do</h5>
         </div>
         <div class="video">
-            <iframe width="836px" height="454px" src="http://myvideo.az/files/trailer_video/DY4K1RLFGQ2AL66FP1585200V8S69V9D.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/tUP5S4YdEJo" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
         </div>
     </section>
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- Our Technology Section -->
     <section id="ourTechnology">
         <div class="container_own">
             <h2 class="header text-center">Our Technology Stack </h2>
-            <div class="stacks d-flex justify-content-between flex-wrap">
-                    <div class="commonIcon" id="bootstrap"></div>
-                    <div class="commonIcon" id="python"></div>
-                    <div class="commonIcon" id="github"></div>
-                    <div class="commonIcon" id="gitlab"></div>
-                    <div class="commonIcon" id="firebase"></div>
-                    <div class="commonIcon" id="golang"></div>
-                    <div class="commonIcon" id="swift"></div>
-                    <div class="commonIcon" id="php"></div>
-                    <div class="commonIcon" id="php"></div>
-                    <div class="commonIcon" id="gitlab"></div>
-                    <div class="commonIcon" id="bootstrap"></div>
-                    <div class="commonIcon" id="firebase"></div>
-                    <div class="commonIcon" id="swift"></div>
-                    <div class="commonIcon" id="golang"></div>
-                    <div class="commonIcon" id="python"></div>
-                    <div class="commonIcon" id="github"></div>
-                    <div class="commonIcon" id="swift"></div>
-                    <div class="commonIcon" id="golang"></div>
-                    <div class="commonIcon" id="github"></div>
-                    <div class="commonIcon" id="gitlab"></div>
-                    <div class="commonIcon" id="firebase"></div>
-                    <div class="commonIcon" id="python"></div>
-                    <div class="commonIcon" id="php"></div>
-                    <div class="commonIcon" id="bootstrap"></div>
-            </div>      
+            <div class="stacks">
+                <div class="row justify-content-around">
+                    <div id="bootstrap" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">Bootstrap</div>
+                    </div>
+                    <div id="python" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">Python</div>
+                    </div>
+                    <div id="github" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">Github</div>
+                    </div>
+                    <div id="gitlab" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">Gitlab</div>
+                    </div>
+                    <div id="firebase" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">FireBase</div>
+                    </div>
+                    <div id="golang" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">GoLang</div>
+                    </div>
+                    <div id="swift" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">Swift</div>
+                    </div>
+                    <div id="php" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">Php</div>
+                    </div>
+                    <div id="php" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">Php</div>
+                    </div>
+                    <div id="gitlab" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">Gitlab</div>
+                    </div>
+                    <div id="bootstrap" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">Bootstrap</div>
+                    </div>
+                    <div id="firebase" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">FireBase</div>
+                    </div>
+                    <div id="swift" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">Swift</div>
+                    </div>
+                    <div id="golang" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">GoLang</div>
+                    </div>
+                    <div id="python" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">Python</div>
+                    </div>
+                    <div id="github" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">Github</div>
+                    </div>
+                    <div id="swift" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">Swift</div>
+                    </div>
+                    <div id="golang" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">GoLang</div>
+                    </div>
+                    <div id="github" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">Github</div>
+                    </div>
+                    <div id="gitlab" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">Gitlab</div>
+                    </div>
+                    <div id="firebase" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">FireBase</div>
+                    </div>
+                    <div id="python" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">Python</div>
+                    </div>
+                    <div id="php" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">Php</div>
+                    </div>
+                    <div id="bootstrap" class="col-xl-1 col-md-2 col-sm-3">
+                        <div class="icon"></div>
+                        <div class="iconName">Bootstrap</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <div class="linkToSite">
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- Link To Site Section -->
+    <section id="linkToSite">
         <div class="container_own d-flex justify-content-between align-items-center flex-wrap">
             <div class="rightColumn">
                 <div class="logo"></div>
                 <p>Peşəkar təhsil alın və 10 aydan az müddətdə texnologiya sahəsində karyeraya başlayın!</p>
             </div>
-            <button type="button" class="goToSite btn btn-hover d-flex justify-content-between align-items-center">
+            <a type="button" href="#" class="goToSite btn btn-hover d-flex justify-content-between align-items-center">
                 <div class="rightArrow"></div>
                 <p>Sayta keçid</p>
-            </button>
+            </a>
         </div>
-    </div>
+    </section>
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- Our Services Section -->
     <section id="ourServices">
-        <h2 class="text-center">Our Services</h2>
-        <div class="container_own d-flex justify-content-between flex-wrap">
-            <div class="services ms-auto me-auto development align-items-center text-center">
+        <h2 class="text-center title">Our Services</h2>
+        <div class="container_own d-flex justify-content-center flex-wrap">
+            <a href="#" class="services development align-items-center text-center">
                 <p class="developHover genhoverParag ps-2 d-none text-center">
                     Software Development from scratch <br>
                     Microservice Development <br>
@@ -148,13 +287,14 @@
                     Code Review and analyse</p>
                 <div class="icon me-auto ms-auto"></div>
                 <p id="developmentP">Development</p>
-            </div>
-            <div class="services ms-auto me-auto consulting align-items-center text-center">
-                <p class="consultingHover genhoverParag pe-5 ps-5 d-none text-center">IT strategy <br> Migration to Microservice consulting <br> DevOps consulting</p>
+            </a>
+            <a href="#" class="services consulting align-items-center text-center">
+                <p class="consultingHover genhoverParag pe-5 ps-5 d-none text-center">IT strategy <br> Migration to
+                    Microservice consulting <br> DevOps consulting</p>
                 <div class="icon me-auto ms-auto"></div>
                 <p id="consultingP">Consulting</p>
-            </div>
-            <div class="services ms-auto me-auto infrstructure align-items-center text-center">
+            </a>
+            <a href="#" class="services infrstructure align-items-center text-center">
                 <p class="infrastrutureHover genhoverParag pe-5 ps-5 d-none text-center">
                     Linux systems support <br>
                     Network support <br>
@@ -162,34 +302,37 @@
                     On premise cloud</p>
                 <div class="icon me-auto ms-auto"></div>
                 <p id="infrastructureP">Infrastructure</p>
-            </div>
-            <div class="services ms-auto me-auto trainingService align-items-center text-center">
+            </a>
+            <a href="#" class="services trainingService align-items-center text-center">
                 <p class="trainingHover pt-5 genhoverParag pe-5 ps-5 d-none text-center">Ingress Academy</p>
                 <div class="icon me-auto ms-auto"></div>
                 <p id="trainingP">Training Services</p>
-            </div>
-            <div class="services ms-auto me-auto cyberSecure align-items-center text-center">
+            </a>
+            <a href="#" class="services cyberSecure align-items-center text-center">
                 <p class="cyberHover pt-5 genhoverParag pe-5 ps-5 d-none text-center">Cybersecurity</p>
                 <div class="icon me-auto ms-auto"></div>
                 <p class="cyberP">Cybersecurity</p>
-            </div>
+            </a>
         </div>
     </section>
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- Our Team Section -->
     <section id="ourTeam">
         <h2 class="header text-center">Meet our Team</h2>
         <div class="backgroundColor">
             <div class="container_team text-center">
-                <div class="team_corusel pb-5 owl-carousel owl-theme">
+                <div class="team_carousel pb-5 owl-carousel owl-theme">
                     <div class="item firstMember">
                         <div class="photo"></div>
                         <div class="namePosition">
                             <p class="name">Elisha Raiden</p>
-                            <p class="position">Director</p>                            
+                            <p class="position">Director</p>
                         </div>
                         <div class="socialMedia align-items-center text-center">
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                            <i class="fa-brands fa-facebook-f"></i>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                         </div>
                     </div>
                     <div class="item secondMember">
@@ -199,9 +342,9 @@
                             <p class="position">IT Manager</p>
                         </div>
                         <div class="socialMedia align-items-center text-center">
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                            <i class="fa-brands fa-facebook-f"></i>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                         </div>
                     </div>
                     <div class="item thirdMember">
@@ -211,9 +354,9 @@
                             <p class="position">Developer</p>
                         </div>
                         <div class="socialMedia align-items-center text-center">
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                            <i class="fa-brands fa-facebook-f"></i>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                         </div>
                     </div>
                     <div class="item fourthMember">
@@ -223,9 +366,9 @@
                             <p class="position">Designer</p>
                         </div>
                         <div class="socialMedia align-items-center text-center">
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                            <i class="fa-brands fa-facebook-f"></i>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                         </div>
                     </div>
                     <div class="item fifthMember">
@@ -235,16 +378,19 @@
                             <p class="position">Director</p>
                         </div>
                         <div class="socialMedia align-items-center text-center">
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                            <i class="fa-brands fa-facebook-f"></i>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <div class="statistics">
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- Statistics Section -->
+    <section id="statistics">
         <div class="background">
             <div class="innerBg d-flex justify-content-between flex-wrap">
                 <div class="experience commonStatistic d-flex align-items-center">
@@ -265,7 +411,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- Only Benefits Section -->
     <section id="onlyBenefits">
         <h1 class="header text-center">Only Benefits!</h1>
         <div class="support">
@@ -273,75 +422,86 @@
                 <div class="firstCol commonColumn align-items-center">
                     <div class="logo me-auto ms-auto"></div>
                     <h5 class="serviceH">Services</h5>
-                    <p class="serviceP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <p class="serviceP">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                 </div>
                 <div class="secondCol commonColumn align-items-center">
                     <div class="logo me-auto ms-auto"></div>
                     <h5 class="serviceH">Tech Stack</h5>
-                    <p class="serviceP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <p class="serviceP">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                 </div>
                 <div class="thirdCol commonColumn align-items-center">
                     <div class="logo me-auto ms-auto"></div>
                     <h5 class="serviceH">Best Price Plans</h5>
-                    <p class="serviceP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <p class="serviceP">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                 </div>
                 <div class="fourthCol commonColumn align-items-center">
                     <div class="logo me-auto ms-auto"></div>
                     <h5 class="serviceH">Quality service</h5>
-                    <p class="serviceP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <p class="serviceP">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                 </div>
                 <div class="fifthCol commonColumn align-items-center">
                     <div class="logo me-auto ms-auto"></div>
                     <h5 class="serviceH">24/7 Support</h5>
-                    <p class="serviceP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <p class="serviceP">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                 </div>
                 <div class="sixthCol commonColumn align-items-center">
                     <div class="logo me-auto ms-auto"></div>
                     <h5 class="serviceH">Experienced staff</h5>
-                    <p class="serviceP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <p class="serviceP">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                 </div>
             </div>
         </div>
     </section>
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+    
+    <!-- Footer Section -->
     <footer>
         <div class="container_own">
             <div class="logo"></div>
             <div class="subMenu d-flex justify-content-between flex-wrap">
                 <div id="development" class="commonCol">
                     <h6>Development</h6>
-                    <p>Software Development  from scratch</p>
-                    <p>Microservice Development</p>
-                    <p>Migration from monolit to Microservice</p>
-                    <p>Code Review and analyse</p>
+                    <a href="#">Software Development from scratch</a>
+                    <br>
+                    <a href="#">Microservice Development</a>
+                    <br>
+                    <a href="#">Migration from monolit to Microservice</a>
+                    <br>
+                    <a href="#">Code Review and analyse</a>
                 </div>
                 <div id="consulting" class="commonCol">
                     <h6>Consulting</h6>
-                    <p>IT strategy</p>
-                    <p>Migration to Microservice consulting</p>
-                    <p>DevOps consulting</p>
+                    <a href="#">IT strategy</a>
+                    <br>
+                    <a href="#">Migration to Microservice consulting</a>
+                    <br>
+                    <a href="#">DevOps consulting</a>
                 </div>
                 <div id="infrastrusture" class="commonCol">
                     <h6>Infrastructure</h6>
-                    <p>Linux systems support</p>
-                    <p>Network support</p>
-                    <p>Process Automation</p>
-                    <p>On premise cloud</p>
+                    <a href="#">Linux systems support</a>
+                    <br>
+                    <a href="#">Network support</a>
+                    <br>
+                    <a href="#">Process Automation</a>
+                    <br>
+                    <a href="#">On premise cloud</a>
                 </div>
                 <div id="training" class="commonCol">
                     <h6>Training Services</h6>
-                    <p>Ingress Academy</p>
+                    <a href="#">Ingress Academy</a>
                 </div>
                 <div id="cyber" class="commonCol">
                     <h6>Cybersecurity</h6>
@@ -350,7 +510,10 @@
             <div class="contact d-flex justify-content-between flex-wrap">
                 <div class="adress mb-4">
                     <div class="googleMap">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d761.5915768405416!2d49.576659!3d40.223157!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1ec750de9ceea7b6!2sPost%20Office%20AZ1083!5e0!3m2!1sen!2sus!4v1649072558397!5m2!1sen!2sus"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d761.5915768405416!2d49.576659!3d40.223157!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1ec750de9ceea7b6!2sPost%20Office%20AZ1083!5e0!3m2!1sen!2sus!4v1649072558397!5m2!1sen!2sus"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div class="locationAddress d-flex align-items-center">
                         <i class="fa-solid me-3 fa-location-dot"></i>
@@ -358,11 +521,11 @@
                     </div>
                     <div class="emailAddress d-flex align-items-center">
                         <i class="fa-solid me-3 fa-envelope"></i>
-                        <p>sales@ingress.az</p>
+                        <a href="mailto:sales@ingress.az">sales@ingress.az</a>
                     </div>
                     <div class="phoneNumber d-flex align-items-center">
                         <i class="fa-solid me-3 fa-phone"></i>
-                        <p>+994 (12) 555-01-01</p>
+                        <a href="+994125550101">+994 (12) 555-01-01</a>
                     </div>
                 </div>
                 <div class="message">
@@ -372,7 +535,7 @@
                     </div>
                     <textarea placeholder="Your message" name="messagebox" id="messageBox" cols="" rows="5"></textarea>
                     <div class="sendButton">
-                        <button type="button" class="btn btn-hover">Send</button>
+                        <button type="button" class="btn">Send</button>
                     </div>
                 </div>
             </div>
@@ -380,22 +543,12 @@
         <hr style="height: 3px; width: 100%; border-width:0;color:#2770F1;background-color: #2770F1">
         <p class="copyRight">Copyright © 2022 Ingress Group. All Rights Reserved.</p>
     </footer>
-    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
-
-    <!-- About Section -->
-
-    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
-
-    <!-- Place Section -->
-    
-    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
-
-   
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"></script>
     <script src="assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="https://kit.fontawesome.com/90c94e1de5.js" crossorigin="anonymous"></script>
     <!-- FRONTEND JS -->
     <script src="assets/js/main.js"></script>
     <!-- BACKEND JS -->

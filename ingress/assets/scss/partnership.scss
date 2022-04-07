@@ -1,0 +1,48 @@
+#partnership{
+    background-color: #FFFFFF;
+    .containerP{
+        width: 100%;
+        padding-left: 95px;
+        padding-right: 95px;
+        .ourPartner{
+            padding-top: 80px;
+            padding-bottom: 90px;
+            .generalP{
+                width: 130px;
+                height: 65px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                filter: grayscale(100%);
+                transition: 600ms ease;
+            }
+            .generalP:hover{
+                filter: grayscale(0);
+
+            }
+            #socar{
+                background-image: url(../img/socar.svg);
+            }
+            #azercell{
+                background-image: url(../img/azercell.svg);
+            }
+            #xalqbank{
+                background-image: url(../img/xalqbank.svg);
+            }
+            #azericard{
+                background-image: url(../img/azericard.svg);
+            }
+            #kapitalbank{
+                background-image: url(../img/kapital-bank.svg);
+            }
+            #rabitebank{
+                background-image: url(../img/rabitebank.svg);
+            }
+            #pashabank{
+                background-image: url(../img/pasabank.svg);
+            }
+            #bankOfAmerica{
+                background-image: url(../img/bankofAmerica.svg);
+            }
+        }
+    }
+}

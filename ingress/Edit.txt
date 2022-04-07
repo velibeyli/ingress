@@ -1,0 +1,94 @@
+///////////////////////////////////////////////////////////
+NAVBAR
+1. Navbarda Services-in alt menusu acilmir. Figmada var sol terefde
+2. Navbarda Careers/About us/Contact / Ingress Academy= icon hamisi a tag-inin icinde olmalidi ki, bashqa sehifelere kecid etmek ucun laizm olacaq
+3. Navbarda Logo a taginin icinde olmalidi. Misal ucun=> <a href="./index.html">Logo</a>
+4. Responsivlikde (telefon olchusunde) bootstrapin reponsivliyinden istifade et
+
+navbar hell edildi
+
+///////////////////////////////////////////////////////////
+MAIN SECTION 
+1. Carousel chox suretle firlanir
+2. Button-a hover effekti ver her zaman
+3. Buttonda box shadow-lari her zaman yighisdir
+4. Carouselde active ve deactive olanda ashagda yumrulari var. sende yumru ve boz rengdedi. Amma designda active olanda goy biraz uzun, deactive olanda ise agh rengdedi
+5. Responsivlikde (telefon olchusunde) hamisin alt alta elemisen. Olculerin balacalashdir biraz 2-2 ele mence 
+
+5ci bendden basqa hamisini hell eledim. 5ci bendi tam olaraq basa dusmedim
+
+///////////////////////////////////////////////////////////
+LOGOS SECTION
+1. Designda Logonun uzerine mouse getirib opacity deyishib ve Logo Tund olub. O demekdir ki, hover eliyende opaciti deyishecek. Sense 1ci shekli normal goruntu vermisen o birilerine ise solghun ))
+2. Ozde logolarin uzerine getirende cursor pointer olur designda demeli a taginin icinde olamlidi hamisi
+
+logos hell edildi
+
+///////////////////////////////////////////////////////////
+VIDEO SECTION
+1. Video-a calish her zaman film ve kino yox, sayt ne haqqindadisa ona aid bir video qoy. Technology haqqindadi sayt yeqin ki
+2. Video-a hover etdikde mouse cursor pointer olsun her zaman
+3. Video sayt acilan kimi xoda dushmesin
+4. Reponsivlikde Title-da padding yoxdu yapishib sagha sola. olcusun balacalashdir
+
+3-cu bendden basqa hell edildi
+
+///////////////////////////////////////////////////////////
+Our Technology Stack SECTION
+1. Background boz yox agh rengdedi
+2. Icon ve icon Name var. Sen demeli SHekil kimi ancaq icon-i goturmelisen ashagisina p tagina icon-in adin yazmalisan. Icon-i wrap eden xirda divler ise agh rengde yox biraz boz rengdedi. Sense onun hamisin shekil kimi goturmusen ))
+3. Responsivlikde (telefon olchusunde) chox arailidi bir birinden. yan yana 3-3 ede bilersen telefon ekraninda
+
+hell edildi
+
+///////////////////////////////////////////////////////////
+BLUE SECTION
+1. Sayta kecid button taginde yox, a taginde olmalidi
+2. Hemin button-a xirda hover effekti ver
+
+hell edildi
+
+///////////////////////////////////////////////////////////
+Our Services SECTION
+1.  2ci hissede box-larin aralari choxdu. Sa=tandart olmalidi design-daki kimi
+2. Box-lari hover edende ele bil o deyil. 1ci agh reng gelir sonra sozle birlikde background. transition ver olara
+3. Bunlarda da background agh rengdei boxlar ise boz rengdedi deign-a baxarsan
+4. Design-da uzerine gelende mouse cursor olur gorursen demeli bunlar da a tag-inin icinde olmalidi
+5. Responsivlikde (telefon olchusunde) title-dan ashagi chox margin var
+
+1. hell edildi
+2. transition verdim amma sayt load olan kimi boxlara hover edende evvel ag back gelir sonra hover isleyir,onu duzelde bilmedim, amma bir defe hover edenden sonra daha eyni effekt olmur
+3. bakcgrounda ag,boxlara boz reng vermisem amma mende de yerlerin deyisik gosterir
+4. hell edildi
+5. hell edildi
+
+///////////////////////////////////////////////////////////
+Meet our Team SECTION
+1. Arrow-larin uzerine gelende background gelir amma gelmemelidi
+2. Slider chox reski hereket edir onun suretin azaldarsan
+3. shekillerin altinda iconlar var. onlar da a tag-inin icinde olmalidi. yeqin ki onlarin facebook veta twitter hesablari olacaq ve ora yonelecek
+4. Responsivlikde (telefon olchusunde) arrowlar chox yaxinlashib bir birine
+
+hell edildi
+
+///////////////////////////////////////////////////////////
+BLUE SECTION Reqemler
+1. Responsivlikde (telefon olchusunde) soldan chox padding var sozlerle reqemle sixishib ele bil
+
+///////////////////////////////////////////////////////////
+Footer SECTION
+1. Development/ Consulting/ Infrastructure/ Training Services bunlarin alt category-leri a taginin icinde olmalidi. Harasa aparacaq bunlar yeqin
+2. mail hissesi var nomrenin uzerinde a tagi var   <a href="mailto:sales@ingress.az">sales@ingress.az</a> bele olmalidi tag mail olanda3=
+3. telefon nomresi olanda ise a tag-i <a href="tel:+994145550101">+994 (12) 555-01-01</a> bele olmalidi
+4. Button-a hover effekti ver
+5. Responsivlikde (telefon olchusunde) padding-i azalt
+
+hell edildi
+
+
+///////////////////////////////////////////////////////////
+UMUMI
+1. Script tag-lerin her zaman sonda yaz front terefde
+2. Responsivlikde (telefon olchusunde) sectionlar arasi margin-i azalt her zaman
+3. Responsivlikde (telefon olchusunde) umumi padding-i azlat biraz. Ne chox arali olsun kenardan ne de qisa. responsivlik dedikde Telefon olchusun nezerde tuturam
+4. Responsivliyi yazanda ekrani balacalshdir yavash yavash gor ne qacir ne yox ve chaish developer tools-dan telefonlari sec ele bax reponsivliye

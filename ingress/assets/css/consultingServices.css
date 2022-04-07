@@ -1,0 +1,52 @@
+.consultingBg {
+  margin-top: 50px;
+  background-image: url(../img/consultingBg.svg); }
+
+.consultingServices .container_own .comDevSer {
+  width: calc(100%/3.01);
+  padding-left: 30px;
+  padding-right: 30px; }
+  .consultingServices .container_own .comDevSer .itStrategyIcon {
+    background-image: url(../img/itStrategyIcon.svg); }
+  .consultingServices .container_own .comDevSer .consultingIcon {
+    background-image: url(../img/migration-consulting-icon.svg); }
+  .consultingServices .container_own .comDevSer .devOpsIcon {
+    background-image: url(../img/devOpsIcon.svg); }
+
+@media screen and (min-width: 350px) {
+  .commonBackground {
+    margin-top: 0 !important; }
+
+  .consultingServices .container_own {
+    padding-left: 60px !important;
+    padding-right: 60px !important; }
+    .consultingServices .container_own .comDevSer {
+      width: 100% !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      margin-bottom: 20px !important; } }
+@media screen and (min-width: 768px) {
+  .commonBackground {
+    margin-top: 50px !important; }
+
+  .consultingServices .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; }
+    .consultingServices .container_own .comDevSer {
+      width: calc(100%/2.1) !important;
+      padding-left: 20px !important;
+      padding-right: 20px !important; } }
+@media screen and (min-width: 991px) {
+  .commonBackground {
+    margin-top: 50px !important; }
+
+  .consultingServices .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; }
+    .consultingServices .container_own .comDevSer {
+      width: calc(100%/3.01) !important;
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+      margin-bottom: 0 !important; } }
+
+/*# sourceMappingURL=consultingServices.css.map */

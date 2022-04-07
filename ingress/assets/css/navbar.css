@@ -1,57 +1,110 @@
 #navbar {
-  width: 100%;
-  background-color: white; }
-  #navbar .container_own .ingressLogo .logo {
-    width: 197.78px;
+  background-color: #FFFFFF; }
+  #navbar a {
+    color: #000000; }
+  #navbar .container_own .navbar .navbar-brand {
+    width: 198px;
     height: 45px;
     background-image: url(../img/Logo.svg);
     background-size: cover;
-    background-repeat: no-repeat;
-    cursor: pointer; }
-  #navbar .container_own .d-flex .ingressAcademy {
-    width: 155px;
-    padding-top: 10px;
-    padding-bottom: 11px;
-    cursor: pointer; }
-    #navbar .container_own .d-flex .ingressAcademy .nextIcon {
-      width: 24px;
-      height: 20px;
+    background-position: center;
+    background-repeat: no-repeat; }
+  #navbar .container_own .navbar .collapse .navbar-nav .nav-item i {
+    color: #3F79FF;
+    font-size: 12px;
+    padding-left: 5px; }
+  #navbar .container_own .navbar .collapse .navbar-nav .nav-item .nav-link {
+    font-family: 'Mulish-Medium';
+    font-style: normal;
+    font-weight: 650;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #000000; }
+  #navbar .container_own .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #3F79FF; }
+  #navbar .container_own .navbar .collapse .navbar-nav .nav-item .nav-link.active {
+    color: #3F79FF !important; }
+  #navbar .container_own .navbar .collapse .navbar-nav .nav-item .dropdown-menu {
+    width: 793px;
+    top: 50px;
+    left: -150px;
+    border-radius: 0px 0px 5px 5px;
+    border-top: 4px solid #3F79FF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); }
+    #navbar .container_own .navbar .collapse .navbar-nav .nav-item .dropdown-menu .subMenu {
+      width: calc(100%/4.1); }
+      #navbar .container_own .navbar .collapse .navbar-nav .nav-item .dropdown-menu .subMenu .dropdown-item {
+        font-family: 'Mulish-Bold';
+        font-weight: 200;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #3F79FF; }
+      #navbar .container_own .navbar .collapse .navbar-nav .nav-item .dropdown-menu .subMenu .dropdown-item:hover {
+        text-decoration: none !important; }
+      #navbar .container_own .navbar .collapse .navbar-nav .nav-item .dropdown-menu .subMenu .subDevelopment a {
+        font-family: 'Mulish-Regular';
+        font-weight: 750;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.2px; }
+      #navbar .container_own .navbar .collapse .navbar-nav .nav-item .dropdown-menu .subMenu ul {
+        padding-left: 17px; }
+        #navbar .container_own .navbar .collapse .navbar-nav .nav-item .dropdown-menu .subMenu ul li a {
+          font-family: 'Mulish-Regular';
+          font-weight: 750;
+          font-style: normal;
+          font-size: 14px;
+          line-height: 18px;
+          letter-spacing: 0.2px;
+          color: #000000; }
+    #navbar .container_own .navbar .collapse .navbar-nav .nav-item .dropdown-menu .subMenu a:hover {
+      color: #3F79FF !important;
+      text-decoration: underline !important; }
+  #navbar .container_own .navbar .collapse .ingressAcademy {
+    font-family: 'Mulish-Bold';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000; }
+    #navbar .container_own .navbar .collapse .ingressAcademy .rightArrowIcon {
+      width: 20px;
+      height: 21px;
       background-image: url(../img/fas-fa-right-icon.svg);
+      background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
       margin-right: 10px; }
-    #navbar .container_own .d-flex .ingressAcademy .ingress {
-      width: 155px;
-      font-family: 'Mulish-ExtraBold';
-      font-style: normal;
-      font-weight: 300;
-      font-size: 15px;
-      line-height: 160%; }
-  #navbar .container_own .navbar-nav {
-    margin-top: 13px;
-    font-family: 'Mulish-Medium';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 16px;
-    line-height: 18px;
-    color: #000000;
-    letter-spacing: 0.2px; }
-    #navbar .container_own .navbar-nav Ul li {
-      width: 80px;
-      margin-right: 24px;
-      cursor: pointer; }
-      #navbar .container_own .navbar-nav Ul li a {
-        color: #000000; }
-      #navbar .container_own .navbar-nav Ul li a:hover {
-        color: #3F79FF;
-        transition: all .3s linear; }
-    #navbar .container_own .navbar-nav .navFirstElement .downIcon {
-      width: 8px;
-      height: 8px;
-      margin-top: 6px;
-      margin-left: 5px;
-      background-image: url(../img/fas-fa-down-icon.svg);
-      background-size: cover;
-      background-repeat: no-repeat; }
+
+@media screen and (min-width: 375px) {
+  #navbar .container_own {
+    padding-left: 50px !important; }
+    #navbar .container_own .navbar .navbar-brand {
+      display: none; } }
+@media screen and (min-width: 450px) {
+  #navbar .container_own {
+    padding-left: 50px !important; }
+    #navbar .container_own .navbar .navbar-brand {
+      width: 150px;
+      height: 33px;
+      display: block; } }
+@media screen and (min-width: 500px) {
+  #navbar .container_own {
+    padding-left: 50px !important; }
+    #navbar .container_own .navbar .navbar-brand {
+      width: 170px;
+      height: 38px; } }
+@media screen and (min-width: 570px) {
+  #navbar .container_own {
+    padding-left: 100px !important; }
+    #navbar .container_own .navbar .navbar-brand {
+      width: 198px;
+      height: 45px; } }
+@media screen and (min-width: 922px) {
+  #navbar .container_own {
+    padding-left: 165px !important; } }
 
 /*# sourceMappingURL=navbar.css.map */

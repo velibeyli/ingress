@@ -1,0 +1,243 @@
+#hiring{
+    .hiringWrapper{
+        padding-top: 50px;
+        padding-bottom: 80px;
+        .title{
+            font-family: "Mulish-Bold";
+            font-weight: 200;
+            font-style: normal;
+            font-size: 34px;
+            line-height: 27px;
+            color: #333333;
+        }
+        .container_own{
+            padding-top: 50px;
+            .vacancyPart{
+                margin-bottom: 70px;
+            }
+            .form-outer{
+                width: 332px;
+                .form{
+                    position: relative;
+                    .placeHolder{
+                        p{
+                            font-family: 'Mulish-Regular';
+                            font-weight: 750;
+                            font-style: normal;
+                            font-size: 14px;
+                            line-height: 26px;
+                        }
+                    }
+                    input{
+                        border: none;
+                        background-color: #F4F6F8;
+                        border-radius: 7px;
+                        width: 100%;
+                        padding: 10px;
+                    }
+                    .placeHolder{
+                        position: absolute;
+                        top: 8px;
+                        i{
+                            margin: 5px 10px;
+                            font-size: 22px;
+                            color: #3F79FF;
+                        }
+                    }
+                }                
+            }
+            .nameOfVac{
+                .vacancyDetails{
+                    width: calc(100%/3.2);
+                    background-color: #FAFAFA;
+                    border-radius: 7px;
+                    margin-bottom: 29px;
+                    .newVacancy{
+                        width: 78px;
+                        margin-left: auto;
+                        background-color: #3F79FF;
+                        border-radius: 0px 7px;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        font-family: 'Mulish-Bold';
+                        font-weight: 200;
+                        font-style: normal;
+                        font-size: 16px;
+                        line-height: 27px;
+                        color: #FFFFFF;
+                    }
+                    .respVacancy{
+                        padding: 10px 24px 20px 24px;
+                        margin-top: 30px;
+                        .name{
+                            font-family: 'Mulish-Bold';
+                            font-weight: 200;
+                            font-style: normal;
+                            font-size: 24px;
+                            line-height: 27px;
+                            color: #333333;
+                            margin-bottom: 24px;
+                        }
+                        .responsibilities{
+                            font-family: 'Mulish-Regular';
+                            font-weight: 750;
+                            font-style: normal;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: rgba(0, 0, 0, 0.5);
+                        }
+                    }
+                }
+                .firstVac{
+                    .respVacancy{
+                        margin-top: 0;
+                        padding-top: 3px;
+                    }
+                }
+                .sixthVac{
+                    .respVacancy{
+                        margin-top: 0;
+                        padding-top: 3px;
+                    }
+                }
+            }
+            .showMore{
+                width: 154px;
+                border: 1px solid #3F79FF;
+                border-radius: 5px;
+                padding: 15px;
+                transition: all .3s linear;
+                .downIcon{
+                    width: 20px;
+                    height: 20px;
+                    background-image: url(../img/down-arrow-icon.svg);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    margin-right: 14px;
+                    margin-top: 2px;
+                }
+                p{
+                    margin-bottom: 0;
+                    font-family: 'Mulish-SemiBold';
+                    font-weight: 800;
+                    font-style: normal;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #000000;
+                }
+            }
+            .showMore:hover{
+                background-color: #3F79FF;
+                transition: all .3s linear;
+                p{
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 350px) {
+    #hiring{
+        .hiringWrapper{
+            .container_own{
+                padding-left: 50px !important;
+                padding-right: 50px !important;
+                .vacancyPart{
+                    display: block !important;
+                    .form-outer {
+                        width: 240px !important;
+                    }
+                }
+                .nameOfVac{
+                    .vacancyDetails{
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 500px) {
+    #hiring{
+        .hiringWrapper{
+            .container_own{
+                padding-left: 80px !important;
+                padding-right: 80px !important;
+                .vacancyPart{
+                    display: flex !important;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    #hiring{
+        .hiringWrapper{
+            .container_own{
+                padding-left: 120px !important;
+                padding-right: 120px !important;
+                .nameOfVac{
+                    .vacancyDetails{
+                        width: calc(100%/2.1) !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 991px) {
+    #hiring{
+        .hiringWrapper{
+            .container_own{
+                .nameOfVac{
+                    .vacancyDetails{
+                        width: calc(100%/3.2) !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1200px) {
+    #hiring{
+        .hiringWrapper{
+            .container_own{
+                padding-left: 165px !important;
+                padding-right: 165px !important;
+                .vacancyPart{
+                    .form-outer {
+                        width: 275px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1300px) {
+    #hiring{
+        .hiringWrapper{
+            .container_own{
+                .vacancyPart{
+                    .form-outer {
+                        width: 300px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1400px) {
+    #hiring{
+        .hiringWrapper{
+            .container_own{
+                .vacancyPart{
+                    .form-outer {
+                        width: 332px !important;
+                    }
+                }
+            }
+        }
+    }
+}

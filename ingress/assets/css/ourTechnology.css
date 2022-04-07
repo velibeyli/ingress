@@ -1,0 +1,129 @@
+#ourTechnology {
+  padding-top: 110px;
+  padding-bottom: 130px; }
+  #ourTechnology .header {
+    margin-bottom: 55px;
+    font-family: 'Mulish-Bold';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 200; }
+  #ourTechnology .stacks .col-xl-1 {
+    height: 100px;
+    background-color: #FAFAFA;
+    padding-top: 16px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 44px; }
+    #ourTechnology .stacks .col-xl-1 .icon {
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-left: auto;
+      margin-right: auto; }
+    #ourTechnology .stacks .col-xl-1 .iconName {
+      text-align: center;
+      font-family: 'Mulish-Regular';
+      font-weight: 750;
+      font-style: normal;
+      font-size: 13px;
+      line-height: 16px;
+      color: #000000; }
+  #ourTechnology .stacks #bootstrap {
+    padding-top: 20px; }
+    #ourTechnology .stacks #bootstrap .icon {
+      height: 31.87px;
+      background-image: url(../img/bootstrap.svg);
+      margin-bottom: 17.13px; }
+  #ourTechnology .stacks #python .icon {
+    background-image: url(../img/python.svg);
+    margin-bottom: 13px; }
+  #ourTechnology .stacks #github .icon {
+    background-image: url(../img/github.svg);
+    margin-bottom: 13px; }
+  #ourTechnology .stacks #gitlab .icon {
+    height: 39.13px;
+    background-image: url(../img/gitlab.svg);
+    margin-bottom: 13.87px; }
+  #ourTechnology .stacks #firebase .icon {
+    background-image: url(../img/firebase.svg);
+    margin-bottom: 13px; }
+  #ourTechnology .stacks #golang {
+    padding-top: 28px; }
+    #ourTechnology .stacks #golang .icon {
+      height: 15px;
+      background-image: url(../img/golang.svg);
+      margin-bottom: 26px; }
+  #ourTechnology .stacks #swift .icon {
+    background-image: url(../img/swift.svg);
+    margin-bottom: 13px; }
+  #ourTechnology .stacks #php .icon {
+    background-image: url(../img/php.svg);
+    margin-bottom: 13px; }
+
+@media screen and (min-width: 375px) {
+  #ourTechnology .container_own {
+    padding-left: 40px !important;
+    padding-right: 40px !important; }
+    #ourTechnology .container_own .stacks .col-xl-1 {
+      margin-right: 10px !important;
+      margin-left: 10px !important; }
+    #ourTechnology .container_own .stacks .col-sm-3 {
+      width: 25%; } }
+@media screen and (min-width: 575px) {
+  #ourTechnology .container_own {
+    padding-left: 40px !important;
+    padding-right: 40px !important; }
+    #ourTechnology .container_own .stacks .col-xl-1 {
+      margin-right: 13px !important;
+      margin-left: 13px !important; } }
+@media screen and (min-width: 696px) {
+  #ourTechnology .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+    #ourTechnology .container_own .stacks .col-xl-1 {
+      margin-right: 13px !important;
+      margin-left: 13px !important; } }
+@media screen and (min-width: 768px) {
+  #ourTechnology .container_own {
+    padding-left: 60px !important;
+    padding-right: 60px !important; }
+    #ourTechnology .container_own .stacks .col-xl-1 {
+      margin-right: 18px !important;
+      margin-left: 18px !important;
+      width: 16.6666666667%; } }
+@media screen and (min-width: 991px) {
+  #ourTechnology .container_own {
+    padding-left: 60px !important;
+    padding-right: 60px !important; }
+    #ourTechnology .container_own .stacks .col-xl-1 {
+      margin-right: 18px !important;
+      margin-left: 18px !important; } }
+@media screen and (min-width: 1100px) {
+  #ourTechnology .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; } }
+@media screen and (min-width: 1200px) {
+  #ourTechnology .container_own {
+    padding-left: 120px !important;
+    padding-right: 120px !important; }
+    #ourTechnology .container_own .stacks .col-xl-1 {
+      width: 8.3333333333%;
+      margin-right: 20px !important;
+      margin-left: 20px !important; } }
+@media screen and (min-width: 1350px) {
+  #ourTechnology .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; }
+    #ourTechnology .container_own .stacks .col-xl-1 {
+      margin-right: 20px !important;
+      margin-left: 20px !important; } }
+@media screen and (min-width: 1500px) {
+  #ourTechnology .container_own .stacks .col-xl-1 {
+    margin-right: 25px !important;
+    margin-left: 25px !important; } }
+
+/*# sourceMappingURL=ourTechnology.css.map */

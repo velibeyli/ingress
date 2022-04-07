@@ -1,0 +1,99 @@
+#topSection .owl-carousel .item {
+  width: 100%;
+  height: 90vh;
+  background-image: url(../img/section1_bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #topSection .owl-carousel .item .container_own {
+    position: absolute;
+    top: 223px; }
+    #topSection .owl-carousel .item .container_own .headerOverBg {
+      width: calc(100% / 2.4);
+      font-family: "Mulish-ExtraBold";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 46px;
+      line-height: 74px; }
+    #topSection .owl-carousel .item .container_own .service {
+      font-family: "Mulish";
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #ffffff;
+      background-color: #3f79ff;
+      margin-top: 20px;
+      padding: 10px 50px;
+      box-shadow: none; }
+    #topSection .owl-carousel .item .container_own .service:hover {
+      background-color: #3f79ffd0; }
+#topSection .owl-carousel .owl-dots {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 3%; }
+  #topSection .owl-carousel .owl-dots .owl-dot span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #FFFFFF; }
+  #topSection .owl-carousel .owl-dots .owl-dot.active span {
+    width: 19px;
+    height: 8px;
+    border-radius: 30px;
+    background-color: #2770F1; }
+  #topSection .owl-carousel .owl-dots .owl-dot :hover {
+    background-color: #3f79ff; }
+
+@media screen and (min-width: 375px) {
+  #topSection .owl-carousel .item .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    top: 90px !important; }
+    #topSection .owl-carousel .item .container_own .headerOverBg {
+      width: 70% !important;
+      font-size: 23px !important;
+      line-height: 50px !important; } }
+@media screen and (min-width: 570px) {
+  #topSection .owl-carousel .item .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+    top: 100px !important; }
+    #topSection .owl-carousel .item .container_own .headerOverBg {
+      width: 70% !important;
+      font-size: 28px !important;
+      line-height: 74px; } }
+@media screen and (min-width: 768px) {
+  #topSection .owl-carousel .item .container_own {
+    padding-left: 100px !important;
+    padding-right: 165px !important;
+    top: 100px !important; }
+    #topSection .owl-carousel .item .container_own .headerOverBg {
+      width: 70% !important;
+      font-size: 28px !important; } }
+@media screen and (min-width: 922px) {
+  #topSection .owl-carousel .item .container_own {
+    top: 150px !important;
+    padding-left: 165px !important;
+    padding-right: 165px !important; } }
+@media screen and (min-width: 991px) {
+  #topSection .owl-carousel .item .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; }
+    #topSection .owl-carousel .item .container_own .headerOverBg {
+      width: 70% !important;
+      font-size: 32px !important; } }
+@media screen and (min-width: 1200px) {
+  #topSection .owl-carousel .item .container_own {
+    top: 223px !important; }
+    #topSection .owl-carousel .item .container_own .headerOverBg {
+      width: 60% !important;
+      font-size: 38px !important; } }
+@media screen and (min-width: 1350px) {
+  #topSection .owl-carousel .item .container_own .headerOverBg {
+    width: 60% !important;
+    font-size: 38px !important; } }
+
+/*# sourceMappingURL=topSection.css.map */

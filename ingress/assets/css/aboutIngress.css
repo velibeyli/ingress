@@ -1,0 +1,29 @@
+.ingressGroup {
+  margin-top: 40px;
+  margin-bottom: 50px; }
+  .ingressGroup .container_own .title {
+    font-family: 'Mulish-Bold';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 64px;
+    color: #000000;
+    margin-bottom: 20px; }
+  .ingressGroup .container_own p {
+    font-family: 'Mulish-Medium';
+    font-weight: 650;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000; }
+
+@media screen and (min-width: 370px) {
+  .ingressGroup .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; } }
+@media screen and (min-width: 768px) {
+  .ingressGroup .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; } }
+
+/*# sourceMappingURL=aboutIngress.css.map */

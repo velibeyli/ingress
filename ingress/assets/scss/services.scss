@@ -1,8 +1,8 @@
-#career{
+.topCoverPhoto{
     .backgroundPhoto{
         width: 100%;
         height: 267px;
-        background-image: url(../img/career-topsection-bg.svg);
+        background-image: url(../img/services-topsection-bg.svg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -33,189 +33,23 @@
         }
     }
 }
-.underCoverP{
-    .container_own{
-        padding-top: 50px;
-        padding-bottom: 80px;
-        h1{
-            font-family: 'Mulish-Bold';
-            font-weight: 200;
-            font-style: normal;
-            font-size: 34px;
-            line-height: 64px;
-            color: #000000;
+@media screen and (min-width: 350px) {
+    #services{
+        .backgroundPhoto{
+            .container_own {
+                padding-left: 60px !important;
+                padding-right: 60px !important;
+            }
         }
-        p{
-            font-family: 'Mulish-Medium';
-            font-weight: 650;
-            font-style: normal;
-            font-size: 16px;
-            line-height: 24px;
-            color: #000000;
-        }
-    }
+    }    
 }
-.commonBackground{
-    width: 100%;
-    height: 150px;
-    background-image: url(../img/developmentBg.svg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-top: 60px;
-    margin-bottom: 65px;
-    h1{
-        font-family: 'Mulish-ExtraBold';
-        font-weight: 300;
-        font-style: normal;
-        font-size: 45px;
-        line-height: 18px;
-        letter-spacing: 0.2px;
-        color: #FFFFFF;
-    }
-}
-.commonServices{
-    .container_own{
-        .comDevSer{
-            width: calc(100%/2.5);
-            margin-bottom: 60px;
-            .icon{
-                width: 50px;
-                height: 50px;
-                background-position: center;
-                background-size: cover;
-                background-repeat: no-repeat;
-                margin-bottom: 24px;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            h4{
-                font-family: 'Mulish-SemiBold';
-                font-weight: 800;
-                font-style: normal;
-                font-size: 24px;
-                line-height: 30px;
-                color: #000000;
-            }
-            p{
-                font-family: 'Mulish-Regular';
-                font-weight: 750;
-                font-size: 16px;
-                line-height: 20px;
-                color: rgba(0, 0, 0, 0.6);
-            }
-            .softwareIcon{
-                width: 47.72px !important;
-                background-image: url(../img/setingIcon.svg);
-            }
-            .microServeIcon{
-                background-image: url(../img/microServeIcon.svg);
-            }
-            .codeReviewIcon{
-                background-image: url(../img/codeReviewIcon.svg);
-            }
-            .migrationIcon{
-                background-image: url(../img/migrationIcon.svg);
+@media screen and (min-width: 570px) {
+    #services{
+        .backgroundPhoto{
+            .container_own {
+                padding-left: 165px !important;
+                padding-right: 165px !important;
             }
         }
     }
-}
-.consultingBg{
-    margin-top: 50px;
-    background-image: url(../img/consultingBg.svg);
-}
-.consultingServices{
-    .container_own{
-        .comDevSer{
-            width: calc(100%/3.01);
-            padding-left: 30px;
-            padding-right: 30px;
-            .itStrategyIcon{
-                background-image: url(../img/itStrategyIcon.svg);
-            }
-            .consultingIcon{
-                background-image: url(../img/migration-consulting-icon.svg);
-            }
-            .devOpsIcon{
-                background-image: url(../img/devOpsIcon.svg);
-            }
-        }
-    }
-}
-.infrastructureBg{
-    margin-top: 50px;
-    background-image: url(../img/infrastructure-background.svg);
-}
-.infrastructureServices{
-    .container_own{
-        .comDevSer{
-            width: calc(100%/2.5);
-            padding-left: 30px;
-            padding-right: 30px;
-            .linuxIcon{
-                background-image: url(../img/linux-icon.svg);
-            }
-            .networkIcon{
-                background-image: url(../img/network-icon.svg);
-            }
-            .procesIcon{
-                background-image: url(../img/process-icon.svg);
-            }
-            .cloudIcon{
-                background-image: url(../img/cloud-icon.svg);
-            }
-        }
-    }
-}
-.trainingBg{
-    margin-top: 50px;
-    background-image: url(../img/training-services-background.svg);
-}
-.trainingServices{
-    .container_own{
-        .comDevSer{
-            width: calc(100%/2.5);
-            padding-left: 30px;
-            padding-right: 30px;
-            margin-left: auto;
-            margin-right: auto;
-            .squareLogo{
-                width: 124px !important;
-                height: 105px !important;
-                background-image: url(../img/squared-logo.svg);
-            }
-            button{
-                width: 198x;
-                border-radius: 7px;
-                border: 1px solid #3F79FF;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: 30px;
-                .rightArrow{
-                    width: 20px;
-                    height: 21px;
-                    background-image: url(../img/fas-fa-right-icon.svg);
-                    background-position: center;
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    margin-right: 10px;
-                    margin-top: 12px;
-                }
-                p{
-                    font-family: 'Mulish-SemiBold';
-                    font-weight: 800;
-                    font-style: normal;
-                    font-size: 16px;
-                    line-height: 26px;
-                    color: #000000;
-                    padding-top: 9px;
-                }
-            }
-        }
-    }
-}
-.cyberBg{
-    margin-top: 50px;
-    margin-bottom: 150px;
-    background-image: url(../img/cyber-security-background-photo.svg);
 }

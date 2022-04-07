@@ -1,0 +1,150 @@
+#ourTeam {
+  margin-top: 90px;
+  height: 57vh; }
+  #ourTeam .header {
+    font-family: "Mulish-Bold";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 43px;
+    color: #000000;
+    margin-bottom: 125px;
+    z-index: 1; }
+  #ourTeam .backgroundColor {
+    width: 100%;
+    height: 287px;
+    background-color: #f4f6f8; }
+    #ourTeam .backgroundColor .container_team {
+      top: 0;
+      transform: translateY(-76px); }
+      #ourTeam .backgroundColor .container_team .team_carousel .item {
+        width: calc(100% / 1.05);
+        height: 237px;
+        background: linear-gradient(180deg, #f4f6f8 0%, #ffffff 81.77%);
+        margin-left: 10px;
+        margin-top: 76px; }
+        #ourTeam .backgroundColor .container_team .team_carousel .item .photo {
+          width: 156px;
+          height: 156px;
+          background-image: url(../img/1stmember.svg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          margin-left: auto;
+          margin-right: auto;
+          transform: translateY(-60px); }
+        #ourTeam .backgroundColor .container_team .team_carousel .item .namePosition {
+          margin-top: -50px; }
+          #ourTeam .backgroundColor .container_team .team_carousel .item .namePosition .name {
+            font-family: "Mulish-SemiBold";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+            margin-bottom: 5px !important; }
+          #ourTeam .backgroundColor .container_team .team_carousel .item .namePosition .position {
+            font-family: "Mulish-Light";
+            font-style: italic;
+            font-weight: 550;
+            font-size: 14px;
+            line-height: 18px;
+            color: #000000; }
+        #ourTeam .backgroundColor .container_team .team_carousel .item .socialMedia {
+          margin-top: 30px;
+          font-size: 20px;
+          padding-left: 13px; }
+          #ourTeam .backgroundColor .container_team .team_carousel .item .socialMedia i {
+            margin-right: 22.5px;
+            color: #a8acb4; }
+          #ourTeam .backgroundColor .container_team .team_carousel .item .socialMedia a i:hover {
+            color: #2770f1;
+            transition: all 0.3s linear; }
+      #ourTeam .backgroundColor .container_team .team_carousel .secondMember .photo {
+        background-image: url(../img/2ndMember.svg); }
+      #ourTeam .backgroundColor .container_team .team_carousel .thirdMember .photo {
+        background-image: url(../img/3rdMember.svg); }
+      #ourTeam .backgroundColor .container_team .team_carousel .fourthMember .photo {
+        background-image: url(../img/4thMember.svg); }
+      #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+        width: 122%;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 55%;
+        left: -100px;
+        margin-top: 0 !important; }
+        #ourTeam .backgroundColor .container_team .team_carousel .owl-nav i {
+          font-size: 35px;
+          color: #3f79ff; }
+        #ourTeam .backgroundColor .container_team .team_carousel .owl-nav button {
+          background-color: transparent; }
+
+@media screen and (min-width: 350px) and (max-width: 400px) {
+  #ourTeam .backgroundColor .container_team {
+    padding-left: 100px !important;
+    padding-right: 100px !important; }
+    #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+      width: 157% !important;
+      left: -51px !important; } }
+@media screen and (min-width: 400px) and (max-width: 450px) {
+  #ourTeam .backgroundColor .container_team {
+    padding-left: 100px !important;
+    padding-right: 100px !important; }
+    #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+      width: 159% !important;
+      left: -59px !important; } }
+@media screen and (min-width: 450px) and (max-width: 535px) {
+  #ourTeam .backgroundColor .container_team {
+    padding-left: 100px !important;
+    padding-right: 100px !important; }
+    #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+      width: 139% !important;
+      left: -51px !important; } }
+@media screen and (min-width: 535px) and (max-width: 570px) {
+  #ourTeam .backgroundColor .container_team {
+    padding-left: 100px !important;
+    padding-right: 100px !important; }
+    #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+      width: 131% !important;
+      left: -55px !important; } }
+@media screen and (min-width: 570px) {
+  #ourTeam .backgroundColor .container_team {
+    padding-left: 100px !important;
+    padding-right: 100px !important; }
+    #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+      width: 137% !important;
+      left: -63px !important; } }
+@media screen and (min-width: 590px) {
+  #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+    width: 129% !important;
+    left: -55px !important; } }
+@media screen and (min-width: 768px) {
+  #ourTeam .backgroundColor .container_team {
+    padding-left: 180px !important;
+    padding-right: 180px !important; }
+    #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+      width: 137% !important;
+      left: -70px !important; } }
+@media screen and (min-width: 922px) {
+  #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+    width: 126% !important;
+    left: -71px !important; } }
+@media screen and (min-width: 991px) {
+  #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+    width: 126% !important;
+    left: -71px !important; } }
+@media screen and (min-width: 1200px) {
+  #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+    width: 123% !important; } }
+@media screen and (min-width: 1350px) {
+  #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+    width: 120% !important; } }
+@media screen and (min-width: 1500px) {
+  #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+    width: 116% !important; } }
+@media screen and (min-width: 1700px) {
+  #ourTeam .backgroundColor .container_team .team_carousel .owl-nav {
+    width: 114% !important; } }
+
+/*# sourceMappingURL=ourTeam.css.map */

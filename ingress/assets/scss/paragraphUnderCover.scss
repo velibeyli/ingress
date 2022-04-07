@@ -1,0 +1,36 @@
+.underCoverP{
+    .container_own{
+        padding-top: 50px;
+        padding-bottom: 80px;
+        h1{
+            font-family: 'Mulish-Bold';
+            font-weight: 200;
+            font-style: normal;
+            font-size: 34px;
+            line-height: 64px;
+            color: #000000;
+        }
+        p{
+            font-family: 'Mulish-Medium';
+            font-weight: 650;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+        }
+    }
+}
+@media screen and (min-width: 350px) {
+    .underCoverP{
+        .container_own{
+            padding: 30px 60px 40px 60px !important;
+        }
+    }
+}
+@media screen and (min-width: 570px) {
+    .underCoverP{
+        .container_own{
+            padding: 10px 165px !important;
+        }
+    }
+}

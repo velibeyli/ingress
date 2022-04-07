@@ -1,5 +1,5 @@
 footer {
-  background-color: #F4F6F8; }
+  background-color: #f4f6f8; }
   footer .container_own {
     padding-top: 50px;
     padding-bottom: 50px; }
@@ -14,42 +14,46 @@ footer {
     footer .container_own .subMenu .commonCol {
       margin-bottom: 55px; }
       footer .container_own .subMenu .commonCol h5 {
-        font-family: 'Mulish-Bold';
+        font-family: "Mulish-Bold";
         font-weight: 200;
         font-style: normal;
         font-size: 15px;
         line-height: 18px;
         color: #000000;
         letter-spacing: 0.2px; }
-      footer .container_own .subMenu .commonCol p {
-        font-family: 'Mulish-Regular';
+      footer .container_own .subMenu .commonCol a {
+        font-family: "Mulish-Regular";
         font-weight: 750;
         font-style: normal;
         font-size: 14px;
         line-height: 18px;
         color: #000000;
         letter-spacing: 0.2px; }
+      footer .container_own .subMenu .commonCol a:hover {
+        text-decoration: underline !important;
+        color: #2770f1; }
     footer .container_own .contact .adress {
       width: 48%; }
+      footer .container_own .contact .adress .emailAddress {
+        margin-bottom: 16px; }
       footer .container_own .contact .adress .googleMap iframe {
         width: 750px;
         height: 150px; }
-    footer .container_own .contact p {
-      font-family: 'Mulish-Regular';
-      font-weight: 750;
-      font-style: normal;
-      font-size: 16px;
-      line-height: 20px;
-      color: rgba(0, 0, 0, 0.75);
-      padding-top: 13px; }
+      footer .container_own .contact .adress a {
+        font-family: "Mulish-Regular";
+        font-weight: 750;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.75); }
     footer .container_own .contact i {
-      color: #2770F1; }
+      color: #2770f1; }
     footer .container_own .contact .message {
       width: 48%; }
       footer .container_own .contact .message .inputs input {
         width: 48%;
         padding: 10px;
-        background-color: #FFFFFF;
+        background-color: #ffffff;
         color: rgba(0, 0, 0, 0.3);
         border-radius: 7px;
         border: none; }
@@ -62,16 +66,20 @@ footer {
         text-align: right; }
         footer .container_own .contact .message .sendButton button {
           width: 135px;
-          font-family: 'Mulish-SemiBold';
+          font-family: "Mulish-SemiBold";
           font-weight: 800;
           font-size: 16px;
           line-height: 27px;
           font-style: normal;
-          color: #FFFFFF;
-          background-color: #3F79FF;
-          border-radius: 7px; }
+          color: #ffffff;
+          background-color: #3f79ff;
+          border-radius: 7px;
+          box-shadow: none; }
+        footer .container_own .contact .message .sendButton button:hover {
+          background-color: #2362f5;
+          transition: all .3s linear; }
   footer .copyRight {
-    font-family: 'Mulish-Regular';
+    font-family: "Mulish-Regular";
     font-weight: 750;
     font-style: normal;
     font-size: 12px;
@@ -80,5 +88,64 @@ footer {
     padding-left: 160px;
     margin-top: 25px;
     padding-bottom: 25px; }
+
+@media screen and (min-width: 375px) {
+  footer .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+    footer .container_own .contact .adress {
+      width: 100% !important; }
+      footer .container_own .contact .adress .googleMap iframe {
+        width: 260px !important; }
+    footer .container_own .contact .message {
+      width: 100% !important; }
+      footer .container_own .contact .message .sendButton {
+        text-align: center !important; }
+  footer .copyRight {
+    padding-left: 100px !important; } }
+@media screen and (min-width: 570px) {
+  footer .container_own {
+    padding-left: 100px !important;
+    padding-right: 100px !important; }
+    footer .container_own .contact .adress {
+      width: 100% !important; }
+      footer .container_own .contact .adress .googleMap iframe {
+        width: 500px !important; }
+    footer .container_own .contact .message {
+      width: 100% !important; } }
+@media screen and (min-width: 768px) {
+  footer .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; }
+    footer .container_own .contact .adress {
+      width: 48% !important; }
+      footer .container_own .contact .adress .googleMap iframe {
+        width: 323px !important; }
+    footer .container_own .contact .message {
+      width: 60% !important; }
+  footer .copyRight {
+    padding-left: 160px !important; } }
+@media screen and (min-width: 991px) {
+  footer .container_own .contact .adress .googleMap iframe {
+    width: 323px !important; }
+  footer .container_own .contact .message {
+    width: 48% !important; }
+    footer .container_own .contact .message .sendButton {
+      text-align: right !important; } }
+@media screen and (min-width: 1200px) {
+  footer .container_own .contact .adress .googleMap iframe {
+    width: 425px !important; } }
+@media screen and (min-width: 1350px) {
+  footer .container_own .contact .adress .googleMap iframe {
+    width: 495px !important; } }
+@media screen and (min-width: 1500px) {
+  footer .container_own .contact .adress .googleMap iframe {
+    width: 575px !important; } }
+@media screen and (min-width: 1700px) {
+  footer .container_own .contact .adress .googleMap iframe {
+    width: 660px !important; } }
+@media screen and (min-width: 1828px) {
+  footer .container_own .contact .adress .googleMap iframe {
+    width: 750px !important; } }
 
 /*# sourceMappingURL=footer.css.map */

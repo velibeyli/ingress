@@ -1,106 +1,286 @@
-footer{
-    background-color: #F4F6F8;
-    .container_own{
-        padding-top: 50px;
-        padding-bottom: 50px;
-        .logo{
-            width: 198px;
-            height: 45px;
-            background-image: url(../img/Logo.svg);
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            margin-bottom: 40px;
-        }
-        .subMenu{
-            .commonCol{
-                margin-bottom: 55px;
-                h5{
-                    font-family: 'Mulish-Bold';
-                    font-weight: 200;
-                    font-style: normal;
-                    font-size: 15px;
-                    line-height: 18px;
-                    color: #000000;
-                    letter-spacing: 0.2px;
-                }
-                p{
-                    font-family: 'Mulish-Regular';
-                    font-weight: 750;
-                    font-style: normal;
-                    font-size: 14px;
-                    line-height: 18px;
-                    color: #000000;
-                    letter-spacing: 0.2px;
-                }
-            }
-        }
-        .contact{
-            .adress{
-                width: 48%;
-                .googleMap{
-                    iframe{
-                        width: 750px;
-                        height: 150px;
-                    }
-                }
-            }
-            p{
-                font-family: 'Mulish-Regular';
-                font-weight: 750;
-                font-style: normal;
-                font-size: 16px;
-                line-height: 20px;
-                color: rgba(0, 0, 0, 0.75);
-                padding-top: 13px;
-            }
-            i{
-                color: #2770F1;
-            }
-            .message{
-                width: 48%;
-                .inputs{
-                    input{
-                        width: 48%;
-                        padding: 10px;
-                        background-color: #FFFFFF;
-                        color: rgba(0, 0, 0, 0.3);
-                        border-radius: 7px;
-                        border: none;
-                    }
-                }
-                #messageBox{
-                    width: 100%;
-                    border: none;
-                    padding: 10px;
-                    margin-bottom: 22px;
-                }
-                .sendButton{
-                    text-align: right;
-                    button{
-                        width: 135px;
-                        font-family: 'Mulish-SemiBold';
-                        font-weight: 800;
-                        font-size: 16px;
-                        line-height: 27px;
-                        font-style: normal;
-                        color: #FFFFFF;
-                        background-color: #3F79FF;
-                        border-radius: 7px;
-                    }
-                }
-            }
-        }
+footer {
+  background-color: #f4f6f8;
+  .container_own {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .logo {
+      width: 198px;
+      height: 45px;
+      background-image: url(../img/Logo.svg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-bottom: 40px;
     }
-    .copyRight{
-        font-family: 'Mulish-Regular';
+    .subMenu {
+      .commonCol {
+        margin-bottom: 55px;
+        h5 {
+          font-family: "Mulish-Bold";
+          font-weight: 200;
+          font-style: normal;
+          font-size: 15px;
+          line-height: 18px;
+          color: #000000;
+          letter-spacing: 0.2px;
+        }
+        a {
+          font-family: "Mulish-Regular";
+          font-weight: 750;
+          font-style: normal;
+          font-size: 14px;
+          line-height: 18px;
+          color: #000000;
+          letter-spacing: 0.2px;
+        }
+        a:hover{
+          text-decoration: underline !important;
+          color: #2770f1;
+        }
+      }
+    }
+    .contact {
+      .adress {
+        width: 48%;
+        .emailAddress{
+          margin-bottom: 16px;
+        }
+        .googleMap {
+          iframe {
+            width: 750px;
+            height: 150px;
+          }
+        }
+        a{
+          font-family: "Mulish-Regular";
         font-weight: 750;
         font-style: normal;
-        font-size: 12px;
+        font-size: 16px;
         line-height: 20px;
         color: rgba(0, 0, 0, 0.75);
-        padding-left: 160px;
-        margin-top: 25px;
-        padding-bottom: 25px;
-    }   
+        
+        }
+      }
+      i {
+        color: #2770f1;
+      }
+      .message {
+        width: 48%;
+        .inputs {
+          input {
+            width: 48%;
+            padding: 10px;
+            background-color: #ffffff;
+            color: rgba(0, 0, 0, 0.3);
+            border-radius: 7px;
+            border: none;
+          }
+        }
+        #messageBox {
+          width: 100%;
+          border: none;
+          padding: 10px;
+          margin-bottom: 22px;
+        }
+        .sendButton {
+          text-align: right;
+          button {
+            width: 135px;
+            font-family: "Mulish-SemiBold";
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 27px;
+            font-style: normal;
+            color: #ffffff;
+            background-color: #3f79ff;
+            border-radius: 7px;
+            box-shadow: none;
+          }
+          button:hover{
+            background-color: #2362f5;
+            transition: all .3s linear;
+          }
+        }
+      }
+    }
+  }
+  .copyRight {
+    font-family: "Mulish-Regular";
+    font-weight: 750;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.75);
+    padding-left: 160px;
+    margin-top: 25px;
+    padding-bottom: 25px;
+  }
 }
+@media screen and (min-width: 375px){
+    footer{
+        .container_own{
+          padding-left: 50px !important;
+          padding-right: 50px !important;
+          .contact{
+            .adress{
+              width: 100% !important;
+              .googleMap{
+                iframe{
+                  width: 260px !important;
+                }
+              }
+            }
+            .message{
+              width: 100%!important;
+              .sendButton{
+                text-align: center !important;
+              }
+            }
+          }
+        }
+        .copyRight{
+          padding-left: 100px !important;
+        }
+      } 
+}
+@media screen and (min-width: 570px){
+    footer{
+        .container_own{
+          padding-left: 100px !important;
+          padding-right: 100px !important;
+          .contact{
+            .adress{
+              width: 100% !important;
+              .googleMap{
+                iframe{
+                  width: 500px !important;
+                }
+              }
+            }
+            .message{
+              width: 100%!important;
+            }
+          }
+        }
+      }
+}
+@media screen and (min-width: 768px){
+    footer{
+        .container_own{
+          padding-left: 165px !important;
+          padding-right: 165px !important;
+          .contact{
+            .adress{
+              width: 48% !important;
+              .googleMap{
+                iframe{
+                  width: 323px !important;
+                }
+              }
+            }
+            .message{
+              width: 60%!important;
+            }
+          }
+        }
+        .copyRight{
+          padding-left: 160px !important;
+        }
+      }
+}
+@media screen and (min-width: 991px){
+    footer{
+        .container_own{
+          .contact{
+            .adress{
+              .googleMap{
+                iframe{
+                  width: 323px !important;
+                }
+              }
+            }
+            .message{
+              width: 48% !important;
+              .sendButton{
+                text-align: right !important;
+              }
+            }
+          }
+        }
+      }
+}
+@media screen and (min-width: 1200px){
+    footer{
+        .container_own{
+          .contact{
+            .adress{
+              .googleMap{
+                iframe{
+                  width: 425px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+}
+@media screen and (min-width: 1350px){
+    footer{
+        .container_own{
+          .contact{
+            .adress{
+              .googleMap{
+                iframe{
+                  width: 495px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+}
+@media screen and (min-width: 1500px){
+    footer{
+        .container_own{
+          .contact{
+            .adress{
+              .googleMap{
+                iframe{
+                  width: 575px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+}
+@media screen and (min-width: 1700px) {
+    footer{
+        .container_own{
+          .contact{
+            .adress{
+              .googleMap{
+                iframe{
+                  width: 660px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+}
+@media screen and (min-width: 1828px) {
+    footer{
+      .container_own{
+        .contact{
+          .adress{
+            .googleMap{
+              iframe{
+                width: 750px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

@@ -1,55 +1,55 @@
 ///////////////////////////////////////////////////////////////////////////////////////////
 // Numbers of keywords
-// 01. Main page top section
-///////////////////////////////////////////////////////////////////////////////////////////
+// 01. Top Section
+// 02. Team Carousel Section
+
 $(document).ready(function () {
-
-    const nextIcon = '<i class="fa-solid fa-arrow-right-long"></i>';
-    const prevIcon = '<i class="fa-solid fa-arrow-left-long"></i>';
+  const nextIcon = '<i class="fa-solid fa-arrow-right-long"></i>';
+  const prevIcon = '<i class="fa-solid fa-arrow-left-long"></i>';
   ///////////////////////////////////////////////////////////////////////////////////////////
-  // 01. Main page top section
+  // 01. Top Section
+  $("#topSection .owl-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      1000: {
+        items: 1,
+      },
+    },
+  });
 
-  $('.topSection').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:false,
-    autoplay:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-})
-///////////////////////////////////////////////////////////////////////////////////////////
-// 01. Main page team member slider
+  ///////////////////////////////////////////////////////////////////////////////////////////
+  // 02. Team Carousel Section
 
-$('.team_corusel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    navText:[prevIcon,nextIcon],
+  $(".team_carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    navText: [prevIcon, nextIcon],
     dots: false,
-    responsive:{
-        0:{
-            items:1
-        },
-        768:{
-            items:2
-        },
-        1000:{
-            items:3
-        },
-        1200:{
-            items:4
-        }
-    }
-})
-///////////////////////////////////////////////////////////////////////////////////////////
-
+    smartSpeed: 1500,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      768: {
+        items: 2,
+      },
+      1000: {
+        items: 3,
+      },
+      1200: {
+        items: 4,
+      },
+    },
+  });
 });

@@ -1,0 +1,88 @@
+#whatWeDo {
+  .bgColor {
+    width: 100%;
+    height: 293px;
+    background-color: #3f79ff;
+    h5 {
+      padding-top: 45px;
+      padding-bottom: 50px;
+      font-family: "Mulish-ExtraBold";
+      font-weight: 300;
+      font-size: 38px;
+      line-height: 48px;
+      color: #ffffff;
+    }
+  }
+  .video {
+    text-align: center;
+    margin-top: -150px;
+    iframe{
+      cursor: pointer;
+    }
+  }
+}
+@media screen and (min-width: 250px) {
+  #whatWeDo {
+    .video {
+      iframe {
+        width: 350px;
+        height: 190px;
+      }
+    }
+    .bgColor{
+      h5{
+        font-size: 25px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 375px) {
+  #whatWeDo {
+    .video {
+      iframe {
+        width: 350px;
+        height: 190px;
+      }
+    }
+    .bgColor{
+      h5{
+        font-size: 25px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 570px) {
+  #whatWeDo {
+    .video {
+      iframe {
+        width: 450px;
+        height: 244px;
+      }
+    }
+    .bgColor{
+      h5{
+        font-size: 38px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  #whatWeDo {
+    .video {
+      iframe {
+        width: 650px;
+        height: 353px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 991px) {
+  #whatWeDo {
+    .video {
+      iframe {
+        width: 836px !important;
+        height: 454px !important;
+      }
+    }
+  }
+}

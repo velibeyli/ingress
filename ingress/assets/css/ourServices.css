@@ -1,0 +1,134 @@
+#ourServices .title {
+  font-family: 'Mulish-Bold';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 34px;
+  line-height: 43px;
+  margin-bottom: 100px; }
+#ourServices .services {
+  width: 350px;
+  height: 220px;
+  background-color: #F4F6F8;
+  margin-bottom: 30px;
+  border-radius: 7px;
+  padding-top: 55px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all .3s linear;
+  margin-right: 20px; }
+  #ourServices .services .icon {
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/developer.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 26px; }
+  #ourServices .services p {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #000000; }
+  #ourServices .services .genhoverParag {
+    font-family: 'Mulish-Regular';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-decoration: underline !important; }
+#ourServices .services:hover .icon {
+  display: none;
+  transition: all .3s linear; }
+#ourServices .services:hover p {
+  display: none;
+  transition: all .3s linear; }
+#ourServices .services:hover .genhoverParag {
+  display: block !important;
+  color: #FFFFFF;
+  transition: all .3s linear; }
+#ourServices .development:hover {
+  background-image: url(../img/developmentHover.svg);
+  transition: all .3s linear; }
+#ourServices .consulting {
+  transition: all .3s linear; }
+  #ourServices .consulting .icon {
+    background-image: url(../img/consulting.svg); }
+#ourServices .consulting:hover {
+  background-image: url(../img/consultingHover.svg);
+  transition: all .3s linear; }
+#ourServices .infrstructure {
+  transition: all .3s linear; }
+  #ourServices .infrstructure .icon {
+    width: 50px;
+    background-image: url(../img/cloud.svg); }
+#ourServices .infrstructure:hover {
+  background-image: url(../img/infrastructureHover.svg);
+  transition: all .3s linear; }
+#ourServices .trainingService {
+  transition: all .3s linear; }
+  #ourServices .trainingService .icon {
+    background-image: url(../img/training.svg); }
+#ourServices .trainingService:hover {
+  background-image: url(../img/trainingHover.svg);
+  transition: all .3s linear; }
+#ourServices .cyberSecure {
+  transition: all .3s linear; }
+  #ourServices .cyberSecure .icon {
+    height: 47px;
+    background-image: url(../img/cyber.svg); }
+#ourServices .cyberSecure:hover {
+  background-image: url(../img/cyberSecureHover.svg);
+  transition: all .3s linear; }
+
+@media screen and (min-width: 375px) {
+  #ourServices .title {
+    margin-bottom: 50px; }
+  #ourServices .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; }
+    #ourServices .container_own .services {
+      width: 100% !important;
+      height: 220px !important; } }
+@media screen and (min-width: 570px) {
+  #ourServices .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; }
+    #ourServices .container_own .services {
+      width: 100% !important;
+      height: 220px !important; } }
+@media screen and (min-width: 768px) {
+  #ourServices .title {
+    margin-bottom: 100px; }
+  #ourServices .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; }
+    #ourServices .container_own .services {
+      width: 40% !important;
+      height: 220px !important; } }
+@media screen and (min-width: 991px) {
+  #ourServices .container_own {
+    padding-left: 100px !important;
+    padding-right: 100px !important; }
+    #ourServices .container_own .services {
+      width: 330px !important;
+      height: 220px !important; } }
+@media screen and (min-width: 1350px) {
+  #ourServices .container_own {
+    padding-left: 100px !important;
+    padding-right: 100px !important; }
+    #ourServices .container_own .services {
+      width: 350px !important;
+      height: 220px !important; } }
+@media screen and (min-width: 1524px) {
+  #ourServices .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; }
+    #ourServices .container_own .services {
+      width: 350px !important;
+      height: 220px !important; } }
+
+/*# sourceMappingURL=ourServices.css.map */

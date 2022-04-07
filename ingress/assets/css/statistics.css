@@ -1,0 +1,48 @@
+#statistics {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 110px;
+  margin-top: 100px; }
+  #statistics .background {
+    width: 100%;
+    background-color: #2770f1;
+    border-radius: 7px;
+    padding: 61px 125px; }
+    #statistics .background .commonStatistic {
+      width: 230px;
+      color: #ffffff; }
+      #statistics .background .commonStatistic h1 {
+        width: 140px;
+        margin-right: 5px;
+        font-family: "Mulish-ExtraBold";
+        font-weight: 300;
+        font-style: normal;
+        font-size: 48px;
+        line-height: 60px;
+        padding: 5px; }
+      #statistics .background .commonStatistic p {
+        font-family: "Mulish-Medium";
+        font-weight: 650;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: uppercase;
+        padding-top: 10px; }
+
+@media screen and (min-width: 375px) {
+  #statistics .background {
+    padding: 50px 70px !important; }
+    #statistics .background .innerBg .commonStatistic h1 {
+      font-size: 30px !important; }
+    #statistics .background .innerBg .commonStatistic p {
+      font-size: 12px; } }
+@media screen and (min-width: 570px) {
+  #statistics .background .innerBg .commonStatistic h1 {
+    font-size: 48px !important; }
+  #statistics .background .innerBg .commonStatistic p {
+    font-size: 14px !important; } }
+@media screen and (min-width: 768px) {
+  #statistics .background {
+    padding: 61px 125px !important; } }
+
+/*# sourceMappingURL=statistics.css.map */

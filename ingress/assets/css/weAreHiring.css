@@ -1,0 +1,147 @@
+#hiring .hiringWrapper {
+  padding-top: 50px;
+  padding-bottom: 80px; }
+  #hiring .hiringWrapper .title {
+    font-family: "Mulish-Bold";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 27px;
+    color: #333333; }
+  #hiring .hiringWrapper .container_own {
+    padding-top: 50px; }
+    #hiring .hiringWrapper .container_own .vacancyPart {
+      margin-bottom: 70px; }
+    #hiring .hiringWrapper .container_own .form-outer {
+      width: 332px; }
+      #hiring .hiringWrapper .container_own .form-outer .form {
+        position: relative; }
+        #hiring .hiringWrapper .container_own .form-outer .form .placeHolder p {
+          font-family: 'Mulish-Regular';
+          font-weight: 750;
+          font-style: normal;
+          font-size: 14px;
+          line-height: 26px; }
+        #hiring .hiringWrapper .container_own .form-outer .form input {
+          border: none;
+          background-color: #F4F6F8;
+          border-radius: 7px;
+          width: 100%;
+          padding: 10px; }
+        #hiring .hiringWrapper .container_own .form-outer .form .placeHolder {
+          position: absolute;
+          top: 8px; }
+          #hiring .hiringWrapper .container_own .form-outer .form .placeHolder i {
+            margin: 5px 10px;
+            font-size: 22px;
+            color: #3F79FF; }
+    #hiring .hiringWrapper .container_own .nameOfVac .vacancyDetails {
+      width: calc(100%/3.2);
+      background-color: #FAFAFA;
+      border-radius: 7px;
+      margin-bottom: 29px; }
+      #hiring .hiringWrapper .container_own .nameOfVac .vacancyDetails .newVacancy {
+        width: 78px;
+        margin-left: auto;
+        background-color: #3F79FF;
+        border-radius: 0px 7px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: 'Mulish-Bold';
+        font-weight: 200;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 27px;
+        color: #FFFFFF; }
+      #hiring .hiringWrapper .container_own .nameOfVac .vacancyDetails .respVacancy {
+        padding: 10px 24px 20px 24px;
+        margin-top: 30px; }
+        #hiring .hiringWrapper .container_own .nameOfVac .vacancyDetails .respVacancy .name {
+          font-family: 'Mulish-Bold';
+          font-weight: 200;
+          font-style: normal;
+          font-size: 24px;
+          line-height: 27px;
+          color: #333333;
+          margin-bottom: 24px; }
+        #hiring .hiringWrapper .container_own .nameOfVac .vacancyDetails .respVacancy .responsibilities {
+          font-family: 'Mulish-Regular';
+          font-weight: 750;
+          font-style: normal;
+          font-size: 16px;
+          line-height: 20px;
+          color: rgba(0, 0, 0, 0.5); }
+    #hiring .hiringWrapper .container_own .nameOfVac .firstVac .respVacancy {
+      margin-top: 0;
+      padding-top: 3px; }
+    #hiring .hiringWrapper .container_own .nameOfVac .sixthVac .respVacancy {
+      margin-top: 0;
+      padding-top: 3px; }
+    #hiring .hiringWrapper .container_own .showMore {
+      width: 154px;
+      border: 1px solid #3F79FF;
+      border-radius: 5px;
+      padding: 15px;
+      transition: all .3s linear; }
+      #hiring .hiringWrapper .container_own .showMore .downIcon {
+        width: 20px;
+        height: 20px;
+        background-image: url(../img/down-arrow-icon.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-right: 14px;
+        margin-top: 2px; }
+      #hiring .hiringWrapper .container_own .showMore p {
+        margin-bottom: 0;
+        font-family: 'Mulish-SemiBold';
+        font-weight: 800;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000000; }
+    #hiring .hiringWrapper .container_own .showMore:hover {
+      background-color: #3F79FF;
+      transition: all .3s linear; }
+      #hiring .hiringWrapper .container_own .showMore:hover p {
+        color: #ffffff; }
+
+@media screen and (min-width: 350px) {
+  #hiring .hiringWrapper .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+    #hiring .hiringWrapper .container_own .vacancyPart {
+      display: block !important; }
+      #hiring .hiringWrapper .container_own .vacancyPart .form-outer {
+        width: 240px !important; }
+    #hiring .hiringWrapper .container_own .nameOfVac .vacancyDetails {
+      width: 100% !important; } }
+@media screen and (min-width: 500px) {
+  #hiring .hiringWrapper .container_own {
+    padding-left: 80px !important;
+    padding-right: 80px !important; }
+    #hiring .hiringWrapper .container_own .vacancyPart {
+      display: flex !important; } }
+@media screen and (min-width: 768px) {
+  #hiring .hiringWrapper .container_own {
+    padding-left: 120px !important;
+    padding-right: 120px !important; }
+    #hiring .hiringWrapper .container_own .nameOfVac .vacancyDetails {
+      width: calc(100%/2.1) !important; } }
+@media screen and (min-width: 991px) {
+  #hiring .hiringWrapper .container_own .nameOfVac .vacancyDetails {
+    width: calc(100%/3.2) !important; } }
+@media screen and (min-width: 1200px) {
+  #hiring .hiringWrapper .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; }
+    #hiring .hiringWrapper .container_own .vacancyPart .form-outer {
+      width: 275px !important; } }
+@media screen and (min-width: 1300px) {
+  #hiring .hiringWrapper .container_own .vacancyPart .form-outer {
+    width: 300px !important; } }
+@media screen and (min-width: 1400px) {
+  #hiring .hiringWrapper .container_own .vacancyPart .form-outer {
+    width: 332px !important; } }
+
+/*# sourceMappingURL=weAreHiring.css.map */
