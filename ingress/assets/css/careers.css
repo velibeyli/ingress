@@ -3,13 +3,17 @@
 
 @media screen and (min-width: 350px) {
   #career .backgroundPhoto .container_own {
-    padding-left: 70px !important;
-    padding-right: 70px !important; } }
+    padding-left: 50px !important;
+    padding-right: 50px !important; } }
 @media screen and (min-width: 570px) {
   #career .backgroundPhoto .container_own {
-    padding-left: 110px !important;
-    padding-right: 110px !important; } }
-@media screen and (min-width: 922px) {
+    padding-left: 70px !important;
+    padding-right: 70px !important; } }
+@media screen and (min-width: 768px) {
+  #career.topCoverPhoto .backgroundPhoto .container_own {
+    padding-left: 100px !important;
+    padding-right: 100px !important; } }
+@media screen and (min-width: 1130px) {
   #career.topCoverPhoto .backgroundPhoto .container_own {
     padding-left: 165px !important;
     padding-right: 165px !important; } }

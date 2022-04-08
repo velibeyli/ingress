@@ -30,7 +30,7 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown me-3">
-                            <a class="nav-link active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Services
                               <i class="fa-solid fa-arrow-down"></i>
                               <i class="fa-solid d-none fa-arrow-up"></i>
@@ -78,7 +78,7 @@
                         <a class="nav-link" href="../about/index.html">About us</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="../contact/index.html">Contact us</a>
+                        <a class="nav-link active" href="index.html">Contact us</a>
                       </li>
                     </ul>
                     <a href="#" class="d-flex ingressAcademy">
@@ -92,17 +92,17 @@
     </nav>
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
 
-    <!-- Top Section -->
-    <div id="services" class="topCoverPhoto">
+    <!-- Contact page cover photo -->    
+    <div id="contactUs" class="topCoverPhoto">
         <div class="backgroundPhoto">
             <div class="container_own">
-                <h1>Services</h1>
+                <h1>Contact us</h1>
                 <a href="../index.html" class="home">Home 
                     <span class="ps-2 pe-2">
                         <i class="fa-solid fa-arrow-right"></i>
                     </span>
-                    <a style="color: #000000;" href="#" class="services">
-                        Services
+                    <a style="color: #000000;" href="index.html" class="services">
+                        Contact us
                     </a>
                 </a>
             </div>
@@ -110,173 +110,46 @@
     </div>
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
 
-    <!-- Under Cover Photo Section -->
-    <div class="underCoverP">
+    <!-- Get in touch section -->    
+    <section class="getInTouch">
         <div class="container_own">
-            <h1 class="text-center">Services</h1>
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua. Quis vel eros donec ac odio tempor orci dapibus. 
-                Non blandit massa enim nec dui nunc mattis enim.
-            </p>
-        </div>
-    </div>  
-    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
-
-    <!-- Development services Section --> 
-    <div class="developmentBg commonBackground">
-        <h1 class="text-center">Development</h1>
-    </div>    
-    <div class="developmentServices commonServices">
-        <div class="container_own d-flex justify-content-around flex-wrap">
-            <div class="comDevSer text-center">
-                <div class="icon softwareIcon"></div>
-                <h4>Software Development  from scratch</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis vel eros donec ac odio tempor orci dapibus. 
-                    Non blandit massa enim nec dui nunc mattis enim. 
-                </p>
-            </div>
-            <div class="comDevSer text-center">
-                <div class="icon microServeIcon"></div>
-                <h4>Microservice Development</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis vel eros donec ac odio tempor orci dapibus. 
-                    Non blandit massa enim nec dui nunc mattis enim. 
-                </p>
-            </div>
-            <div class="comDevSer text-center">
-                <div class="icon codeReviewIcon"></div>
-                <h4>Code Review and analyse</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis vel eros donec ac odio tempor orci dapibus. 
-                    Non blandit massa enim nec dui nunc mattis enim. 
-                </p>
-            </div>
-            <div class="comDevSer text-center">
-                <div class="icon migrationIcon"></div>
-                <h4>Migration from monolit to Microservice</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis vel eros donec ac odio tempor orci dapibus. 
-                    Non blandit massa enim nec dui nunc mattis enim. 
-                </p>
+            <div class="wrapper d-flex justify-content-between flex-wrap">
+                <div class="column contact">
+                    <h4 class="title">Get in touch</h4>
+                    <div class="contactTools">
+                        <div class="locationAddress d-flex">
+                            <i class="fa-solid me-3 fa-location-dot"></i>
+                            <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                        </div>
+                        <div class="emailAddress d-flex ">
+                            <i class="fa-solid me-3 fa-envelope"></i>
+                            <a href="mailto:sales@ingress.az">sales@ingress.az</a>
+                        </div>
+                        <div class="phoneNumber d-flex">
+                            <i class="fa-solid me-3 fa-phone"></i>
+                            <a href="+994125550101">+994 (12) 555-01-01</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column form">
+                    <div class="inputs">
+                        <input type="text" class="fullName w-100" placeholder="Full name">
+                        <input type="email" class="email w-100" placeholder="E-mail">
+                        <input type="text" class="phone w-100" placeholder="Phone number">
+                        <textarea name="message" id="message" class="w-100" cols="30" rows="4" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="sendButton text-center">
+                        <a href="#" class="btn">Send</a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+    
+    
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
 
-    <!-- Consulting services Section --> 
-    <div class="consultingBg commonBackground">
-        <h1 class="text-center">Consulting</h1>
-    </div>
-    <div class="consultingServices commonServices">
-        <div class="container_own d-flex justify-content-center flex-wrap">
-            <div class="comDevSer text-center">
-                <div class="icon itStrategyIcon"></div>
-                <h4>IT strategy</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua.
-                </p>
-            </div>
-            <div class="comDevSer text-center">
-                <div class="icon consultingIcon"></div>
-                <h4>Migration to Microservice consulting</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua.
-                </p>
-            </div>
-            <div class="comDevSer text-center">
-                <div class="icon devOpsIcon"></div>
-                <h4>DevOps consulting</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
 
-    <!-- Infrastructure services Section --> 
-    <div class="infrastructureBg commonBackground">
-        <h1 class="text-center">Infrastructure</h1>
-    </div>
-    <div class="infrastructureServices commonServices">
-        <div class="container_own d-flex justify-content-center flex-wrap">
-            <div class="comDevSer text-center">
-                <div class="icon linuxIcon"></div>
-                <h4>Linux systems support</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    aliqua. Quis vel eros donec ac odio tempor orci dapibus. 
-                    Non blandit massa enim nec dui nunc mattis enim. 
-                </p>
-            </div>
-            <div class="comDevSer text-center">
-                <div class="icon networkIcon"></div>
-                <h4>Network support</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    aliqua. Quis vel eros donec ac odio tempor orci dapibus. 
-                    Non blandit massa enim nec dui nunc mattis enim. 
-                </p>
-            </div>
-            <div class="comDevSer text-center">
-                <div class="icon procesIcon"></div>
-                <h4>Process Automation</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    aliqua. Quis vel eros donec ac odio tempor orci dapibus. 
-                    Non blandit massa enim nec dui nunc mattis enim. 
-                </p>
-            </div>
-            <div class="comDevSer text-center">
-                <div class="icon cloudIcon"></div>
-                <h4>On premise cloud</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    aliqua. Quis vel eros donec ac odio tempor orci dapibus. 
-                    Non blandit massa enim nec dui nunc mattis enim. 
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
-
-    <!-- Training services Section --> 
-    <div class="trainingBg commonBackground">
-        <h1 class="text-center">Training Services</h1>
-    </div>
-    <div class="trainingServices commonServices">
-        <div class="container_own d-flex justify-content-between flex-wrap">
-            <div class="comDevSer text-center">
-                <div class="icon squareLogo"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    aliqua. Quis vel eros donec ac odio tempor orci dapibus. 
-                    Non blandit massa enim nec dui nunc mattis enim. 
-                </p>
-                <a type="button" class="btn btn-hover pt-0 pb-0 d-flex justify-content-between">
-                    <div class="rightArrow"></div>
-                    <p>Ingress Academy</p>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
-
-    <!-- Cybersecurity Section --> 
-    <div class="cyberBg commonBackground">
-        <h1 class="text-center">Cybersecurity</h1>
-    </div>
-     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
-     
     <!-- Footer -->
     <footer>
         <div class="container_own">

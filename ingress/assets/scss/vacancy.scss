@@ -1,0 +1,212 @@
+.vacancy{
+    .mainWrapper{
+        padding-top: 40px;
+        padding-bottom: 110px;
+        .container_own{
+            .title{
+                font-family: 'Mulish-Bold';
+                font-weight: 200;
+                font-style: normal;
+                font-size: 34px;
+                line-height: 27px;
+                color: #333333;
+                margin-bottom: 62px;
+                .vacancyName{
+                    color: #3F79FF;
+                }
+            }
+            .vacancyDetails{
+                .column{
+                    width: 48%;
+                    height: 100%;
+                    h4{
+                        font-family: 'Mulish-Bold';
+                        font-weight: 200;
+                        font-style: normal;
+                        font-size: 24px;
+                        line-height: 64px;
+                        color: #000000;
+                    }
+                    .aboutVacancy{
+                        .content{
+                            font-family: 'Mulish-Medium';
+                            font-weight: 650;
+                            font-style: normal;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #000000;
+                        }
+                        margin-bottom: 25px;
+                    }
+                    .requierements{
+                        ul li::before{
+                            content: "\2022";
+                            color: #3F79FF; 
+                            font-weight: bold; 
+                            display: inline-block; 
+                            width: 1em;
+                            margin-left: -1em; 
+                            font-size: 22px;
+                        }
+                    }
+                }
+                .form-outer{
+                    background-color: #3F79FF;
+                    border-radius: 10px;
+                    padding: 50px 35px;
+                    .inputs{
+                        margin-bottom: 52px;
+                        input{
+                            margin-bottom: 16px;
+                            background-color: #FFFFFF;
+                            border-radius: 7px;
+                            padding: 9px 20px;
+                            border: none;
+                            font-family: 'Mulish-Regular';
+                            font-weight: 750;
+                            font-size: 16px;
+                            font-style: normal;
+                            color: rgba(0, 0, 0, 0.3);
+                        }
+                        #message{
+                            margin-bottom: 16px;
+                            background-color: #FFFFFF;
+                            border-radius: 7px;
+                            padding: 9px 20px;
+                            border: none;
+                            font-family: 'Mulish-Regular';
+                            font-weight: 750;
+                            font-size: 16px;
+                            font-style: normal;
+                            color: rgba(0, 0, 0, 0.3);
+                        }
+                        .attachFile{
+                            width: 100%;
+                            position: relative;
+                            i{
+                                position: absolute;
+                                right: 22.56px;
+                                top: 11.39px;
+                                font-size: 1.3rem;
+                                color: #3F79FF;
+                            }
+                        }
+                    }
+                    .sendButton{
+                        .btn{
+                            background-color: #FFFFFF;
+                            border-radius: 7px;
+                            box-shadow: none;
+                            color: #3F79FF;
+                            font-family: 'Mulish-Bold';
+                            font-weight: 200;
+                            font-style: normal;
+                            font-size: 18px;
+                            line-height: 27px;
+                            padding-left: 43px;
+                            padding-right: 43px;
+                            transition: all .3s linear;
+                        }
+                        .btn:hover{
+                            background-color: #3F79FF;
+                            color: #FFFFFF;
+                            transition: all .3s linear;
+                            border: 1px solid #FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 350px) {
+    .vacancy{
+        .mainWrapper{
+            .container_own{
+                padding-left: 50px !important;
+                padding-right: 50px !important;
+                .title{
+                    margin-bottom: 30px;
+                    font-size: 26px !important;
+                }
+                .vacancyDetails{
+                    .column{
+                        width: 100% !important;
+                        h4{
+                            font-size: 21px;
+                        }
+                    }
+                    .vacancyDiscription{
+                        margin-bottom: 35px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 570px) {
+    .vacancy{
+        .mainWrapper{
+            .container_own{
+                padding-left: 70px !important;
+                padding-right: 70px !important;
+                .vacancyDetails{
+                    .column{
+                        h4{
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .vacancy{
+        .mainWrapper{
+            .container_own{
+                padding-left: 100px !important;
+                padding-right: 100px !important;
+                .title{
+                    font-size: 34px !important;
+                }
+                .vacancyDetails{
+                    .column{
+                        h4{
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 992px) {
+    .vacancy{
+        .mainWrapper{
+            .container_own{
+                .title{
+                    margin-bottom: 62px;
+                }
+                .vacancyDetails{
+                    .column{
+                        width: 48% !important;
+                    }
+                    .vacancyDiscription{
+                        margin-bottom: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1130px) {
+    .vacancy{
+        .mainWrapper{
+            .container_own{
+                padding-left: 165px !important;
+                padding-right: 165px !important;
+            }
+        }
+    }
+}

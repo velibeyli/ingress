@@ -13,14 +13,14 @@
     font-style: normal;
     font-size: 40px;
     line-height: 24px; }
-  .topCoverPhoto .backgroundPhoto .container_own a.home {
+  .topCoverPhoto .backgroundPhoto .container_own a {
     font-family: 'Mulish-Medium';
     font-weight: 650;
     font-style: normal;
     font-size: 14px;
     line-height: 24px;
     color: #3F79FF; }
-    .topCoverPhoto .backgroundPhoto .container_own a.home i {
+    .topCoverPhoto .backgroundPhoto .container_own a i {
       color: #000000; }
 
 @media screen and (min-width: 350px) {

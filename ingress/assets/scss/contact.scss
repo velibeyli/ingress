@@ -1,0 +1,176 @@
+.getInTouch{
+    .container_own{
+        .wrapper{
+            padding-top: 50px;
+            padding-bottom: 150px;
+            .column{
+                width: 48%;
+            }
+            .contact{
+                padding-top: 50px;
+                .title{
+                    font-family: 'Mulish-Bold';
+                    font-weight: 200;
+                    font-style: normal;
+                    font-size: 34px;
+                    line-height: 27px;
+                    color: #333333;
+                    margin-bottom: 35px;
+                }
+                .contactTools{
+                    i{
+                        margin-top: 6px;
+                        color: #2770F1;
+                    }
+                    a{
+                        font-family: 'Mulish-Medium';
+                        font-weight: 650;
+                        font-style: normal;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #000000;
+                    }
+                }
+                .locationAddress{
+                    p{
+                        margin-bottom: 0 !important;
+                        font-family: 'Mulish-Medium';
+                        font-weight: 650;
+                        font-style: normal;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #000000;
+                    }
+                }
+                .emailAddress{
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+            }
+            .form{
+                background-color: #3F79FF;
+                border-radius: 10px;
+                padding: 50px 35px;
+                .inputs{
+                    input{
+                        margin-bottom: 16px;
+                        background-color: #FFFFFF;
+                        border-radius: 7px;
+                        padding: 9px 20px;
+                        border: none;
+                        font-family: 'Mulish-Regular';
+                        font-weight: 750;
+                        font-size: 16px;
+                        font-style: normal;
+                        color: rgba(0, 0, 0, 0.3);
+                    }
+                    #message{
+                        margin-bottom: 16px;
+                        background-color: #FFFFFF;
+                        border-radius: 7px;
+                        padding: 9px 20px;
+                        border: none;
+                        font-family: 'Mulish-Regular';
+                        font-weight: 750;
+                        font-size: 16px;
+                        font-style: normal;
+                        color: rgba(0, 0, 0, 0.3);
+                    }
+                }
+                .sendButton{
+                    .btn{
+                        background-color: #FFFFFF;
+                        border-radius: 7px;
+                        box-shadow: none;
+                        color: #3F79FF;
+                        font-family: 'Mulish-Bold';
+                        font-weight: 200;
+                        font-style: normal;
+                        font-size: 18px;
+                        line-height: 27px;
+                        padding-left: 43px;
+                        padding-right: 43px;
+                        transition: all .3s linear;
+                    }
+                    .btn:hover{
+                        background-color: #3F79FF;
+                        color: #FFFFFF;
+                        transition: all .3s linear;
+                        border: 1px solid #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 350px) {
+    .getInTouch{
+        .container_own{
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+            .wrapper{
+                padding-top: 0 !important;
+                padding-bottom: 60px;
+                .column{
+                    width: 100% !important;
+                    .title{
+                        font-size: 24px !important; 
+                    }
+                }
+                .contact{
+                    margin-bottom: 30px !important;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 570px) {
+    .getInTouch{
+        .container_own{
+            padding-left: 70px !important;
+            padding-right: 70px !important;
+            .wrapper{
+                .column{
+                    .title{
+                        font-size: 34px !important; 
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .getInTouch{
+        .container_own{
+            padding-left: 100px !important;
+            padding-right: 100px !important;
+        }
+    }
+}
+@media screen and (min-width: 992px) {
+    .getInTouch{
+        .container_own{
+            .wrapper{
+                padding-bottom: 120px;
+                padding-top: 50px !important;
+                .column{
+                    width: 48% !important;
+                }
+                .contact{
+                    margin-bottom: 0 !important;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1130px) {
+    .getInTouch{
+        .container_own{
+            padding-left: 165px !important;
+            padding-right: 165px !important;
+            .wrapper{
+                padding-bottom: 150px;
+            }
+        }
+    }
+}

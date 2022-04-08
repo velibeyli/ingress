@@ -1262,14 +1262,14 @@ footer {
     font-style: normal;
     font-size: 40px;
     line-height: 24px; }
-  .topCoverPhoto .backgroundPhoto .container_own a.home {
+  .topCoverPhoto .backgroundPhoto .container_own a {
     font-family: 'Mulish-Medium';
     font-weight: 650;
     font-style: normal;
     font-size: 14px;
     line-height: 24px;
     color: #3F79FF; }
-    .topCoverPhoto .backgroundPhoto .container_own a.home i {
+    .topCoverPhoto .backgroundPhoto .container_own a i {
       color: #000000; }
 
 @media screen and (min-width: 350px) {
@@ -1555,13 +1555,17 @@ footer {
 
 @media screen and (min-width: 350px) {
   #career .backgroundPhoto .container_own {
-    padding-left: 70px !important;
-    padding-right: 70px !important; } }
+    padding-left: 50px !important;
+    padding-right: 50px !important; } }
 @media screen and (min-width: 570px) {
   #career .backgroundPhoto .container_own {
-    padding-left: 110px !important;
-    padding-right: 110px !important; } }
-@media screen and (min-width: 922px) {
+    padding-left: 70px !important;
+    padding-right: 70px !important; } }
+@media screen and (min-width: 768px) {
+  #career.topCoverPhoto .backgroundPhoto .container_own {
+    padding-left: 100px !important;
+    padding-right: 100px !important; } }
+@media screen and (min-width: 1130px) {
   #career.topCoverPhoto .backgroundPhoto .container_own {
     padding-left: 165px !important;
     padding-right: 165px !important; } }
@@ -1804,5 +1808,274 @@ footer {
     padding-right: 165px !important; } }
 #contactUs.topCoverPhoto .backgroundPhoto {
   background-image: url(../img/contact-cover-photo.svg); }
+
+@media screen and (min-width: 350px) {
+  #contactUs.topCoverPhoto .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important; } }
+@media screen and (min-width: 570px) {
+  #contactUs.topCoverPhoto .container_own {
+    padding-left: 70px !important;
+    padding-right: 70px !important; } }
+@media screen and (min-width: 768px) {
+  #contactUs.topCoverPhoto .container_own {
+    padding-left: 100px !important;
+    padding-right: 100px !important; } }
+@media screen and (min-width: 1130px) {
+  #contactUs.topCoverPhoto .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; } }
+.vacancy .mainWrapper {
+  padding-top: 40px;
+  padding-bottom: 110px; }
+  .vacancy .mainWrapper .container_own .title {
+    font-family: 'Mulish-Bold';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 27px;
+    color: #333333;
+    margin-bottom: 62px; }
+    .vacancy .mainWrapper .container_own .title .vacancyName {
+      color: #3F79FF; }
+  .vacancy .mainWrapper .container_own .vacancyDetails .column {
+    width: 48%;
+    height: 100%; }
+    .vacancy .mainWrapper .container_own .vacancyDetails .column h4 {
+      font-family: 'Mulish-Bold';
+      font-weight: 200;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 64px;
+      color: #000000; }
+    .vacancy .mainWrapper .container_own .vacancyDetails .column .aboutVacancy {
+      margin-bottom: 25px; }
+      .vacancy .mainWrapper .container_own .vacancyDetails .column .aboutVacancy .content {
+        font-family: 'Mulish-Medium';
+        font-weight: 650;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000; }
+    .vacancy .mainWrapper .container_own .vacancyDetails .column .requierements ul li::before {
+      content: "\2022";
+      color: #3F79FF;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+      font-size: 22px; }
+  .vacancy .mainWrapper .container_own .vacancyDetails .form-outer {
+    background-color: #3F79FF;
+    border-radius: 10px;
+    padding: 50px 35px; }
+    .vacancy .mainWrapper .container_own .vacancyDetails .form-outer .inputs {
+      margin-bottom: 52px; }
+      .vacancy .mainWrapper .container_own .vacancyDetails .form-outer .inputs input {
+        margin-bottom: 16px;
+        background-color: #FFFFFF;
+        border-radius: 7px;
+        padding: 9px 20px;
+        border: none;
+        font-family: 'Mulish-Regular';
+        font-weight: 750;
+        font-size: 16px;
+        font-style: normal;
+        color: rgba(0, 0, 0, 0.3); }
+      .vacancy .mainWrapper .container_own .vacancyDetails .form-outer .inputs #message {
+        margin-bottom: 16px;
+        background-color: #FFFFFF;
+        border-radius: 7px;
+        padding: 9px 20px;
+        border: none;
+        font-family: 'Mulish-Regular';
+        font-weight: 750;
+        font-size: 16px;
+        font-style: normal;
+        color: rgba(0, 0, 0, 0.3); }
+      .vacancy .mainWrapper .container_own .vacancyDetails .form-outer .inputs .attachFile {
+        width: 100%;
+        position: relative; }
+        .vacancy .mainWrapper .container_own .vacancyDetails .form-outer .inputs .attachFile i {
+          position: absolute;
+          right: 22.56px;
+          top: 11.39px;
+          font-size: 1.3rem;
+          color: #3F79FF; }
+    .vacancy .mainWrapper .container_own .vacancyDetails .form-outer .sendButton .btn {
+      background-color: #FFFFFF;
+      border-radius: 7px;
+      box-shadow: none;
+      color: #3F79FF;
+      font-family: 'Mulish-Bold';
+      font-weight: 200;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 27px;
+      padding-left: 43px;
+      padding-right: 43px;
+      transition: all .3s linear; }
+    .vacancy .mainWrapper .container_own .vacancyDetails .form-outer .sendButton .btn:hover {
+      background-color: #3F79FF;
+      color: #FFFFFF;
+      transition: all .3s linear;
+      border: 1px solid #FFFFFF; }
+
+@media screen and (min-width: 350px) {
+  .vacancy .mainWrapper .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+    .vacancy .mainWrapper .container_own .title {
+      margin-bottom: 30px;
+      font-size: 26px !important; }
+    .vacancy .mainWrapper .container_own .vacancyDetails .column {
+      width: 100% !important; }
+      .vacancy .mainWrapper .container_own .vacancyDetails .column h4 {
+        font-size: 21px; }
+    .vacancy .mainWrapper .container_own .vacancyDetails .vacancyDiscription {
+      margin-bottom: 35px !important; } }
+@media screen and (min-width: 570px) {
+  .vacancy .mainWrapper .container_own {
+    padding-left: 70px !important;
+    padding-right: 70px !important; }
+    .vacancy .mainWrapper .container_own .vacancyDetails .column h4 {
+      font-size: 22px; } }
+@media screen and (min-width: 768px) {
+  .vacancy .mainWrapper .container_own {
+    padding-left: 100px !important;
+    padding-right: 100px !important; }
+    .vacancy .mainWrapper .container_own .title {
+      font-size: 34px !important; }
+    .vacancy .mainWrapper .container_own .vacancyDetails .column h4 {
+      font-size: 24px; } }
+@media screen and (min-width: 992px) {
+  .vacancy .mainWrapper .container_own .title {
+    margin-bottom: 62px; }
+  .vacancy .mainWrapper .container_own .vacancyDetails .column {
+    width: 48% !important; }
+  .vacancy .mainWrapper .container_own .vacancyDetails .vacancyDiscription {
+    margin-bottom: 0 !important; } }
+@media screen and (min-width: 1130px) {
+  .vacancy .mainWrapper .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; } }
+.getInTouch .container_own .wrapper {
+  padding-top: 50px;
+  padding-bottom: 150px; }
+  .getInTouch .container_own .wrapper .column {
+    width: 48%; }
+  .getInTouch .container_own .wrapper .contact {
+    padding-top: 50px; }
+    .getInTouch .container_own .wrapper .contact .title {
+      font-family: 'Mulish-Bold';
+      font-weight: 200;
+      font-style: normal;
+      font-size: 34px;
+      line-height: 27px;
+      color: #333333;
+      margin-bottom: 35px; }
+    .getInTouch .container_own .wrapper .contact .contactTools i {
+      margin-top: 6px;
+      color: #2770F1; }
+    .getInTouch .container_own .wrapper .contact .contactTools a {
+      font-family: 'Mulish-Medium';
+      font-weight: 650;
+      font-style: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000; }
+    .getInTouch .container_own .wrapper .contact .locationAddress p {
+      margin-bottom: 0 !important;
+      font-family: 'Mulish-Medium';
+      font-weight: 650;
+      font-style: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000; }
+    .getInTouch .container_own .wrapper .contact .emailAddress {
+      margin-top: 20px;
+      margin-bottom: 20px; }
+  .getInTouch .container_own .wrapper .form {
+    background-color: #3F79FF;
+    border-radius: 10px;
+    padding: 50px 35px; }
+    .getInTouch .container_own .wrapper .form .inputs input {
+      margin-bottom: 16px;
+      background-color: #FFFFFF;
+      border-radius: 7px;
+      padding: 9px 20px;
+      border: none;
+      font-family: 'Mulish-Regular';
+      font-weight: 750;
+      font-size: 16px;
+      font-style: normal;
+      color: rgba(0, 0, 0, 0.3); }
+    .getInTouch .container_own .wrapper .form .inputs #message {
+      margin-bottom: 16px;
+      background-color: #FFFFFF;
+      border-radius: 7px;
+      padding: 9px 20px;
+      border: none;
+      font-family: 'Mulish-Regular';
+      font-weight: 750;
+      font-size: 16px;
+      font-style: normal;
+      color: rgba(0, 0, 0, 0.3); }
+    .getInTouch .container_own .wrapper .form .sendButton .btn {
+      background-color: #FFFFFF;
+      border-radius: 7px;
+      box-shadow: none;
+      color: #3F79FF;
+      font-family: 'Mulish-Bold';
+      font-weight: 200;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 27px;
+      padding-left: 43px;
+      padding-right: 43px;
+      transition: all .3s linear; }
+    .getInTouch .container_own .wrapper .form .sendButton .btn:hover {
+      background-color: #3F79FF;
+      color: #FFFFFF;
+      transition: all .3s linear;
+      border: 1px solid #FFFFFF; }
+
+@media screen and (min-width: 350px) {
+  .getInTouch .container_own {
+    padding-left: 50px !important;
+    padding-right: 50px !important; }
+    .getInTouch .container_own .wrapper {
+      padding-top: 0 !important;
+      padding-bottom: 60px; }
+      .getInTouch .container_own .wrapper .column {
+        width: 100% !important; }
+        .getInTouch .container_own .wrapper .column .title {
+          font-size: 24px !important; }
+      .getInTouch .container_own .wrapper .contact {
+        margin-bottom: 30px !important; } }
+@media screen and (min-width: 570px) {
+  .getInTouch .container_own {
+    padding-left: 70px !important;
+    padding-right: 70px !important; }
+    .getInTouch .container_own .wrapper .column .title {
+      font-size: 34px !important; } }
+@media screen and (min-width: 768px) {
+  .getInTouch .container_own {
+    padding-left: 100px !important;
+    padding-right: 100px !important; } }
+@media screen and (min-width: 992px) {
+  .getInTouch .container_own .wrapper {
+    padding-bottom: 120px;
+    padding-top: 50px !important; }
+    .getInTouch .container_own .wrapper .column {
+      width: 48% !important; }
+    .getInTouch .container_own .wrapper .contact {
+      margin-bottom: 0 !important; } }
+@media screen and (min-width: 1130px) {
+  .getInTouch .container_own {
+    padding-left: 165px !important;
+    padding-right: 165px !important; }
+    .getInTouch .container_own .wrapper {
+      padding-bottom: 150px; } }
 
 /*# sourceMappingURL=style.css.map */
